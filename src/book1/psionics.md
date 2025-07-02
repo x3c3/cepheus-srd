@@ -220,13 +220,9 @@ Changes in altitude (actually all movement to locations of differing gravitation
 
 In a Cepheus Engine universe where psionic abilities are possible, the following psionic-related technology may be available, either legally or on the black market.
 
-Inhibitor Drug (TL 9)
+**Inhibitor Drug (TL 9):** Psionic inhibitors dampen the brain's ability to generate psychic effects. A character who takes (or, more often, is forcibly injected with) an inhibitor drug suffers a –4 DM to all Psionic Strength checks and cannot regain Psionic Strength points. Each hour the character may make an Endurance check to throw off the effects of the drug with a +1 DM for every previous check. Inhibitor drugs have no effect on non-psionic individuals. The drugs cost Cr500 per dose.
 
-Psionic inhibitors dampen the brain's ability to generate psychic effects. A character who takes (or, more often, is forcibly injected with) an inhibitor drug suffers a –4 DM to all Psionic Strength checks and cannot regain Psionic Strength points. Each hour the character may make an Endurance check to throw off the effects of the drug with a +1 DM for every previous check. Inhibitor drugs have no effect on non-psionic individuals. The drugs cost Cr500 per dose.
-
-Psi-Drugs (TL 8+)
-
-These drugs restore Psionic Strength if taken when the character has already spent Psionic Strength points, or temporarily increase the character's Psionic Strength if taken when he is at full Psionic Strength, as given in the Psi-Drug Effects and Cost table.
+**Psi-Drugs (TL 8+):** These drugs restore Psionic Strength if taken when the character has already spent Psionic Strength points, or temporarily increase the character's Psionic Strength if taken when he is at full Psionic Strength, as given in the Psi-Drug Effects and Cost table.
 
 | Drug | TL | Psionic Strength Restored | Psionic Strength Boosted | Cost (Cr) |
 | --- | --- | --- | --- | --- |
@@ -236,19 +232,13 @@ These drugs restore Psionic Strength if taken when the character has already spe
 
 A character who takes more than one dose of Standard or Double Psi-Drug, or a single dose of the Special drug must make an Endurance check, with a –1 DM per dose of psi-drug taken in the last week (not including the one just taken). If the check is failed the character falls ill with a serious fever, suffering 3D6 damage and permanently reducing his Psionic Strength by one.
 
-Psionic Shield (TL 12)
-
-Any armor incorporating a helmet or hood can be outfitted with a psionic shield, blocking Telepathy. Unlike the Telepathy power shield a technological shield is invulnerable to assault and blocks send thoughts. It cannot be lowered without removing the helmet or hood containing the shield. Cr40,000.
+**Psionic Shield (TL 12):** Any armor incorporating a helmet or hood can be outfitted with a psionic shield, blocking Telepathy. Unlike the Telepathy power shield a technological shield is invulnerable to assault and blocks send thoughts. It cannot be lowered without removing the helmet or hood containing the shield. Cr40,000.
 
 Buildings and vehicles can also be psionically shielded, but this is much more costly, increasing the cost by 10%.
 
-Teleportation Suit (TL 12)
+**Teleportation Suit (TL 12):** This device can be integrated into a suit of armor or worn as a form-hugging body-suit. It rapidly cools or warms the body after a teleport, minimizing the damage from sudden energy gains or losses. The suit costs Cr50,000 and allows a character to jump up to 600 meters up or down in a single teleport, or up to ten kilometers in a single hour when using successive jumps.
 
-This device can be integrated into a suit of armor or worn as a form-hugging body-suit. It rapidly cools or warms the body after a teleport, minimizing the damage from sudden energy gains or losses. The suit costs Cr50,000 and allows a character to jump up to 600 meters up or down in a single teleport, or up to ten kilometers in a single hour when using successive jumps.
-
-Psionic Interface (TL 14)
-
-Any weapon or technological device can be outfitted with a psionic interface. A character using a device with a psionic interface can use his Psionic Strength DM instead of his Dexterity DM when using the weapon or device; a character without psionic ability cannot use the device. The character must either touch the device or use telekinesis to interact with it at range. Adding a psionic interface increases the cost of the device by 20%.
+**Psionic Interface (TL 14):** Any weapon or technological device can be outfitted with a psionic interface. A character using a device with a psionic interface can use his Psionic Strength DM instead of his Dexterity DM when using the weapon or device; a character without psionic ability cannot use the device. The character must either touch the device or use telekinesis to interact with it at range. Adding a psionic interface increases the cost of the device by 20%.
 
 ## Psionics in Society
 

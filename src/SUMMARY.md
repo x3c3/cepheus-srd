@@ -43,3 +43,5 @@
 ------
 
 [Cepheus Engine System Reference Document, Copyright © 2016 Samardan Press; Author Jason "Flynn" Kemp]()
+
+[Legal](legal.md)
