@@ -111,7 +111,9 @@ For each creature, roll 2D6 for its Size and apply any Size DMs based on terrain
 
 Intelligence for most animals is 0 or 1. Roll 2D6+DMs for the animal’s Instinct and Pack. To determine the number appearing value, consult the Number Appearing by Pack Characteristic Score table.
 
-All animals have at least [Athletics](skills.md#athletics) 0, [Recon](skills.md#recon) 0, and [Survival](skills.md#survival) 0, and most will have 1D6 ranks split among these skills, [Natural Weapons](skills.md#natural-weapons), and any skills listed in their behavior.
+All animals have at least [Athletics](../book1/skills.md#athletics) 0, [Recon](../book1/skills.md#recon) 0, and [Survival](../book1/skills.md#survival) 0, and most will have 1D6 ranks split among these skills, [Natural Weapons](../book1/skills.md#natural-weapons), and any skills listed in their behavior.
+
+#### Animal Size
 
 | 2D6 | Weight (kg) | Strength | Dexterity | Endurance |
 | --- | --- | --- | --- | --- |
@@ -136,6 +138,8 @@ All animals have at least [Athletics](skills.md#athletics) 0, [Recon](skills.md#
 | 19 | 35,000 | 9D6 | 1D6 | 9D6 |
 | 20+ | 40,000 | 9D6 | 1D6 | 9D6 |
 
+#### Number Appearing by Pack Characteristic Score
+
 | Pack | Number Appearing |
 | --- | --- |
 | 0 | 1 |
@@ -155,6 +159,8 @@ Roll 2D6 separately for the animal’s Weapons and Armor.
 **Armor:** When generating an animal’s armor, roll 2D6-7, and add the animal’s Size result (the die roll result that determined the animal’s size, not the actual weight of the animal.) Add a +4 DM when rolling for armor if the animal is a Herbivore, and a +2 if it is an Scavenger; apply a –2 DM if the animal is a Carnivore. Also, Flyers suffer a –2 DM when determining armor. Consult the Animal Armor table for the animal’s armor rating.
 
 **Base Speed:** An animal’s base speed is determined by generating a Speed Multiplier, as per the Animal Speed Multiplier by Subtype table, and multiplying that by 6, which is the average speed of a human in meters per minor action. If an Animal Speed Multiplier value falls below the value found in the Minimum Speed column, round it up to the Minimum Speed value.
+
+#### Animal Weapons
 
 | 2D6 | Weapons |
 | --- | --- |
@@ -178,6 +184,8 @@ Roll 2D6 separately for the animal’s Weapons and Armor.
 | 18 | Claws +2 and Stinger +2 |
 | 19+ | Projectile |
 
+#### Animal Armor
+
 | 2D6 | Armor |
 | --- | --- |
 | 1 or less | 0 |
@@ -198,6 +206,8 @@ Roll 2D6 separately for the animal’s Weapons and Armor.
 | 16 | 7 |
 | 17+ | 7 |
 
+#### Damage by Strength
+
 | Strength | Damage |
 | --- | --- |
 | 1–10 | 1D6 |
@@ -210,6 +220,8 @@ Roll 2D6 separately for the animal’s Weapons and Armor.
 | 71–80 | 8D6 |
 | 81–90 | 9D6 |
 | 91+ | 10D6 |
+
+#### Animal Speed Multiplier by Subtype
 
 | Type | Speed Multiplier | Minimum Speed |
 | --- | --- | --- |
@@ -275,7 +287,7 @@ To create an encounter table, first the Referee should select a table format. Al
 
 Each entry should be generated in turn. When an encounter table indicates that an event will occur, the Referee should create an event appropriate to the world and terrain. An event may be almost anything, including a natural disaster or seismic event, an interesting terrain feature or curiosity, unusual flora or weather. The Hills Terrain Encounter Table is an example of a completed encounter table.
 
-1D6 Animal Encounter Table Template
+### 1D6 Animal Encounter Table Template
 | 1D6 | Animal Type |
 | --- | --- |
 | 1 | Scavenger |
@@ -285,7 +297,7 @@ Each entry should be generated in turn. When an encounter table indicates that a
 | 5 | Omnivore |
 | 6 | Carnivore |
 
-2D6 Animal Encounter Table Template
+### 2D6 Animal Encounter Table Template
 | 2D6 | Result |
 | --- | --- |
 | 2 | Scavenger |
@@ -300,7 +312,7 @@ Each entry should be generated in turn. When an encounter table indicates that a
 | 11 | Carnivore |
 | 12 | Carnivore |
 
-2D6 Animal Encounter Table Template
+### 2D6 Animal Encounter Table Template
 | 2D6 | #App | Size | Subtype | Move | UPP | Weapons | Armor |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2 | 2D6 | 100kg | Hijacker (S) | W 12m | 9H91A7 | Teeth (1d6) | Fur (2) |

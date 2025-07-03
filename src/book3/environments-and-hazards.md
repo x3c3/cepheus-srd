@@ -83,6 +83,8 @@ Radiation exposure is measured in rads. Once a character has absorbed a certain 
 
 At any Radiation Level below Mild, the character is treated as having a lower Endurance characteristic score. If a character should accumulate enough rads to move to a higher Radiation Level, the new Endurance characteristic score immediately goes into effect. On the other hand, if a character moves to a lower Radiation Level, such as through anti-radiation drugs, the character heals the difference between the former level and the current level over time, as if it were physical damage. If a character's Effective endurance falls below zero, the character goes unconscious and cannot recover until their Radiation Level drops enough to allow healing to take place.
 
+### Common Radiation Exposure Sources
+
 | Situation | Instant (rads) | Extended (rads) |
 | --- | --- | --- |
 | Irradiated area, low level | — | 1D6/hour |
@@ -93,6 +95,8 @@ At any Radiation Level below Mild, the character is treated as having a lower En
 | Active exposure, medium level | 1D6x10 | 1D6x100/hour |
 | Active exposure, high level | 2D6x10 | 2D6x100/hour |
 | Active exposure, severe level | 4D6x10 | 3D6x100/hour |
+
+### Radiation Effects
 
 | Radiation Level | Rads | Effective Endurance | DM | Damage | Interval |
 | --- | --- | --- | --- | --- | --- |
