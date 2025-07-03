@@ -198,7 +198,7 @@ Random encounters are often determined by rolling a D66 on a table such as the R
 
 ## Influencing Attitudes
 
-The Referee determines the starting attitude of any character the characters encounter during the game. The characters can then try to influence the character's attitude using Social Standing and various interaction skills, such as [Liaison](skills.html#liaison) and [Carousing](skills.html#carousing). The Attitude Descriptions table describes the effects of character attitudes.
+The Referee determines the starting attitude of any character the characters encounter during the game. The characters can then try to influence the character's attitude using Social Standing and various interaction skills, such as [Liaison](skills.md#liaison) and [Carousing](skills.md#carousing). The Attitude Descriptions table describes the effects of character attitudes.
 
 | Attitude | Means | Possible Actions |
 | --- | --- | --- |
@@ -208,6 +208,6 @@ The Referee determines the starting attitude of any character the characters enc
 | Friendly | Wishes you well | Chat, advise, offer limited help, advocate |
 | Helpful | Will take risks to aid you | Protect, back up, heal, aid, support |
 
-Characters can attempt to improve another's attitude, using a Difficult (-2) Social Standing-based check using the appropriate skill, usually [Liaison](skills.html#liaison). With a success, the character's attitude is improved by one step; with an exceptional success, the attitude improves by two steps. Note that a particularly bad influence check can actually make a character's attitude worse. On an exceptional failure, the character's attitude shifts one step more Hostile. In general, a character can attempt to influence another character only once in any given scene.
+Characters can attempt to improve another's attitude, using a Difficult (-2) Social Standing-based check using the appropriate skill, usually [Liaison](skills.md#liaison). With a success, the character's attitude is improved by one step; with an exceptional success, the attitude improves by two steps. Note that a particularly bad influence check can actually make a character's attitude worse. On an exceptional failure, the character's attitude shifts one step more Hostile. In general, a character can attempt to influence another character only once in any given scene.
 
 Players get to choose their characters' attitudes, and so interaction skills cannot force a player-character to behave in a specific way. Typically, the only way a player character can be forced into a particular behavior is through the use of psionics or some other external force.

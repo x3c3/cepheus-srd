@@ -6,7 +6,7 @@ Range is similarly abstracted, needing only to note whether the range for all ve
 
 ## Space Combat Checklist
 
-Like [personal combat](../book1/personal-combat.html), space combat in the Cepheus Engine is cyclical. Everybody acts in turn in a regular cycle called a turn. Each turn in space combat lasts one kilosecond. Generally, space combat runs in the following way:
+Like [personal combat](../book1/personal-combat.md), space combat in the Cepheus Engine is cyclical. Everybody acts in turn in a regular cycle called a turn. Each turn in space combat lasts one kilosecond. Generally, space combat runs in the following way:
 
 1.  The Referee determines the range at which the encounter begins
 2.  All crew members are assigned to a position on board their vessel
@@ -48,8 +48,8 @@ At the start of an engagement, all crew must be assigned to a position on board 
 | Position | Responsibility |
 | --- | --- |
 | Bay Gunner | Each bay weapon has its own gunner. |
-| Captain | Commands the ship, and can use [Leadership](../book1/skills.html#leadership) and [Tactics](../book1/skills.html#tactics) skills. |
-| Chief Security Officer | Commands marines, and can use [Leadership](../book1/skills.html#leadership) and [Tactics](../book1/skills.html#tactics) skills in abstract boarding actions. |
+| Captain | Commands the ship, and can use [Leadership](../book1/skills.md#leadership) and [Tactics](../book1/skills.md#tactics) skills. |
+| Chief Security Officer | Commands marines, and can use [Leadership](../book1/skills.md#leadership) and [Tactics](../book1/skills.md#tactics) skills in abstract boarding actions. |
 | Damage Control | A character assigned to free-floating damage control can repair any system. |
 | Drive Engineer | An engineer can be assigned to each of the M-drive and the J-drive. |
 | Marine | Prepares to repel boarders, or to board enemy ships. |
@@ -148,7 +148,7 @@ A character can take two minor actions instead of a significant action.
 
 ### Attack
 
-A gunner may attack any target within the range of the weapon system they are manning. The gunner attacks by making a [Turret Weapons](../book1/skills.html#turret-weapons) or [Bay Weapons](../book1/skills.html#bay-weapons) skill check roll at a Difficulty determined by range, adding any Computer Targeting, Sensor Targeting, or other modifiers in effect this round for his vessel. The enemy ship may react by dodging, point defense or triggering screens (see [Reactions](#reactions)). A gunner may fire any or all of the weapons in his turret or bay but each turret or bay may only fire once per round. If the attack is successful it will inflict damage. Damage is resolved after all attacks have been made in a vessel's turn. Missiles do not impact in the same round they are launched; their damage is resolved in the combat turn that they impact their target.
+A gunner may attack any target within the range of the weapon system they are manning. The gunner attacks by making a [Turret Weapons](../book1/skills.md#turret-weapons) or [Bay Weapons](../book1/skills.md#bay-weapons) skill check roll at a Difficulty determined by range, adding any Computer Targeting, Sensor Targeting, or other modifiers in effect this round for his vessel. The enemy ship may react by dodging, point defense or triggering screens (see [Reactions](#reactions)). A gunner may fire any or all of the weapons in his turret or bay but each turret or bay may only fire once per round. If the attack is successful it will inflict damage. Damage is resolved after all attacks have been made in a vessel's turn. Missiles do not impact in the same round they are launched; their damage is resolved in the combat turn that they impact their target.
 
 ### Avoid Collision
 
@@ -168,57 +168,57 @@ If two ships are Adjacent or docked, then a boarding action can be attempted. If
 
 ### Break Pursuit
 
-If a vessel is being pursued (as per the Pursuit action) the pilot or driver may break the pursuit with a successful opposed [Pilot](../book1/skills.html#piloting) skill check against his opponent. Once the pursuit has broken and the pursuing vessel loses all accumulated attack bonuses against that target.
+If a vessel is being pursued (as per the Pursuit action) the pilot or driver may break the pursuit with a successful opposed [Pilot](../book1/skills.md#piloting) skill check against his opponent. Once the pursuit has broken and the pursuing vessel loses all accumulated attack bonuses against that target.
 
 ### Calculate Jump Plot
 
-The navigator can hastily calculate a Jump Plot as a significant action in space combat. Normally an Easy (+4) Education-based [Navigation](../book1/skills.html#navigation) skill check, hastening it to fit within one space combat turn imposes a DM-1 on the skill check.
+The navigator can hastily calculate a Jump Plot as a significant action in space combat. Normally an Easy (+4) Education-based [Navigation](../book1/skills.md#navigation) skill check, hastening it to fit within one space combat turn imposes a DM-1 on the skill check.
 
 ### Dock with Another Vessel
 
-The pilot must make a successful Average(+0) [Piloting](../book1/skills.html#piloting) check. If the other ship does not wish to be docked with then make opposed [Piloting](../book1/skills.html#piloting) checks; the ship trying to dock suffers a –2 DM. When docked, boarding actions can take place.
+The pilot must make a successful Average(+0) [Piloting](../book1/skills.md#piloting) check. If the other ship does not wish to be docked with then make opposed [Piloting](../book1/skills.md#piloting) checks; the ship trying to dock suffers a –2 DM. When docked, boarding actions can take place.
 
 ### Coordinate Crew
 
-The Captain makes an Average(+0) [Leadership](../book1/skills.html#leadership) skill check. The Captain gains a pool of points equal to the Effect of the skill check (minimum of 1), which he can distribute to individual crew members as DMs (granting a +1 DM per point) on skill or ability checks during the combat turn.
+The Captain makes an Average(+0) [Leadership](../book1/skills.md#leadership) skill check. The Captain gains a pool of points equal to the Effect of the skill check (minimum of 1), which he can distribute to individual crew members as DMs (granting a +1 DM per point) on skill or ability checks during the combat turn.
 
 ### Electronic Warfare
 
-A sensors operator may attempt to jam radio communications and sensor locks by making an opposed Intelligence-based [Comms](../book1/skills.html#comms) check against the sensors operator of the opposing vessel. Electronic warfare can be used to break sensor locks.
+A sensors operator may attempt to jam radio communications and sensor locks by making an opposed Intelligence-based [Comms](../book1/skills.md#comms) check against the sensors operator of the opposing vessel. Electronic warfare can be used to break sensor locks.
 
-Alternatively, electronic warfare can be used to attack smart missiles that are targeting the ship. The sensors operator makes a Difficult (–2) [Comms](../book1/skills.html#comms) check and, if successful, a single attacking smart missile ceases attacking. The sensors operator may continue making checks to disable smart missiles until he fails one, with a cumulative –1 DM each time.
+Alternatively, electronic warfare can be used to attack smart missiles that are targeting the ship. The sensors operator makes a Difficult (–2) [Comms](../book1/skills.md#comms) check and, if successful, a single attacking smart missile ceases attacking. The sensors operator may continue making checks to disable smart missiles until he fails one, with a cumulative –1 DM each time.
 
 ### Evasive Manuevers
 
-The pilot operates the vessel in an erratic manner in an attempt to avoid being hit by opposing weapons fire. The Pilot makes an Average(+0) [Piloting](../book1/skills.html#piloting) skill check. If successful, any attack rolls targeting the pilot's vessel suffer a DM-1 penalty, or DM-2 with an Exceptional Success.
+The pilot operates the vessel in an erratic manner in an attempt to avoid being hit by opposing weapons fire. The Pilot makes an Average(+0) [Piloting](../book1/skills.md#piloting) skill check. If successful, any attack rolls targeting the pilot's vessel suffer a DM-1 penalty, or DM-2 with an Exceptional Success.
 
 ### Increase Initiative
 
-The Captain of a vessel may make a [Leadership](../book1/skills.html#leadership) check and increase the Initiative of his vessel by the Effect of the check. This increase only applies for the following turn.
+The Captain of a vessel may make a [Leadership](../book1/skills.md#leadership) check and increase the Initiative of his vessel by the Effect of the check. This increase only applies for the following turn.
 
 ### Intercept Enemy Communications
 
-The sensors operator may attempt to intercept enemy communications. This requires a Difficult(-2) [Comms](../book1/skills.html#comms) skill check. Encryption (if any) must also be broken. Knowledge of enemy intentions can be valuable to a Captain, if they know how to use it. The Captain may make an Easy (+4) [Tactics](../book1/skills.html#tactics) check to gain an advantage from intercepted communications. If successful, the Captain gains knowledge of the enemy's dispositions or intentions. This translates to a one-time DM+4 bonus to any skill check affecting the enemy (e.g. a pilot's attempt to evade a sudden attack, or a gunner's precise shot just as the enemy vessel turns to present a better target.) Of course, the enemy must have communications for them to be intercepted.
+The sensors operator may attempt to intercept enemy communications. This requires a Difficult(-2) [Comms](../book1/skills.md#comms) skill check. Encryption (if any) must also be broken. Knowledge of enemy intentions can be valuable to a Captain, if they know how to use it. The Captain may make an Easy (+4) [Tactics](../book1/skills.md#tactics) check to gain an advantage from intercepted communications. If successful, the Captain gains knowledge of the enemy's dispositions or intentions. This translates to a one-time DM+4 bonus to any skill check affecting the enemy (e.g. a pilot's attempt to evade a sudden attack, or a gunner's precise shot just as the enemy vessel turns to present a better target.) Of course, the enemy must have communications for them to be intercepted.
 
 ### Line Up the Shot
 
-A pilot may attempt to aid his gunners by providing a stable firing platform along an optimum attack vector. The pilot makes a [Piloting](../book1/skills.html#piloting) check to aid his gunners, granting a DM+1 on all attacks rolls this turn with a success, or a DM+2 with an Exceptional Success.
+A pilot may attempt to aid his gunners by providing a stable firing platform along an optimum attack vector. The pilot makes a [Piloting](../book1/skills.md#piloting) check to aid his gunners, granting a DM+1 on all attacks rolls this turn with a success, or a DM+2 with an Exceptional Success.
 
 ### Maintain Communications
 
-The sensors operator can establish and maintain communications between allied vessels with a Routine(+2) [Comms](../book1/skills.html#comms) skill check. If there is significant interference or a lot of communications going on (e.g. due to bad comm. discipline among a fleet), treat as Considerable Noise (DM-2). Deliberate comms jamming requires an opposed [Comms](../book1/skills.html#comms) skill check with the jammer. If reliable communications are not established, vessels cannot act in concert, and Tactics skill cannot be applied.
+The sensors operator can establish and maintain communications between allied vessels with a Routine(+2) [Comms](../book1/skills.md#comms) skill check. If there is significant interference or a lot of communications going on (e.g. due to bad comm. discipline among a fleet), treat as Considerable Noise (DM-2). Deliberate comms jamming requires an opposed [Comms](../book1/skills.md#comms) skill check with the jammer. If reliable communications are not established, vessels cannot act in concert, and Tactics skill cannot be applied.
 
 ### Pursuit
 
-If a pilot makes a successful opposed [Piloting](../book1/skills.html#piloting) skill check against another vessel within Short or Close range travelling at the same speed as the pilot's vessel, the successful pilot has placed his vessel in pursuit of his target maintaining the current range and matching the target ship move for move. Once a pursuit has been established, it must be maintained each turn to take advantage of the position. Maintaining a pursuit is a significant action that does not require a skill check. It is automatically maintained unless the target succeeds at the Break Pursuit action, manages to extend the range between the vessels to Medium or greater, or succeeds in outpacing the speed of the pursuing vessel by 7+ points. For each turn (after the first) that a vessel maintains pursuit of another vessel, it gains a cumulative DM+1 to hit when attacking the vessel being pursued, up to a maximum of DM+4.
+If a pilot makes a successful opposed [Piloting](../book1/skills.md#piloting) skill check against another vessel within Short or Close range travelling at the same speed as the pilot's vessel, the successful pilot has placed his vessel in pursuit of his target maintaining the current range and matching the target ship move for move. Once a pursuit has been established, it must be maintained each turn to take advantage of the position. Maintaining a pursuit is a significant action that does not require a skill check. It is automatically maintained unless the target succeeds at the Break Pursuit action, manages to extend the range between the vessels to Medium or greater, or succeeds in outpacing the speed of the pursuing vessel by 7+ points. For each turn (after the first) that a vessel maintains pursuit of another vessel, it gains a cumulative DM+1 to hit when attacking the vessel being pursued, up to a maximum of DM+4.
 
 ### Ram
 
-Ramming is a potentially suicidal maneuver in which a pilot intentionally crashes his vessel into the hull of another vessel. This action may only be attempted at Close range, and if the ramming vessel is moving faster than the target. To successfully ram another vessel requires an opposed [Piloting](../book1/skills.html#piloting) skill check between both vessels. A collision inflicts 1D6 damage for every point of difference in speed between the two vessels.
+Ramming is a potentially suicidal maneuver in which a pilot intentionally crashes his vessel into the hull of another vessel. This action may only be attempted at Close range, and if the ramming vessel is moving faster than the target. To successfully ram another vessel requires an opposed [Piloting](../book1/skills.md#piloting) skill check between both vessels. A collision inflicts 1D6 damage for every point of difference in speed between the two vessels.
 
 ### Range Check
 
-The Navigator makes an opposed [Navigation](../book1/skills.html#navigation) skill check with another vessel. The vessel with the highest result may elect to increase, decrease, or maintain the range between the vessels for the round.
+The Navigator makes an opposed [Navigation](../book1/skills.md#navigation) skill check with another vessel. The vessel with the highest result may elect to increase, decrease, or maintain the range between the vessels for the round.
 
 ### Reload Weapons System
 
@@ -226,7 +226,7 @@ A crew member (usually the gunner) may spend the round reloading one spent missi
 
 ### Repair Damaged System
 
-A character on damage control may attempt to repair a damaged system by making an Education-based [Mechanics](../book1/skills.html#mechanics) check. If the check is successful, determine how many hits are repaired:
+A character on damage control may attempt to repair a damaged system by making an Education-based [Mechanics](../book1/skills.md#mechanics) check. If the check is successful, determine how many hits are repaired:
 
 | Mechanics Check Effect | Hits Repaired |
 | --- | --- |
@@ -238,7 +238,7 @@ A ship with repair drones and the Auto-Repair software also makes one or two rep
 
 ### Sensor Targeting
 
-The sensors operator may attempt to spend the turn providing improved fire control and targeting data to the gunners, hopefully increasing their chances of hitting their targets. The sensors operator should make a Education-based [Comms](../book1/skills.html#comms) skill check against the target's Sensor Jamming rating, for each vessel that is to targeted. If successful, all gunners on the vessel gain a DM+1 bonus to their attacks this turn, or a DM+2 on an Exceptional Success. When using missiles the initial attack gets this bonus – the individual missile to hit rolls do not benefit directly. Smart missiles are unaffected.
+The sensors operator may attempt to spend the turn providing improved fire control and targeting data to the gunners, hopefully increasing their chances of hitting their targets. The sensors operator should make a Education-based [Comms](../book1/skills.md#comms) skill check against the target's Sensor Jamming rating, for each vessel that is to targeted. If successful, all gunners on the vessel gain a DM+1 bonus to their attacks this turn, or a DM+2 on an Exceptional Success. When using missiles the initial attack gets this bonus – the individual missile to hit rolls do not benefit directly. Smart missiles are unaffected.
 
 ### Miscellaneous
 
@@ -246,7 +246,7 @@ A character may make a skill check or do something else as a significant action 
 
 ## Reactions
 
-As in [Personal Combat](personal-combat.html), reactions are actions taken immediately in response to the action of another. A ship may react to incoming attacks. The following situations allow reactions:
+As in [Personal Combat](personal-combat.md), reactions are actions taken immediately in response to the action of another. A ship may react to incoming attacks. The following situations allow reactions:
 
 -   Targeted by a beam attack
 -   Incoming missile
@@ -263,19 +263,19 @@ The ship's Initiative determines how many times it may react in a round.
 
 ### Dodge Incoming Fire
 
-To dodge, the pilot must make a [Piloting](../book1/skills.html#piloting) check. If successful, the attack suffers a –2 DM.
+To dodge, the pilot must make a [Piloting](../book1/skills.md#piloting) check. If successful, the attack suffers a –2 DM.
 
 ### Fire Sand
 
-Turrets equipped with sandcasters can fire sand at incoming beam attacks. Each reaction spent on firing sand allows the gunner to make a [Turret Weapons](../book1/skills.html#turret-weapons) roll. If successful the damage of each beam in the incoming attack is reduced by 1D6. Resolve each beam separately. Each firing of sand costs one canister of sand. Sand can also be directed against incoming boarding parties. If the sand attack is successful, each target in the boarding party takes 8D6 damage.
+Turrets equipped with sandcasters can fire sand at incoming beam attacks. Each reaction spent on firing sand allows the gunner to make a [Turret Weapons](../book1/skills.md#turret-weapons) roll. If successful the damage of each beam in the incoming attack is reduced by 1D6. Resolve each beam separately. Each firing of sand costs one canister of sand. Sand can also be directed against incoming boarding parties. If the sand attack is successful, each target in the boarding party takes 8D6 damage.
 
 ### Point Defense
 
-Turret lasers can be used to destroy incoming missiles. The missiles can only be destroyed in the moments before they strike the spacecraft as they are too small and fast-moving to effectively target at greater ranges. The gunner must make a [Turret Weapons](../book1/skills.html#turret-weapons) check against the missile. If successful, the missile is destroyed. A gunner may keep making [Turret Weapons](../book1/skills.html#turret-weapons) checks against missiles until he misses an attack; each attack suffers a cumulative –1 penalty. Attacks may be directed against different incoming missiles. Point defense can also be used to attack incoming boarders in the same way.
+Turret lasers can be used to destroy incoming missiles. The missiles can only be destroyed in the moments before they strike the spacecraft as they are too small and fast-moving to effectively target at greater ranges. The gunner must make a [Turret Weapons](../book1/skills.md#turret-weapons) check against the missile. If successful, the missile is destroyed. A gunner may keep making [Turret Weapons](../book1/skills.md#turret-weapons) checks against missiles until he misses an attack; each attack suffers a cumulative –1 penalty. Attacks may be directed against different incoming missiles. Point defense can also be used to attack incoming boarders in the same way.
 
 ### Trigger Screens
 
-Screens can be activated as long as the commander or one of the gunners has the [Screens](../book1/skills.html#screens) skill at Level 0 and the ship has the required screen type (nuclear against nuclear missiles and fusion guns; meson against meson guns). Screens reduce the damage from the attack by 2D6+the operator's [Screens](../book1/skills.html#screens) skill. Nuclear dampers also remove the automatic radiation hit from nuclear missile attacks.
+Screens can be activated as long as the commander or one of the gunners has the [Screens](../book1/skills.md#screens) skill at Level 0 and the ship has the required screen type (nuclear against nuclear missiles and fusion guns; meson against meson guns). Screens reduce the damage from the attack by 2D6+the operator's [Screens](../book1/skills.md#screens) skill. Nuclear dampers also remove the automatic radiation hit from nuclear missile attacks.
 
 ## Other Actions
 
@@ -299,7 +299,7 @@ The following are special considerations in space combat.
 
 ### Abstract Boarding Rules
 
-In circumstances when the Referee may wish to resolve a boarding action without resorting to the personal combat rules, the following alternative method is suggested. On each round of a boarding action, the attacking Chief Security Officer (or Captain, if the CSO is down or not appointed) makes an opposed Intelligence-based [Tactics](../book1/skills.html#tactics) skill check against the Chief Security Officer (or Captain, if the CSO is down or not appointed) of the defenders. The results of each round depend on who wins and the degree of success achieved by the winner of the opposed check, as outlined in the Abstract Boarding Resolution table.
+In circumstances when the Referee may wish to resolve a boarding action without resorting to the personal combat rules, the following alternative method is suggested. On each round of a boarding action, the attacking Chief Security Officer (or Captain, if the CSO is down or not appointed) makes an opposed Intelligence-based [Tactics](../book1/skills.md#tactics) skill check against the Chief Security Officer (or Captain, if the CSO is down or not appointed) of the defenders. The results of each round depend on who wins and the degree of success achieved by the winner of the opposed check, as outlined in the Abstract Boarding Resolution table.
 
 | Degree | Attacker Wins | Defender Wins |
 | --- | --- | --- |
@@ -320,7 +320,7 @@ Unlike beam weapons, which travel at the speed of light and so hit the enemy ves
 | Very Long | 2 |
 | Distant | 2 |
 
-When the missile is launched, the gunner must make a [Turret Weapons](../book1/skills.html#turret-weapons) or [Bay Weapons](../book1/skills.html#bay-weapons) skill check to determine the accuracy of the launch. The effect of the skill check determines the chance that the missile will strike its target when it hits. A target may react to incoming missiles by dodging or point defense. This reaction does not take place until the turn the missiles arrive at their destination, so any target response must wait until then.
+When the missile is launched, the gunner must make a [Turret Weapons](../book1/skills.md#turret-weapons) or [Bay Weapons](../book1/skills.md#bay-weapons) skill check to determine the accuracy of the launch. The effect of the skill check determines the chance that the missile will strike its target when it hits. A target may react to incoming missiles by dodging or point defense. This reaction does not take place until the turn the missiles arrive at their destination, so any target response must wait until then.
 
 | Turret Weapons/Bay Weapons check | Missile to-hit roll |
 | --- | --- |
@@ -340,11 +340,11 @@ Within close range of a planet, certain planetary maneuvers become possible.
 
 Orbital Insertion
 
-The pilot may attempt to insert the ship into orbit around a planet. In an orbital insertion fails, the ship fails to enter the proper orbit, and the orbit will steadily begin to decay drawing the ship towards the planet's atmosphere in an uncontrolled reentry (see Atmospheric Reentry below). This is a significant action requiring a Routine(+2) [Piloting](../book1/skills.html#piloting) skill check.
+The pilot may attempt to insert the ship into orbit around a planet. In an orbital insertion fails, the ship fails to enter the proper orbit, and the orbit will steadily begin to decay drawing the ship towards the planet's atmosphere in an uncontrolled reentry (see Atmospheric Reentry below). This is a significant action requiring a Routine(+2) [Piloting](../book1/skills.md#piloting) skill check.
 
 Atmospheric Entry
 
-The pilot may attempt to transition the ship out of orbit and into the atmosphere of a planet. This is a significant action with an Average (+0) [Piloting](../book1/skills.html#piloting) skill check, with any applicable DMs from the Atmospheric Entry table. Exotic, Corrosive, or Insidious atmospheres should be treated as Standard unless specified otherwise.
+The pilot may attempt to transition the ship out of orbit and into the atmosphere of a planet. This is a significant action with an Average (+0) [Piloting](../book1/skills.md#piloting) skill check, with any applicable DMs from the Atmospheric Entry table. Exotic, Corrosive, or Insidious atmospheres should be treated as Standard unless specified otherwise.
 
 | World Values | DM |
 | --- | --- |

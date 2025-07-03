@@ -1,6 +1,6 @@
 # Chapter 7: Trade and Commerce
 
-As outlined under [Starship Revenue](off-world-travel.html#starship-revenue) in [Chapter 6: Off-World Travel](off-world-travel.html), a vessel can easily haul cargo for a flat rate, without having to engage in speculative trading. However, for those merchants willing to take the risk, speculative trading can prove to be a very profitable enterprise. This chapter provides a simple speculative trade system for use in Cepheus Engine campaigns, for those interested in such pursuits.
+As outlined under [Starship Revenue](off-world-travel.md#starship-revenue) in [Chapter 6: Off-World Travel](off-world-travel.md), a vessel can easily haul cargo for a flat rate, without having to engage in speculative trading. However, for those merchants willing to take the risk, speculative trading can prove to be a very profitable enterprise. This chapter provides a simple speculative trade system for use in Cepheus Engine campaigns, for those interested in such pursuits.
 
 ## Speculative Trade Checklist
 
@@ -17,13 +17,13 @@ Speculative trading follows a basic procedure. The following checklist outlines 
 
 The first step in the process is simple: find a supplier with something to sell. Characters can search for multiple suppliers, but there is a –1 DM per previous attempt on a planet in a given month.
 
-**Finding a supplier:** [Broker](../book1/skills.html#broker), Education or Social Standing, 1D6 days, Average (+0).
+**Finding a supplier:** [Broker](../book1/skills.md#broker), Education or Social Standing, 1D6 days, Average (+0).
 
-**Finding a black market supplier:** (Illegal goods only) [Streetwise](../book1/skills.html#streetwise), Education or Social Standing, 1D6 days, Average (+0).
+**Finding a black market supplier:** (Illegal goods only) [Streetwise](../book1/skills.md#streetwise), Education or Social Standing, 1D6 days, Average (+0).
 
-**Finding an online supplier:** (Worlds with TL 8+ only) [Computers](../book1/skills.html#computer), Education, 1D6 hours, Average (+0).
+**Finding an online supplier:** (Worlds with TL 8+ only) [Computers](../book1/skills.md#computer), Education, 1D6 hours, Average (+0).
 
-The size of the [Starport](worlds.html#primary-starport) provides a bonus to finding a supplier. Class A starports give a +6 DM, class B starports give a +4 DM and class C starports give a +2 DM.
+The size of the [Starport](worlds.md#primary-starport) provides a bonus to finding a supplier. Class A starports give a +6 DM, class B starports give a +4 DM and class C starports give a +2 DM.
 
 ## Determine Goods Available
 
@@ -87,9 +87,9 @@ Some goods are illegal, and can be purchased only through a black market supplie
 
 Determining the purchase price for speculative cargo is based on the results of a skill check. The results of this skill check represents the best possible offer the parties can reach under the current conditions.
 
-**Determining the purchase price:** [Broker](../book1/skills.html#broker), Intelligence or Social Standing, 1D6 kiloseconds, Average (+0).
+**Determining the purchase price:** [Broker](../book1/skills.md#broker), Intelligence or Social Standing, 1D6 kiloseconds, Average (+0).
 
-The skill check is further modified by adding the largest Dice Modifier that applies from the Purchase DM column, subtracting the largest Dice Modifier that applies from the Sale DM column, and subtracting any Dice Modifiers from the supplier (such as their [Broker](../book1/skills.html#broker) skill). Some especially rich or powerful suppliers can demand high prices. In cases where multiple Purchase or Sale DMs apply, use only the largest ones from each column.
+The skill check is further modified by adding the largest Dice Modifier that applies from the Purchase DM column, subtracting the largest Dice Modifier that applies from the Sale DM column, and subtracting any Dice Modifiers from the supplier (such as their [Broker](../book1/skills.md#broker) skill). Some especially rich or powerful suppliers can demand high prices. In cases where multiple Purchase or Sale DMs apply, use only the largest ones from each column.
 
 The Referee should then consult the Purchase column of the Modified Price table, using the skill check result to determine the Purchase Price percentage. The final price of the speculative cargo is the Base Price multiplied by the Purchase Price percentage. The trader does not have to accept this price, but if he rejects the deal, then he cannot deal with that supplier again for at least one week. After that week, he may attempt a new skill check to determine the purchase price for those goods.
 

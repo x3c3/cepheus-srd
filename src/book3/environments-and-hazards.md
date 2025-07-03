@@ -128,4 +128,4 @@ Unfiltered radiation bombards any character trapped in the vacuum of space witho
 
 ## Weather
 
-Driving wind, rain, snowstorms and so forth give a –1 DM to ranged attacks from poor visibility and a –1 DM to ranged attacks from environmental interference. [Sensors](../book1/equipment.html#sensory-aids) can be used to avoid the visibility penalty. Extremely high winds and torrential rain can inflict a negative Dice Modifier of –1 to –4 to all skill checks.
+Driving wind, rain, snowstorms and so forth give a –1 DM to ranged attacks from poor visibility and a –1 DM to ranged attacks from environmental interference. [Sensors](../book1/equipment.md#sensory-aids) can be used to avoid the visibility penalty. Extremely high winds and torrential rain can inflict a negative Dice Modifier of –1 to –4 to all skill checks.

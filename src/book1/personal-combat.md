@@ -46,7 +46,7 @@ When a combat begins, the Referee must decide the starting range that separates 
 
 If the combatants are all unprepared for combat, then each rolls 2D6 and adds their Dexterity DM to determine starting Initiative. Initiative determines the order that characters act in, but it can also be spent to react to events. If some of the combatants are ready for combat and some are not, such as in an ambush, the prepared characters are considered to get an automatic 12 on their roll, giving them an Initiative of 12 + Dexterity DM. Characters that are aware of a group, and that group is unaware of them, may elect to avoid conflict entirely.
 
-Characters that have the [Tactics](skills.html#tactics) skill may make a [Tactics](skills.html#tactics) check and add the Effect of this check to the Initiative of everyone in their unit with whom they are in direct communication.
+Characters that have the [Tactics](skills.md#tactics) skill may make a [Tactics](skills.md#tactics) check and add the Effect of this check to the Initiative of everyone in their unit with whom they are in direct communication.
 
 ## The Combat Round
 
@@ -245,11 +245,11 @@ Grenades, rockets and other explosives affect an area. A character caught in an 
 
 Any weapon that has the ability to fire into the Distant range band (including ranged(Rifle), ranged(Assault Weapon) and ranged(Rocket) attacks) can potentially strike targets even beyond, so long as the firer can see the target. Weapons fired at this extreme range do so using the modifiers for Distant range with an additional DM of –2. Only characters with at least three levels of skill in the weapon may fire at extreme range. To fire at extreme range, characters must be stationary and prepared to fire from some kind of rest (tripod, tree limb, bunker embrasure and so on). Vehicles must be stationary for weapons to be fired at extreme range from it. Energy-based weapons (lasers, PGMPs, and so on) inflict half damage (round up) at this extreme range.
 
-This can be combined with [Aiming for the Kill](personal-combat.html#aiming-for-the-kill) (above).
+This can be combined with [Aiming for the Kill](personal-combat.md#aiming-for-the-kill) (above).
 
 ### Fighting in Zero Gravity
 
-When fighting in zero gravity, a character's skill levels are limited to lower of the character's [Zero-G](skills.html#zero-g) skill and the appropriate combat skill. For example, if a character has Laser Pistol-2 and Zero-G-1, then the character shoots with an effective skill level of 1, since his [Zero-G](skills.html#zero-g) skill level is lower than his Laser Pistol skill level. Characters without [Zero-G](skills.html#zero-g) skill are treated as unskilled in their attack, because of the disorientation. In addition, characters using weapons with recoil suffer a DM -2 on attack rolls when fighting in zero gravity conditions.
+When fighting in zero gravity, a character's skill levels are limited to lower of the character's [Zero-G](skills.md#zero-g) skill and the appropriate combat skill. For example, if a character has Laser Pistol-2 and Zero-G-1, then the character shoots with an effective skill level of 1, since his [Zero-G](skills.md#zero-g) skill level is lower than his Laser Pistol skill level. Characters without [Zero-G](skills.md#zero-g) skill are treated as unskilled in their attack, because of the disorientation. In addition, characters using weapons with recoil suffer a DM -2 on attack rolls when fighting in zero gravity conditions.
 
 ### Firing into Combat
 
@@ -257,7 +257,7 @@ If a character is firing a weapon at a target that is at Personal range to anoth
 
 ### Grappling
 
-A character can attempt to wrestle or grab another person instead of hitting him. The attacker must move to Personal range and beat his target in an opposed [Natural Weapons](skills.html#natural-weapons) skill check. If he wins, he may do any one of the following:
+A character can attempt to wrestle or grab another person instead of hitting him. The attacker must move to Personal range and beat his target in an opposed [Natural Weapons](skills.md#natural-weapons) skill check. If he wins, he may do any one of the following:
 
 -   Continue the grapple with no other effects.
 -   Disarm his opponent. If he succeeds by 6+ he can take the weapon away; otherwise it ends up on the floor.
@@ -267,7 +267,7 @@ A character can attempt to wrestle or grab another person instead of hitting him
 -   Knock his opponent prone.
 -   Throw his opponent up to three meters for 1D6 damage.
 
-Throwing an opponent always ends the grapple. With any other option the winner can choose to end or continue the grapple as he sees fit. A character in a grapple cannot move nor do anything other than make opposed [Natural Weapons](skills.html#natural-weapons) skill checks. Each time an opposed check is made the winner can choose an option from the above list.
+Throwing an opponent always ends the grapple. With any other option the winner can choose to end or continue the grapple as he sees fit. A character in a grapple cannot move nor do anything other than make opposed [Natural Weapons](skills.md#natural-weapons) skill checks. Each time an opposed check is made the winner can choose an option from the above list.
 
 ### Panic Fire
 
@@ -303,9 +303,9 @@ A character can be standing, crouched or prone.
 
 ### Tactics and Leadership
 
-The [Tactics](skills.html#tactics) skill can be used to give an Initiative bonus to a whole unit at the start of combat. The unit commander may make a [Tactics](skills.html#tactics) check, and everyone in the unit may increase their Initiative by the Effect of the check.
+The [Tactics](skills.md#tactics) skill can be used to give an Initiative bonus to a whole unit at the start of combat. The unit commander may make a [Tactics](skills.md#tactics) check, and everyone in the unit may increase their Initiative by the Effect of the check.
 
-The [Leadership](skills.html#leadership) skill can be used to increase another character's Initiative. The character with [Leadership](skills.html#leadership) makes a [Leadership](skills.html#leadership) check, and the target character's Initiative is increased by the Effect of the check. Making a [Leadership](skills.html#leadership) skill check is a significant action.
+The [Leadership](skills.md#leadership) skill can be used to increase another character's Initiative. The character with [Leadership](skills.md#leadership) makes a [Leadership](skills.md#leadership) check, and the target character's Initiative is increased by the Effect of the check. Making a [Leadership](skills.md#leadership) skill check is a significant action.
 
 ### Thrown Weapons
 
@@ -358,11 +358,11 @@ A seriously wounded character only regains characteristic points equal to his En
 
 Natural healing is not the only way to recover damage. Characters can also seek out medical treatment.
 
-**First Aid:** Applying first aid restores a number of characteristic points equal to twice the Effect of the [Medicine](skills.html#medicine) check. Points restored by first aid are divided as desired among all damaged physical characteristics. First aid must be applied within five minutes of the injuries being received to be fully effective. A character can still benefit from first aid up to an hour after their injury but they only receive a number of characteristic points equal to the Effect of the [Medicine](skills.html#medicine) check. Performing first aid on yourself is a Difficult (–2) task.
+**First Aid:** Applying first aid restores a number of characteristic points equal to twice the Effect of the [Medicine](skills.md#medicine) check. Points restored by first aid are divided as desired among all damaged physical characteristics. First aid must be applied within five minutes of the injuries being received to be fully effective. A character can still benefit from first aid up to an hour after their injury but they only receive a number of characteristic points equal to the Effect of the [Medicine](skills.md#medicine) check. Performing first aid on yourself is a Difficult (–2) task.
 
 **Surgery:** A character that is seriously wounded (after first aid has been applied) requires surgery. Surgery restores characteristic points just like first aid but if the check is failed the patient loses characteristic points equal to the Effect. Surgery requires a hospital or sickbay. Once one characteristic is back to its maximum level the patient can benefit from medical care. Surgery does not benefit characters that are not seriously wounded. Performing surgery on yourself is a Very Difficult (–4) task.
 
-**Medical Care:** Medical care restores 2 + the character's Endurance DM + the doctor's [Medicine](skills.html#medicine) skill in characteristic points per day, divided evenly among all damaged characteristics. Medical care requires a hospital or sickbay and for the patient to undergo full bed rest.
+**Medical Care:** Medical care restores 2 + the character's Endurance DM + the doctor's [Medicine](skills.md#medicine) skill in characteristic points per day, divided evenly among all damaged characteristics. Medical care requires a hospital or sickbay and for the patient to undergo full bed rest.
 
 ### Healing and Mental Characteristics
 
@@ -537,7 +537,7 @@ Damage to a vehicle or drone falls into three categories – System Damage, Hull
 
 #### System Damage
 
-A damaged system can be jury-rigged back to functioning, but it will stop functioning again after 1D6 hours. Repairing a damaged system requires not only an Average skill check (using the appropriate skill as determined by the Referee, such as [Electronics](skills.html#electronics), [Engineering](skills.html#engineering), [Gravitics](skills.html#gravitics), [Mechanics](skills.html#mechanics)) taking 1–6 hours but also a source of spare parts. The spare parts can come from a scrap yard, a workshop, systems on another vehicle, or can be taken from other systems on the same vehicle. When taking spare parts from other vehicle systems, each 'hit' of damage provides enough spare parts to make a single repair check.
+A damaged system can be jury-rigged back to functioning, but it will stop functioning again after 1D6 hours. Repairing a damaged system requires not only an Average skill check (using the appropriate skill as determined by the Referee, such as [Electronics](skills.md#electronics), [Engineering](skills.md#engineering), [Gravitics](skills.md#gravitics), [Mechanics](skills.md#mechanics)) taking 1–6 hours but also a source of spare parts. The spare parts can come from a scrap yard, a workshop, systems on another vehicle, or can be taken from other systems on the same vehicle. When taking spare parts from other vehicle systems, each 'hit' of damage provides enough spare parts to make a single repair check.
 
 The Passengers and Cockpit systems cannot take hits to provide spare parts, although cybernetic parts might be able to provide enough spare material to repair minor damage.
 
@@ -545,7 +545,7 @@ A destroyed system costs 2D6x10% of its original cost to repair, and cannot be r
 
 #### Hull Damage
 
-Hull damage can be repaired with a [Mechanics](skills.html#mechanics) check taking 1–6 hours and consumes one 'hit' of spare parts.
+Hull damage can be repaired with a [Mechanics](skills.md#mechanics) check taking 1–6 hours and consumes one 'hit' of spare parts.
 
 #### Structure Damage
 

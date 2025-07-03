@@ -57,9 +57,9 @@ The Jump grid allows the Jump field to properly form around the ship and protect
 
 A Jump Plot is also required. A Jump Plot can be created by a navigator using the ship's computer. In addition, all Class-D and better starports can provide pre-calculated jump plots for any populated worlds within jump range for Cr1,000 per jump number. Each jump course tape provides the jump plot necessary to perform a jump from one specific world to a specific destination, and become increasingly less reliable as they get older.
 
-Creating a Jump Plot is an Easy (+4) Education-based [Navigation](../book1/skills.html#navigation) skill check taking 1D6 kiloseconds, modified by the Jump distance (thus, a Jump–4 gives a –4 DM to the check). If the check is failed, then the navigator must plot the Jump again, or the starship suffers a misjump. A Jump cannot be made until the navigation calculations are complete. Jump Plots can be created in advance, but quickly become out of date.
+Creating a Jump Plot is an Easy (+4) Education-based [Navigation](../book1/skills.md#navigation) skill check taking 1D6 kiloseconds, modified by the Jump distance (thus, a Jump–4 gives a –4 DM to the check). If the check is failed, then the navigator must plot the Jump again, or the starship suffers a misjump. A Jump cannot be made until the navigation calculations are complete. Jump Plots can be created in advance, but quickly become out of date.
 
-When the ship is ready to Jump, the engineer must properly divert power to the Jump drive. Firing the Jump drive is an Average (+0) Education-based [Engineering](../book1/skills.html#engineering) check taking 10–60 seconds. The Effect of this check aids the Jump Success roll.
+When the ship is ready to Jump, the engineer must properly divert power to the Jump drive. Firing the Jump drive is an Average (+0) Education-based [Engineering](../book1/skills.md#engineering) check taking 10–60 seconds. The Effect of this check aids the Jump Success roll.
 
 All normal Jumps take roughly one week (148+6D6 hours), and are subject to random variations in the point of emergence. The older a plot is, the more variance there is in the actual Jump performance. Thus course tapes tend to err on the side of caution, and give emergence points a long way out from the destination world.
 
@@ -69,7 +69,7 @@ A Jump carries the vessel a number of parsecs equal to the Jump number. Jumps of
 
 Roll 2D6 and add the following DMs. If the result is 0 or less, the ship misjumps. If the result is 8+ the Jump is accurate. Any other result is an inaccurate Jump. If a Jump was made using a bad Jump Plot, the ship automatically misjumps.
 
--   \+ the Effect of the divert power [Engineering](../book1/skills.html#engineering) check
+-   \+ the Effect of the divert power [Engineering](../book1/skills.md#engineering) check
 -   –1 per month that the Jump Plot is out of date (such as when using older Jump course tapes)
 -   –2 per Jump drive hit
 -   –2 for using Unrefined fuel
@@ -93,15 +93,15 @@ Passenger travel can be classified into five overarching categories – high, mi
 
 High Passage
 
-The best method of travel is called high passage, which involves first class accommodations and cuisine. High passengers have the services of the ship's steward, entertainment and complete attention to their comfort. There is a baggage allowance of up to 1,000 kilograms. High passage costs Cr10,000 and provides food and lodging for 1 person for a distance of 1 jump. Double occupancy is allowed at a discounted rate of Cr16,000 (Cr8000 per passenger). Each level of [Steward](../book1/skills.html#steward) skill (including level 0) allows the steward to effectively look after two high passage passengers on board a ship (so a character with [Steward](../book1/skills.html#steward) 2 could care for six passengers).
+The best method of travel is called high passage, which involves first class accommodations and cuisine. High passengers have the services of the ship's steward, entertainment and complete attention to their comfort. There is a baggage allowance of up to 1,000 kilograms. High passage costs Cr10,000 and provides food and lodging for 1 person for a distance of 1 jump. Double occupancy is allowed at a discounted rate of Cr16,000 (Cr8000 per passenger). Each level of [Steward](../book1/skills.md#steward) skill (including level 0) allows the steward to effectively look after two high passage passengers on board a ship (so a character with [Steward](../book1/skills.md#steward) 2 could care for six passengers).
 
 Middle Passage
 
-In order for starships to fill their staterooms with passengers, middle passage is offered on a standby basis, in the event that not enough high passages are sold. While middle passengers occupy staterooms normally similar to those occupied by high passengers, they do not receive the service or entertainment accorded the higher paying passengers. In addition, the quality of the cuisine is rather low. Baggage totaling 100 kilograms is allowed. A middle passenger may be 'bumped' and the stateroom taken by a late arriving high passenger; the middle passenger's ticket is returned, but no other compensation is made. (The middle could then buy a high passage and 'bump' another middle passenger, if the extra cost seemed worth it. Middle passage costs Cr8,000 and provides food and lodging for 1 person for a distance of 1 jump. Double occupancy is allowed at a discounted rate of Cr13,000 (Cr6500 per passenger). Each level of the [Steward](../book1/skills.html#steward) skill (including level 0) allows the steward to care for five middle passengers.
+In order for starships to fill their staterooms with passengers, middle passage is offered on a standby basis, in the event that not enough high passages are sold. While middle passengers occupy staterooms normally similar to those occupied by high passengers, they do not receive the service or entertainment accorded the higher paying passengers. In addition, the quality of the cuisine is rather low. Baggage totaling 100 kilograms is allowed. A middle passenger may be 'bumped' and the stateroom taken by a late arriving high passenger; the middle passenger's ticket is returned, but no other compensation is made. (The middle could then buy a high passage and 'bump' another middle passenger, if the extra cost seemed worth it. Middle passage costs Cr8,000 and provides food and lodging for 1 person for a distance of 1 jump. Double occupancy is allowed at a discounted rate of Cr13,000 (Cr6500 per passenger). Each level of the [Steward](../book1/skills.md#steward) skill (including level 0) allows the steward to care for five middle passengers.
 
 Low Passage
 
-Transportation while in cold sleep (suspended animation) is possible at relatively low cost to the passenger. The passenger is placed in a low passage berth before the ship takes off, and travels the entire journey in a state of suspended animation. He does not age, and requires very little life support. Unfortunately, the low passage system involves some intrinsic dangers to the passenger, and he runs some risk of not surviving the voyage. Therefore a qualified medic should always be in attendance when reviving passengers from low berths. When a passenger is revived from cold sleep, they must make an Easy (+4) Endurance check; failure means that the passenger dies during revival. If a medic is present, the medic may assist the passenger with an Education-based Routine (+2) [Medicine](../book1/skills.html#medicine) skill check, as per the Aid Another rules. Low passage costs Cr1,000 and includes a 10 kg baggage allowance; many commercial cryoberth units have a built-in baggage compartment.
+Transportation while in cold sleep (suspended animation) is possible at relatively low cost to the passenger. The passenger is placed in a low passage berth before the ship takes off, and travels the entire journey in a state of suspended animation. He does not age, and requires very little life support. Unfortunately, the low passage system involves some intrinsic dangers to the passenger, and he runs some risk of not surviving the voyage. Therefore a qualified medic should always be in attendance when reviving passengers from low berths. When a passenger is revived from cold sleep, they must make an Easy (+4) Endurance check; failure means that the passenger dies during revival. If a medic is present, the medic may assist the passenger with an Education-based Routine (+2) [Medicine](../book1/skills.md#medicine) skill check, as per the Aid Another rules. Low passage costs Cr1,000 and includes a 10 kg baggage allowance; many commercial cryoberth units have a built-in baggage compartment.
 
 Working Passage
 
@@ -242,7 +242,7 @@ Vessels are often chartered by commercial or private concerns. The reasons vary:
 
 ### Speculative Trading
 
-A trader with cargo space available and free capital with which to speculate may seek out suitable goods to buy and sell. A complete Trade and Commerce system is presented in [Chapter 7: Trade and Commerce](trade-and-commerce.html).
+A trader with cargo space available and free capital with which to speculate may seek out suitable goods to buy and sell. A complete Trade and Commerce system is presented in [Chapter 7: Trade and Commerce](trade-and-commerce.md).
 
 ## Miscellaneous Topics
 
@@ -262,15 +262,15 @@ Some pirates have been known to use false distress signals to lure other vessels
 
 ### Docking
 
-Two spacecraft may dock if they are close together and neither ship attempts to resist the docking maneuver. Many airlock designs across charted space are compatible; for incompatible airlocks, ships extend flexible plastic docking tubes that adapt to the target airlock. Docking with another vessel is a Routine (+2) [Piloting](../book1/skills.html#piloting) task taking 1–6 minutes. If one ship is drifting or unpowered, the difficulty rises to Difficult (–2).
+Two spacecraft may dock if they are close together and neither ship attempts to resist the docking maneuver. Many airlock designs across charted space are compatible; for incompatible airlocks, ships extend flexible plastic docking tubes that adapt to the target airlock. Docking with another vessel is a Routine (+2) [Piloting](../book1/skills.md#piloting) task taking 1–6 minutes. If one ship is drifting or unpowered, the difficulty rises to Difficult (–2).
 
 ### Boarding
 
-Hostile boarding actions are safest when the enemy ship is crippled, in which case it is a standard docking procedure. If the enemy ship is still moving, then the prospective boarders must match the target's velocity and dock with it (a Difficult (–2) [Piloting](../book1/skills.html#piloting) task), or else just land on the hull and either make their way to an airlock or cut through from outside.
+Hostile boarding actions are safest when the enemy ship is crippled, in which case it is a standard docking procedure. If the enemy ship is still moving, then the prospective boarders must match the target's velocity and dock with it (a Difficult (–2) [Piloting](../book1/skills.md#piloting) task), or else just land on the hull and either make their way to an airlock or cut through from outside.
 
 ### Landing
 
-Any ship with a standard or streamlined hull may land on the surface. Unstreamlined ships suffer a –2 DM to any [Piloting](../book1/skills.html#piloting) checks made in atmosphere while a ship with a Distributed hull suffers a –4 DM to any [Piloting](../book1/skills.html#piloting) checks, and is likely to take severe structural damage if it lands. Landing at a starport is a Routine (+2) task for most ships taking 10–60 seconds.
+Any ship with a standard or streamlined hull may land on the surface. Unstreamlined ships suffer a –2 DM to any [Piloting](../book1/skills.md#piloting) checks made in atmosphere while a ship with a Distributed hull suffers a –4 DM to any [Piloting](../book1/skills.md#piloting) checks, and is likely to take severe structural damage if it lands. Landing at a starport is a Routine (+2) task for most ships taking 10–60 seconds.
 
 Most ships have landing gear, allowing them to touch down 'in the wild', which requires an Average (+0), Difficult (–2) or even Very Difficult (–4) check, depending on local conditions. Non-distributed ships can also land on bodies of water without sinking. Failing a landing roll means that the ship has landed improperly or even crashed.
 
@@ -288,14 +288,14 @@ Ship security systems can detect intrusion detection through a variety of means.
 
 | Type | TL | Means of Access | Override Skill | External Door | Internal Door |
 | --- | --- | --- | --- | --- | --- |
-| Biometrics | 8 | DNA test, palm print, retinal scan, voiceprint | [Electronics](../book1/skills.html#electronics) | Formidable (-6) | Very Difficult (-4) |
-| Electronic Lock | 7 | Keycard or combination | [Electronics](../book1/skills.html#electronics) | Very Difficult (-4) | Difficult (-2) |
-| Intelligent | 9 | Granted by ship's computer | [Electronics](../book1/skills.html#electronics) | Formidable (-6) | Very Difficult (-4) |
-| Mechanical Lock | 4 | Key or combination | [Mechanics](../book1/skills.html#mechanics) | Difficult (-2) | Average (+0) |
+| Biometrics | 8 | DNA test, palm print, retinal scan, voiceprint | [Electronics](../book1/skills.md#electronics) | Formidable (-6) | Very Difficult (-4) |
+| Electronic Lock | 7 | Keycard or combination | [Electronics](../book1/skills.md#electronics) | Very Difficult (-4) | Difficult (-2) |
+| Intelligent | 9 | Granted by ship's computer | [Electronics](../book1/skills.md#electronics) | Formidable (-6) | Very Difficult (-4) |
+| Mechanical Lock | 4 | Key or combination | [Mechanics](../book1/skills.md#mechanics) | Difficult (-2) | Average (+0) |
 
 ### Cybersecurity
 
-The security of a ship's computer is only as good as the Security software that's been installed. All starships come with Security/0 installed, but a wise ship's owner will invest in more advanced security programs, whenever possible. Most vessels run Security/2 programs, at a minimum. The Cybersecurity Tasks table outlines the difficulties of certain tasks that might be attempted by hijackers and pirates. All tasks require the [Computer](../book1/skills.html#computer) skill.
+The security of a ship's computer is only as good as the Security software that's been installed. All starships come with Security/0 installed, but a wise ship's owner will invest in more advanced security programs, whenever possible. Most vessels run Security/2 programs, at a minimum. The Cybersecurity Tasks table outlines the difficulties of certain tasks that might be attempted by hijackers and pirates. All tasks require the [Computer](../book1/skills.md#computer) skill.
 
 | Type | Typical Difficulty |
 | --- | --- |
@@ -363,7 +363,7 @@ Characters arrested for a crime will face punishment, determined by rolling 2D6+
 | Manslaughter | Law Level –1 |
 | Murder | Law Level +0 |
 
-A character with the [Advocate](../book1/skills.html#advocate) skill may attempt to reduce the severity of sentencing by making a check. If successful, reduce the Sentencing DM by the Effect of the check.
+A character with the [Advocate](../book1/skills.md#advocate) skill may attempt to reduce the severity of sentencing by making a check. If successful, reduce the Sentencing DM by the Effect of the check.
 
 | Result | Sentence |
 | --- | --- |

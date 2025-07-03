@@ -45,7 +45,7 @@ This chapter provides complete instructions for the generation of twenty-four di
     -   If you are leaving the career, roll for benefits. A character gets one Benefit Roll for every full term served in that career. You also get extra benefit rolls if you reached a higher rank.
 1.  [Next Career](#careers)
     -   If you're leaving your current career and your total number of terms in character creation is less than seven, you may go to step 3 to choose a new career or to step 12 if you wish to finish your character.
-1.  [Buy starting equipment](equipment.html)
+1.  [Buy starting equipment](equipment.md)
     -   Purchase your starting equipment and, if you can afford it, possibly a starship.
 
 ## Characteristics
@@ -86,7 +86,7 @@ In a Cepheus Engine universe where characters of sufficiently high Social Standi
 
 ### Psionic Strength, the Seventh Characteristic
 
-Within the Cepheus Engine, characters can sometimes have a seventh characteristic score. When a character learns psionics, they generate a Psionic Strength characteristic (abbreviation Psi), which powers their psionic talents. This characteristic cannot be rolled or bought during character creation without the Referee's permission. For more information on this topic, see [Chapter 3: Psionics](psionics.html).
+Within the Cepheus Engine, characters can sometimes have a seventh characteristic score. When a character learns psionics, they generate a Psionic Strength characteristic (abbreviation Psi), which powers their psionic talents. This characteristic cannot be rolled or bought during character creation without the Referee's permission. For more information on this topic, see [Chapter 3: Psionics](psionics.md).
 
 ### Generating Characteristic Scores
 
@@ -193,47 +193,47 @@ Growing up on your homeworld gave you skills that depend on the planet's nature.
 
 | Descriptor | Skill |
 | --- | --- |
-| No Law | [Gun Combat-0](skills.html#gun-combat) |
-| Low Law | [Gun Combat-0](skills.html#gun-combat) |
-| Medium Law | [Gun Combat-0](skills.html#gun-combat) |
-| High Law | [Melee Combat-0](skills.html#melee-combat) |
+| No Law | [Gun Combat-0](skills.md#gun-combat) |
+| Low Law | [Gun Combat-0](skills.md#gun-combat) |
+| Medium Law | [Gun Combat-0](skills.md#gun-combat) |
+| High Law | [Melee Combat-0](skills.md#melee-combat) |
 
 | Trade Code | Skill |
 | --- | --- |
-| Agricultural | [Animals-0](skills.html#animals) |
-| Asteroid | [Zero-G-0](skills.html#zero-g) |
-| Desert | [Survival-0](skills.html#survival) |
-| Fluid Oceans | [Watercraft-0](skills.html#watercraft) |
-| Garden | [Animals-0](skills.html#animals) |
-| High Technology | [Computer-0](skills.html#computer) |
-| High Population | [Streetwise-0](skills.html#streetwise) |
-| Ice-Capped | [Zero-G-0](skills.html#zero-g) |
-| Industrial | [Broker-0](skills.html#broker) |
-| Low Technology | [Survival-0](skills.html#survival) |
-| Poor | [Animals-0](skills.html#animals) |
-| Rich | [Carousing-0](skills.html#carousing) |
-| Water World | [Watercraft-0](skills.html#watercraft) |
-| Vacuum | [Zero-G-0](skills.html#zero-g) |
+| Agricultural | [Animals-0](skills.md#animals) |
+| Asteroid | [Zero-G-0](skills.md#zero-g) |
+| Desert | [Survival-0](skills.md#survival) |
+| Fluid Oceans | [Watercraft-0](skills.md#watercraft) |
+| Garden | [Animals-0](skills.md#animals) |
+| High Technology | [Computer-0](skills.md#computer) |
+| High Population | [Streetwise-0](skills.md#streetwise) |
+| Ice-Capped | [Zero-G-0](skills.md#zero-g) |
+| Industrial | [Broker-0](skills.md#broker) |
+| Low Technology | [Survival-0](skills.md#survival) |
+| Poor | [Animals-0](skills.md#animals) |
+| Rich | [Carousing-0](skills.md#carousing) |
+| Water World | [Watercraft-0](skills.md#watercraft) |
+| Vacuum | [Zero-G-0](skills.md#zero-g) |
 
 ### Primary Education Skills
 
 A formal education gives you a basic level of competence in various sciences and academic disciplines. Any character may choose from the following list:
 
--   [Admin-0](skills.html#admin)
--   [Advocate-0](skills.html#advocate)
--   [Animals-0](skills.html#animals)
--   [Carousing-0](skills.html#carousing)
--   [Comms-0](skills.html#comms)
--   [Computer-0](skills.html#computer)
--   [Electronics-0](skills.html#electronics)
--   [Engineering-0](skills.html#engineering)
--   [Life Sciences-0](skills.html#life-sciences)
--   [Linguistics-0](skills.html#linguistics)
--   [Mechanics-0](skills.html#mechanics)
--   [Medicine-0](skills.html#medicine)
--   [Physical Sciences-0](skills.html#physical-sciences)
--   [Social Sciences-0](skills.html#social-sciences)
--   [Space Sciences-0](skills.html#space-sciences)
+-   [Admin-0](skills.md#admin)
+-   [Advocate-0](skills.md#advocate)
+-   [Animals-0](skills.md#animals)
+-   [Carousing-0](skills.md#carousing)
+-   [Comms-0](skills.md#comms)
+-   [Computer-0](skills.md#computer)
+-   [Electronics-0](skills.md#electronics)
+-   [Engineering-0](skills.md#engineering)
+-   [Life Sciences-0](skills.md#life-sciences)
+-   [Linguistics-0](skills.md#linguistics)
+-   [Mechanics-0](skills.md#mechanics)
+-   [Medicine-0](skills.md#medicine)
+-   [Physical Sciences-0](skills.md#physical-sciences)
+-   [Social Sciences-0](skills.md#social-sciences)
+-   [Space Sciences-0](skills.md#space-sciences)
 
 ## Careers
 

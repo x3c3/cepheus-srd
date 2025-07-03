@@ -111,7 +111,7 @@ For each creature, roll 2D6 for its Size and apply any Size DMs based on terrain
 
 Intelligence for most animals is 0 or 1. Roll 2D6+DMs for the animal’s Instinct and Pack. To determine the number appearing value, consult the Number Appearing by Pack Characteristic Score table.
 
-All animals have at least [Athletics](skills.html#athletics) 0, [Recon](skills.html#recon) 0, and [Survival](skills.html#survival) 0, and most will have 1D6 ranks split among these skills, [Natural Weapons](skills.html#natural-weapons), and any skills listed in their behavior.
+All animals have at least [Athletics](skills.md#athletics) 0, [Recon](skills.md#recon) 0, and [Survival](skills.md#survival) 0, and most will have 1D6 ranks split among these skills, [Natural Weapons](skills.md#natural-weapons), and any skills listed in their behavior.
 
 | 2D6 | Weight (kg) | Strength | Dexterity | Endurance |
 | --- | --- | --- | --- | --- |

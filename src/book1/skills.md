@@ -4,7 +4,7 @@ Characters in Cepheus Engine games engage in a variety of activities, using thei
 
 ## Skill Checks
 
-Skill checks use the core task resolution system for the Cepheus Engine to resolve actions. Whenever your character attempts any action with a chance of failure, roll 2D6, add any skill levels, the appropriate characteristic score modifier, and your difficulty DM. If the result equals or exceeds 8, the action succeeds. If the result is lower than 8, the action fails. The basics of the task resolution system can be found in the [Introduction chapter](../introduction.html), under [Die Rolls](../introduction.html#die-rolls).
+Skill checks use the core task resolution system for the Cepheus Engine to resolve actions. Whenever your character attempts any action with a chance of failure, roll 2D6, add any skill levels, the appropriate characteristic score modifier, and your difficulty DM. If the result equals or exceeds 8, the action succeeds. If the result is lower than 8, the action fails. The basics of the task resolution system can be found in the [Introduction chapter](../introduction.md), under [Die Rolls](../introduction.md#die-rolls).
 
 ### Task Description Format
 
@@ -173,7 +173,7 @@ For example, a character trying to bribe an official to ignore a minor smuggling
 
 ### Broker
 
-A broker is skilled in locating suppliers and buyers, and facilitating the purchase and resale of commercial goods, as per the [Trade and Commerce](../book2/trade-and-commerce.html) rules.
+A broker is skilled in locating suppliers and buyers, and facilitating the purchase and resale of commercial goods, as per the [Trade and Commerce](../book2/trade-and-commerce.md) rules.
 
 ### Carousing
 

@@ -50,14 +50,14 @@ Unless otherwise noted, only one type of armor can be worn at a time. Resolve da
 | Armor | TL | AR | Cost | Wgt | Skill Required |
 | --- | --- | --- | --- | --- | --- |
 | Ablat | 9 | 3/8\* | Cr75 | 2kg | — |
-| Battle Dress | 13 | 18 | Cr200,000 | 60kg | [Battle Dress](skills.html#battle-dress) |
+| Battle Dress | 13 | 18 | Cr200,000 | 60kg | [Battle Dress](skills.md#battle-dress) |
 | Cloth | 6 | 9 | Cr250 | 2kg | — |
-| Combat Armor | 11 | 11 | Cr20,000 | 18kg | [Zero-G](skills.html#zero-g) |
-| Hostile Env Vacc Suit | 12 | 8 | Cr18,000 | 40kg | [Zero-G](skills.html#zero-g) |
+| Combat Armor | 11 | 11 | Cr20,000 | 18kg | [Zero-G](skills.md#zero-g) |
+| Hostile Env Vacc Suit | 12 | 8 | Cr18,000 | 40kg | [Zero-G](skills.md#zero-g) |
 | Jack | 1 | 3 | Cr50 | 1kg | — |
 | Mesh | 7 | 5 | Cr150 | 2kg | — |
 | Reflec | 10 | 0/14 | Cr1500 | 1kg | — |
-| Vacc Suit | 9 | 6 | Cr9,000 | 8kg | [Zero-G](skills.html#zero-g) |
+| Vacc Suit | 9 | 6 | Cr9,000 | 8kg | [Zero-G](skills.md#zero-g) |
 
 ### Armor Descriptions
 
@@ -81,7 +81,7 @@ Unless otherwise noted, only one type of armor can be worn at a time. Resolve da
 
 ## Communicators
 
-Characters separated by physical location often have a need to maintain communications. These examples of communications equipment fulfill that need. Routine use of these devices does not require a skill check. When attempting to overcome interference or use these devices for other purposes, the [Comms](skills.html#comms) skill check is used.
+Characters separated by physical location often have a need to maintain communications. These examples of communications equipment fulfill that need. Routine use of these devices does not require a skill check. When attempting to overcome interference or use these devices for other purposes, the [Comms](skills.md#comms) skill check is used.
 
 | Communicator | TL | Cost | Wgt | Range |
 | --- | --- | --- | --- | --- |
@@ -153,7 +153,7 @@ Programs above Rating/1 cannot be copied easily, as they require a non-trivial a
 | Expert | 1 | 11 | Cr1,000 | Expert programs mimic skills. A character using an expert system may make a skill check as if he had the skill at the program's Rating -1. Only Intelligence and Education-based checks can be attempted. If the character already has the skill at a higher level, then an Expert program grants a +1 DM instead. |
 |  | 2 | 12 | Cr10,000 |  |
 |  | 3 | 13 | Cr100,000 |  |
-| Agent | 0 | 11 | Cr500 | Agent programs have a [Computer](skills.html#computer) skill equal to their Rating, and can carry out tasks assigned to them with a modicum of intelligence. For example, an agent program might be commanded to hack into an enemy computer system and steal a particular data file. They are effectively specialized combinations of Computer Expert and Intellect programs. |
+| Agent | 0 | 11 | Cr500 | Agent programs have a [Computer](skills.md#computer) skill equal to their Rating, and can carry out tasks assigned to them with a modicum of intelligence. For example, an agent program might be commanded to hack into an enemy computer system and steal a particular data file. They are effectively specialized combinations of Computer Expert and Intellect programs. |
 |  | 1 | 12 | Cr2,000 |  |
 |  | 2 | 13 | Cr100,000 |  |
 |  | 3 | 14 | Cr250,000 |  |
@@ -185,19 +185,19 @@ Medications often supplement the direct medical attention of a trained health pr
 
 **Fast Drug:** Also known as 'Hibernation', this drug puts the user into a state akin to suspended animation, slowing his metabolic rate down to a ratio of 60 to 1 – a subjective day for the user is actually two months. Fast drug is normally used to prolong life support reserves or as a cheap substitute for a cryoberth.
 
-**Medicinal Drugs:** These medications include vaccines, antitoxins and antibiotics. They range in cost from Cr5 to 1D6x1,000 Credits, depending on the rarity and complexity of the drug. Medicinal drugs require the [Medic](skills.html#medic) skill to use properly – using the wrong drug can be worse than doing nothing. With a successful [Medic](skills.html#medic) check the correct drug can counteract most poisons or diseases, or at the very least give a positive DM towards resisting them. If the wrong drug is administered, treat it as a Difficult (–2 DM) poison with a damage of 1D6.
+**Medicinal Drugs:** These medications include vaccines, antitoxins and antibiotics. They range in cost from Cr5 to 1D6x1,000 Credits, depending on the rarity and complexity of the drug. Medicinal drugs require the [Medic](skills.md#medic) skill to use properly – using the wrong drug can be worse than doing nothing. With a successful [Medic](skills.md#medic) check the correct drug can counteract most poisons or diseases, or at the very least give a positive DM towards resisting them. If the wrong drug is administered, treat it as a Difficult (–2 DM) poison with a damage of 1D6.
 
 **Medicinal Slow:** A variant of the slow drug. It can only be applied safely in a medical facility where life-support and cryo-technology is available as it increases the metabolism to around thirty times normal, allowing a patient to undergo a month of healing in a single day.
 
 **Metabolic Accelerator:** Also known as 'Slow Drug', this drug boosts the user's reaction time to superhuman levels. A character using slow drug in combat adds +8 to his initiative total at the start of combat (or whenever the drug takes effect). He may also dodge up to twice each round with no effect on his initiative score. The drug kicks in 45 seconds (eight rounds) after ingestion or injection and lasts for around ten minutes. When the drug wears off, the user's system crashes. He suffers 2D6 points of damage and is exhausted.
 
-**Panaceas:** Wide-spectrum medicinal drugs that are specifically designed not to interact harmfully. They can therefore be used on any wound or illness and are guaranteed not to make things worse. A character using panaceas may make a [Medic](skills.html#medic) check as if he had [Medic](skills.html#medic) 0 when treating an infection or disease.
+**Panaceas:** Wide-spectrum medicinal drugs that are specifically designed not to interact harmfully. They can therefore be used on any wound or illness and are guaranteed not to make things worse. A character using panaceas may make a [Medic](skills.md#medic) check as if he had [Medic](skills.md#medic) 0 when treating an infection or disease.
 
 **Stim Drugs:** Removes fatigue, at a cost. A character who uses stim may remove the effects of fatigue but suffers one point of damage. If stims are used to remove fatigue again without an intervening period of sleep, the character suffers two points of damage the second time, three points the third time, and so on.
 
 ## Explosives
 
-The [Demolitions](skills.html#demolitions) skill is used with explosives – the Effect of the [Demolitions](skills.html#demolitions) skill check multiplies the damage, with a minimum of x1 damage for an Effect of 0 or 1. Explosives are not legally available on any world with a Law Level of 1 or greater.
+The [Demolitions](skills.md#demolitions) skill is used with explosives – the Effect of the [Demolitions](skills.md#demolitions) skill check multiplies the damage, with a minimum of x1 damage for an Effect of 0 or 1. Explosives are not legally available on any world with a Law Level of 1 or greater.
 
 | Weapon | TL | Damage | Radius | Cost (Cr) |
 | --- | --- | --- | --- | --- |
@@ -230,11 +230,11 @@ Characters often possess any of a number of personal devices, such as those desc
 | Bioscanner | 15 | Cr350,000 | 3.5 |
 | Neural Activity Sensor | 15 | Cr35,000 | 10 |
 
-**Bioscanner:** The bioscanner 'sniffs' for organic molecules and tests chemical samples, analysing the make-up of whatever it is focussed on. It can be used to detect poisons or bacteria, analyse organic matter, search for life signs and classify unfamiliar organisms. The data from a bioscanner can be interpreted using the [Comms](skills.html#comms) or the [Life Sciences](skills.html#life-sciences) skill.
+**Bioscanner:** The bioscanner 'sniffs' for organic molecules and tests chemical samples, analysing the make-up of whatever it is focussed on. It can be used to detect poisons or bacteria, analyse organic matter, search for life signs and classify unfamiliar organisms. The data from a bioscanner can be interpreted using the [Comms](skills.md#comms) or the [Life Sciences](skills.md#life-sciences) skill.
 
 **Densitometer:** The remote densitometer uses an object's natural gravity to measure its density, building up a three-dimensional image of the inside and outside of an object.
 
-**Electromagnetic Probe:** This handy device detects the electromagnetic emissions of technological devices, and can be used as a diagnostic tool when examining equipment (+1 DM to work out what's wrong with it) or when searching for hidden bugs or devices. The [Comms](skills.html#comms) skill can be used to sweep a room for bugs.
+**Electromagnetic Probe:** This handy device detects the electromagnetic emissions of technological devices, and can be used as a diagnostic tool when examining equipment (+1 DM to work out what's wrong with it) or when searching for hidden bugs or devices. The [Comms](skills.md#comms) skill can be used to sweep a room for bugs.
 
 **Hand Calculator:** Allows the user to perform mathematical calculations quickly.
 
@@ -248,7 +248,7 @@ Characters often possess any of a number of personal devices, such as those desc
 
 **Metal Detector:** Indicates presence of metal within a 3 meter radius (including underground), with the indicating signal growing stronger as it gets closer to the source.
 
-**Neural Activity Sensor (NAS):** This device consists of a backpack and detachable handheld unit, and can detect neural activity up to 500 meters away. The device can also give a rough estimation of the intelligence level of organisms based on brainwave patterns. The data from a neural activity scanner can be interpreted using the [Comms](skills.html#comms), the [Life Sciences](skills.html#life-sciences) or the [Social Sciences](skills.html#social-sciences) skills.
+**Neural Activity Sensor (NAS):** This device consists of a backpack and detachable handheld unit, and can detect neural activity up to 500 meters away. The device can also give a rough estimation of the intelligence level of organisms based on brainwave patterns. The data from a neural activity scanner can be interpreted using the [Comms](skills.md#comms), the [Life Sciences](skills.md#life-sciences) or the [Social Sciences](skills.md#social-sciences) skills.
 
 **Radiation Counter:** Indicates presence and intensity of radioactivity within a 30-meter radius. The indicating signal will grow stronger as it gets closer to the source.
 
@@ -256,7 +256,7 @@ Characters often possess any of a number of personal devices, such as those desc
 
 ## Robots and Drones
 
-Robots are iconic to science fiction. This section describes the robots and drones commonly available in a Cepheus Engine campaign. A robot has an Intellect program running, allowing it to make decisions independently, while drones are remote-controlled by a character with the [Comms](skills.html#comms) skill.
+Robots are iconic to science fiction. This section describes the robots and drones commonly available in a Cepheus Engine campaign. A robot has an Intellect program running, allowing it to make decisions independently, while drones are remote-controlled by a character with the [Comms](skills.md#comms) skill.
 
 Robots and drones operate in combat like characters but take damage as if they were vehicles. They have Hull and Structure characteristics instead of an Endurance characteristic, and an Endurance DM of 0. Any robot running an Intellect program has an Intelligence and Education score. Drones have neither. A robot's Education characteristic is representative of the information programmed into it and even low-end robots can have high Education scores. Most robots have Social Standing characteristics of 0 as they are not social creations but there are some exceptions, usually high-end models running advanced Intellect programs. Drones do not have Social Standing but in cases where they are used to engage in diplomacy or other social intercourse the operator can use his own Social Standing score.
 
@@ -296,7 +296,7 @@ Robots and drones operate in combat like characters but take damage as if they w
 -   **Weapons:** Surgical Tools (Slashing Weapons, 1D6 damage)
 -   **Price:** Cr40,000
 
-**Combat Drone (TL 12):** Combat drones are little more than flying guns mated to a grav floater and a computer system. The drones must be piloted with the [Comms](skills.html#comms) skill but attacks are made using the appropriate weapon skill. Combat drones loaded with Intellect and combat Expert programs (making them autonomous combat robots) are illegal on many worlds.
+**Combat Drone (TL 12):** Combat drones are little more than flying guns mated to a grav floater and a computer system. The drones must be piloted with the [Comms](skills.md#comms) skill but attacks are made using the appropriate weapon skill. Combat drones loaded with Intellect and combat Expert programs (making them autonomous combat robots) are illegal on many worlds.
 
 -   Strength 12 (+2), Dexterity 10 (+1), Hull 4, Structure 4
 -   **Traits:** Armor 9, Integral System (grav floater), Integral Weapon (any)
@@ -475,24 +475,24 @@ In classic science fiction, characters rarely travel on foot. Vehicles play a bi
 
 | Vehicle | TL | Skill | Agi | Spd | C&P | O/C | Armor | Hull | Struc | Wpns | Cost (KCr) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Steamship | 4 | [Ocean Ships](skills.html#ocean-ships) | \-3 | 30 kph | 5 crew, 10 psgr | Closed | 2 | 40 | 40 | None | 720 |
-| Biplane | 5 | [Winged Aircraft](skills.html#winged-aircraft) | +1 | 250 kph | 1 pilot, 1 psgr | Closed | 2 | 1 | 1 | None | 46 |
-| Ground Car | 5 | [Wheeled Vehicle](skills.html#wheeled-vehicle) | +0 | 150 kph | 1 driver, 3 psgr | Closed | 6 | 3 | 2 | None | 6 |
-| Motor Boat | 5 | [Motorboats](skills.html#motorboats) | \-3 | 120 kph | 5 crew, 10 psgr | Closed | 3 | 16 | 17 | None | 530 |
-| Helicopter | 6 | [Rotor Aircraft](skills.html#rotor-aircraft) | +1 | 100 kph | 1 pilot, 7 psgr | Closed | 3 | 2 | 3 | None | 250 |
-| Submersible | 6 | [Submarine](skills.html#submarine) | \-4 | 40kph | 5 crew, 10 psgr | Closed | 3 | 85 | 85 | None | 1,700 |
-| Twin Jet Aircraft | 6 | [Winged Aircraft](skills.html#winged-aircraft) | +1 | 600 kph | 2 pilots, 6 psgr | Closed | 3 | 5 | 5 | None | 480 |
-| Hovercraft | 7 | [Rotor Aircraft](skills.html#rotor-aircraft) | +1 | 150 kph | 1 pilot, 15 psgr | Closed | 3 | 7 | 8 | None | 880 |
-| Air/Raft | 8 | [Grav Vehicle](skills.html#grav-vehicle) | +0 | 400 kph | 1 pilot, 3 psgr | Open | 6 | 2 | 2 | None | 275 |
-| Speeder | 8 | [Grav Vehicle](skills.html#grav-vehicle) | +2 | 1500 kph | 1 pilot, 1 psgr | Closed | 3 | 1 | 2 | None | 890 |
-| Destroyer | 9 | [Ocean Ships](skills.html#ocean-ships) | \-5 | 40 kph | 10 crew, 8 gunners, 12 psgr | Closed | 8 | 63 | 63 | None | 4,800 |
-| Grav Floater | 11 | [Grav Vehicle](skills.html#grav-vehicle) | \-2 | 40 kph | 1 rider | Open | — | — | 1 | None | 0.5 |
-| AFV | 12 | [Tracked Vehicle](skills.html#tracked-vehicle) | +0 | 80 kph | 1 driver, 9 psgr | Closed | 18 | 5 | 5 | Triple Laser (turret) | 65 |
-| ATV | 12 | [Tracked Vehicle](skills.html#tracked-vehicle) | +0 | 100 kph | 1 driver, 15 psgr | Closed | 12 | 5 | 5 | None | 50 |
-| Grav Belt | 12 | [Zero-G](skills.html#zero-g) | +2 | 300 | 1 wearer | Open | — | — | — | None | 100 |
-| G/Carrier | 15 | [Grav Vehicle](skills.html#grav-vehicle) | +0 | 620 kph | 1 driver, 1 gunner, 14 psgr | Closed | 25 | 8 | 8 | Fusion Gun (turret) | 150 |
+| Steamship | 4 | [Ocean Ships](skills.md#ocean-ships) | \-3 | 30 kph | 5 crew, 10 psgr | Closed | 2 | 40 | 40 | None | 720 |
+| Biplane | 5 | [Winged Aircraft](skills.md#winged-aircraft) | +1 | 250 kph | 1 pilot, 1 psgr | Closed | 2 | 1 | 1 | None | 46 |
+| Ground Car | 5 | [Wheeled Vehicle](skills.md#wheeled-vehicle) | +0 | 150 kph | 1 driver, 3 psgr | Closed | 6 | 3 | 2 | None | 6 |
+| Motor Boat | 5 | [Motorboats](skills.md#motorboats) | \-3 | 120 kph | 5 crew, 10 psgr | Closed | 3 | 16 | 17 | None | 530 |
+| Helicopter | 6 | [Rotor Aircraft](skills.md#rotor-aircraft) | +1 | 100 kph | 1 pilot, 7 psgr | Closed | 3 | 2 | 3 | None | 250 |
+| Submersible | 6 | [Submarine](skills.md#submarine) | \-4 | 40kph | 5 crew, 10 psgr | Closed | 3 | 85 | 85 | None | 1,700 |
+| Twin Jet Aircraft | 6 | [Winged Aircraft](skills.md#winged-aircraft) | +1 | 600 kph | 2 pilots, 6 psgr | Closed | 3 | 5 | 5 | None | 480 |
+| Hovercraft | 7 | [Rotor Aircraft](skills.md#rotor-aircraft) | +1 | 150 kph | 1 pilot, 15 psgr | Closed | 3 | 7 | 8 | None | 880 |
+| Air/Raft | 8 | [Grav Vehicle](skills.md#grav-vehicle) | +0 | 400 kph | 1 pilot, 3 psgr | Open | 6 | 2 | 2 | None | 275 |
+| Speeder | 8 | [Grav Vehicle](skills.md#grav-vehicle) | +2 | 1500 kph | 1 pilot, 1 psgr | Closed | 3 | 1 | 2 | None | 890 |
+| Destroyer | 9 | [Ocean Ships](skills.md#ocean-ships) | \-5 | 40 kph | 10 crew, 8 gunners, 12 psgr | Closed | 8 | 63 | 63 | None | 4,800 |
+| Grav Floater | 11 | [Grav Vehicle](skills.md#grav-vehicle) | \-2 | 40 kph | 1 rider | Open | — | — | 1 | None | 0.5 |
+| AFV | 12 | [Tracked Vehicle](skills.md#tracked-vehicle) | +0 | 80 kph | 1 driver, 9 psgr | Closed | 18 | 5 | 5 | Triple Laser (turret) | 65 |
+| ATV | 12 | [Tracked Vehicle](skills.md#tracked-vehicle) | +0 | 100 kph | 1 driver, 15 psgr | Closed | 12 | 5 | 5 | None | 50 |
+| Grav Belt | 12 | [Zero-G](skills.md#zero-g) | +2 | 300 | 1 wearer | Open | — | — | — | None | 100 |
+| G/Carrier | 15 | [Grav Vehicle](skills.md#grav-vehicle) | +0 | 620 kph | 1 driver, 1 gunner, 14 psgr | Closed | 25 | 8 | 8 | Fusion Gun (turret) | 150 |
 
-**AFV:** A heavily armored ATV, known as an Armored Fighting Vehicle, equipped with a triple laser turret. The lasers use the [Energy Rifle](skills.html#energy-rifle) skill, do 4D6 damage each using the Ranged (rifle) range modifiers, and one, two or three may be fired at the same target with one attack action.
+**AFV:** A heavily armored ATV, known as an Armored Fighting Vehicle, equipped with a triple laser turret. The lasers use the [Energy Rifle](skills.md#energy-rifle) skill, do 4D6 damage each using the Ranged (rifle) range modifiers, and one, two or three may be fired at the same target with one attack action.
 
 **Air/Raft:** An open-topped vehicle supported by anti-gravity technology. Air/rafts can even reach orbit (taking a number of hours equal to the world's Size code) but passengers at that altitude must wear vacc suits. They are ubiquitous, remarkably reliable and flexible vehicles.
 
