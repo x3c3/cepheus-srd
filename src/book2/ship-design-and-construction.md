@@ -607,6 +607,8 @@ Small craft armor is purchased in the same manner as standard ship armor. Howeve
 
 A small craft must have a maneuver drive (M-Drive) and a power plant (P-Plant). The costs for each are captured in the Small Craft Drive Costs table. The performance of small craft drives are found in the Small Craft Drive Performance by Hull Volume table.
 
+#### Small Craft Drive Costs
+
 | Drive Code | M-Drive Tonnage | MCr | P-Plant Tonnage | MCr |
 | --- | --- | --- | --- | --- |
 | sA | 0.5 | 1 | 1.2 | 3 |
@@ -630,6 +632,8 @@ A small craft must have a maneuver drive (M-Drive) and a power plant (P-Plant). 
 | sU | 14 | 28 | 9.3 | 22 |
 | sV | 15 | 30 | 9.9 | 24 |
 | sW | 16 | 32 | 10.5 | 26 |
+
+#### Small Craft Drive Performance by Hull Volume
 
 | Drive Code | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -1,4 +1,4 @@
-# Introduction
+# Vehicle Design System Introduction
 
 Welcome to the **_Cepheus Engine Vehicle Design System (VDS)_**, which outlines the core vehicle design rules for the **_Cepheus Engine_**, a Classic Era Science Fiction 2D6-Based Open Gaming Sytem. The first chapter shows you how to create vehicles for your own exciting science fiction adventures, and later chapters provide a series of common vehicles for use in your Cepheus Engine games.
 
@@ -73,7 +73,7 @@ Some vehicle-mounted weapons use the [range classifications](../book1/personal-c
 | Very Difficult | VDiff |
 | Formidable | Form |
 
-<br>
+### Attack Difficulties by Weapon Type
 
 | Weapon | Personal | Close | Short | Medium | Long | Very Long | Distant | Very Distant | Extreme | Continental |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
