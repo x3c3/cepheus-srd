@@ -2,7 +2,7 @@
 
 Welcome to the Cepheus Engine System Reference Document, which outlines the core rules used by a Classic Era Science Fiction 2D6-Based Open Gaming System.
 
-This HTML version of the SRD is hosted online [here][srd]. You can also get the Cepheus Engine SRD and Vehicle Design System documents in PDF and modifiable DOCX format from [DriveThruRPG.com][dtrpg]. If you'd like a print copy, [Moon Toad Publishing][moontoad] offer [the rulebook print-on-demand][pod].
+This version of the SRD is hosted online [here][srd]. You can also get the Cepheus Engine SRD and Vehicle Design System documents in PDF and modifiable DOCX format from [DriveThruRPG.com][dtrpg]. If you'd like a print copy, [Moon Toad Publishing][moontoad] offer [the rulebook print-on-demand][pod].
 
 Cepheus Engine and Samardan Press are trademarks of Jason "Flynn" Kemp
 
@@ -11,7 +11,7 @@ Cepheus Engine and Samardan Press are trademarks of Jason "Flynn" Kemp
 
 **Vehicle Design System Proofreading & Playtesting:** Richard Hazlewood, Omer G. Joel, Michael Johnson, Donavan Lambertus, Ian Stead
 
-**Conversion to HTML format:** Steve Simenic
+**Conversion to mdBook format:** Steve Simenic
 
 ## Designation of Open Game Content
 All of the text in this document is designated as Open Gaming Content, except for the titles of products published by Samardan Press, and the trademarks “Cepheus Engine” and “Samardan Press”.
