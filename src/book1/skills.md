@@ -70,20 +70,20 @@ The following is a list of the available skills used in the core Cepheus Engine 
 
 | Basic Skills | Weapon Skills | Transport Skills |
 | --- | --- | --- |
-| [Admin](#admin) | [Gun Combat (Cascade Skill)](#gun-combat) | [Vehicle (Cascade Skill)](#vehicle) |
-| [Advocate](#advocate) | [Archery](#archery) | [Aircraft (Cascade Skill)](#aircraft) |
-| [Animals (Cascade Skill)](#animals) | [Energy Pistol](#energy-pistol) | [Grav Vehicle](#grav-vehicle) |
-| [Farming](#farming) | [Energy Rifle](#energy-rifle) | [Rotor Aircraft](#rotor-aircraft) |
-| [Riding](#riding) | [Shotgun](#shotgun) | [Winged Aircraft](#winged-aircraft) |
-| [Survival](#survival) | [Slug Pistol](#slug-pistol) | [Mole](#mole) |
-| [Veterinary Medicine](#veterinary-medicine) | [Slug Pistol](#slug-pistol) | [Tracked Vehicle](#tracked-vehicle) |
-| [Athletics](#athletics) | [Gunnery (Cascade Skill)](#gunnery) | [Watercraft (Cascade Skill)](#watercraft) |
-| [Battle Dress](#battle-dress) | [Bay Weapons](#bay-weapons) | [Motorboats](#motorboats) |
-| [Bribery](#bribery) | [Heavy Weapons](#heavy-weapons) | [Ocean Ships](#ocean-ships) |
-| [Broker](#broker) | [Screens](#screens) | [Sailing Ships](#sailing-ships) |
-| [Carousing](#carousing) | [Spinal Mounts](#spinal-mounts) | [Submarine](#submarine) |
-| [Comms](#comms) | [Turret Weapons](#turret-weapons) | [Wheeled Vehicle](#wheeled-vehicle) |
-| [Computer](#computer) | [Melee Combat (Cascade Skill)](#melee-combat) |
+| [Admin](#admin) | [Gun Combat (Cascade Skill)](#gun-combat-cascade-skill) | [Vehicle (Cascade Skill)](#vehicle-cascade-skill) |
+| [Advocate](#advocate) | [Archery](#archery) | [Aircraft (Cascade Skill)](#aircraft-cascade-skill) |
+| [Animals (Cascade Skill)](#animals-cascade-skill) | [Energy Pistol](#energy-pistol) | [Airship](../vds/introduction.md#airship) |
+| [Farming](#farming) | [Energy Rifle](#energy-rifle) | [Grav Vehicle](#grav-vehicle) |
+| [Riding](#riding) | [Shotgun](#shotgun) | [Rotor Aircraft](#rotor-aircraft) |
+| [Survival](#survival) | [Slug Pistol](#slug-pistol) | [Winged Aircraft](#winged-aircraft) |
+| [Veterinary Medicine](#veterinary-medicine) | [Slug Pistol](#slug-pistol) | [Mole](#mole) |
+| [Athletics](#athletics) | [Gunnery (Cascade Skill)](#gunnery-cascade-skill) | [Tracked Vehicle](#tracked-vehicle) |
+| [Battle Dress](#battle-dress) | [Bay Weapons](#bay-weapons) | [Watercraft (Cascade Skill)](#watercraft-cascade-skill) |
+| [Bribery](#bribery) | [Heavy Weapons](#heavy-weapons) | [Motorboats](#motorboats) |
+| [Broker](#broker) | [Screens](#screens) | [Ocean Ships](#ocean-ships) |
+| [Carousing](#carousing) | [Spinal Mounts](#spinal-mounts) | [Sailing Ships](#sailing-ships) |
+| [Comms](#comms) | [Turret Weapons](#turret-weapons) | [Submarine](#submarine) |
+| [Computer](#computer) | [Melee Combat (Cascade Skill)](#melee-combat-cascade-skill) | [Wheeled Vehicle](#wheeled-vehicle) |
 | [Demolitions](#demolitions) | [Bludgeoning Weapons](#bludgeoning-weapons) |
 | [Electronics](#electronics) | [Natural Weapons](#natural-weapons) |
 | [Engineering](#engineering) | [Piercing Weapons](#piercing-weapons) |
@@ -98,7 +98,7 @@ The following is a list of the available skills used in the core Cepheus Engine 
 | [Navigation](#navigation) |
 | [Piloting](#piloting) |
 | [Recon](#recon) |
-| [Sciences (Cascade Skill)](#sciences) |
+| [Sciences (Cascade Skill)](#sciences-cascade-skill) |
 | [Life Sciences](#life-sciences) |
 | [Physical Sciences](#physical-sciences) |
 | [Social Sciences](#social-sciences) |
@@ -128,7 +128,7 @@ The character is familiar with the general laws and regulations that govern inte
 
 ### Aircraft (Cascade Skill)
 
-The various specialties of this skill cover different types of flying vehicles. When this skill is received, the character must immediately select one of the following: [Grav Vehicle](#grav-vehicle), [Rotor Aircraft](#rotor-aircraft) or [Winged Aircraft](#winged-aircraft) .
+The various specialties of this skill cover different types of flying vehicles. When this skill is received, the character must immediately select one of the following: [Airship](../vds/introduction.md#airship), [Grav Vehicle](#grav-vehicle), [Rotor Aircraft](#rotor-aircraft) or [Winged Aircraft](#winged-aircraft).
 
 ### Animals (Cascade Skill)
 
