@@ -40,7 +40,11 @@
 - [Uncommon Vehicles](vds/uncommon-vehicles.md)
 - [Appendix A: Updated Common Vehicles Table](vds/updated-common-vehicles-table.md)
 
-------
+# Tools
+
+- [Subsector Generator](tools/subsector-generator.md)
+
+* * *
 
 [Cepheus Engine System Reference Document, Copyright © 2016 Samardan Press; Author Jason "Flynn" Kemp]()
 
