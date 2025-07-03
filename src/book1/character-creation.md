@@ -198,6 +198,8 @@ Growing up on your homeworld gave you skills that depend on the planet's nature.
 | Medium Law | [Gun Combat-0](skills.md#gun-combat) |
 | High Law | [Melee Combat-0](skills.md#melee-combat) |
 
+<br>
+
 | Trade Code | Skill |
 | --- | --- |
 | Agricultural | [Animals-0](skills.md#animals) |
@@ -514,6 +516,8 @@ Material benefits may be characteristics alterations, passages or ship shares. M
 | 5 | Medicine | Leadership | Medicine | Tactics | Comms | Medicine |
 | 6 | Sciences | Tactics | Leadership | Broker | Tactics | Admin |
 
+<br>
+
 | Career | Colonist | Diplomat | Drifter | Entertainer | Hunter | Marine |
 | --- | --- | --- | --- | --- | --- | --- |
 | Qualifications | End 5+ | Soc 6+ | Dex 5+ | Soc 8+ | End 5+ | Int 6+ |
@@ -575,6 +579,8 @@ Material benefits may be characteristics alterations, passages or ship shares. M
 | 5 | Admin | Medicine | Liaison | Medicine | Tactics | Navigation |
 | 6 | Animals | Leadership | Tactics | Sciences | Animals | Tactics |
 
+<br>
+
 | Career | Maritime Defense | Mercenary | Merchant | Navy | Noble | Physician |
 | --- | --- | --- | --- | --- | --- | --- |
 | Qualifications | End 5+ | Int 4+ | Int 4+ | Int 6+ | Soc 8+ | Edu 6+ |
@@ -635,6 +641,8 @@ Material benefits may be characteristics alterations, passages or ship shares. M
 | 4 | Medicine | Navigation | Navigation | Medicine | Linguistics | Linguistics |
 | 5 | Leadership | Sciences | Sciences | Navigation | Medicine | Medicine |
 | 6 | Tactics | Tactics | Tactics | Tactics | Sciences | Sciences |
+
+<br>
 
 | Career | Pirate | Rogue | Scientist | Scout | Surface Defense | Technician |
 | --- | --- | --- | --- | --- | --- | --- |
