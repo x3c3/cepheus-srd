@@ -91,23 +91,23 @@ A ship must provide sufficient accommodation for its crew; normally this means o
 
 Passenger travel can be classified into five overarching categories – high, middle, low, working and stowaway.
 
-High Passage
+#### High Passage
 
 The best method of travel is called high passage, which involves first class accommodations and cuisine. High passengers have the services of the ship's steward, entertainment and complete attention to their comfort. There is a baggage allowance of up to 1,000 kilograms. High passage costs Cr10,000 and provides food and lodging for 1 person for a distance of 1 jump. Double occupancy is allowed at a discounted rate of Cr16,000 (Cr8000 per passenger). Each level of [Steward](../book1/skills.md#steward) skill (including level 0) allows the steward to effectively look after two high passage passengers on board a ship (so a character with [Steward](../book1/skills.md#steward) 2 could care for six passengers).
 
-Middle Passage
+#### Middle Passage
 
 In order for starships to fill their staterooms with passengers, middle passage is offered on a standby basis, in the event that not enough high passages are sold. While middle passengers occupy staterooms normally similar to those occupied by high passengers, they do not receive the service or entertainment accorded the higher paying passengers. In addition, the quality of the cuisine is rather low. Baggage totaling 100 kilograms is allowed. A middle passenger may be 'bumped' and the stateroom taken by a late arriving high passenger; the middle passenger's ticket is returned, but no other compensation is made. (The middle could then buy a high passage and 'bump' another middle passenger, if the extra cost seemed worth it. Middle passage costs Cr8,000 and provides food and lodging for 1 person for a distance of 1 jump. Double occupancy is allowed at a discounted rate of Cr13,000 (Cr6500 per passenger). Each level of the [Steward](../book1/skills.md#steward) skill (including level 0) allows the steward to care for five middle passengers.
 
-Low Passage
+#### Low Passage
 
 Transportation while in cold sleep (suspended animation) is possible at relatively low cost to the passenger. The passenger is placed in a low passage berth before the ship takes off, and travels the entire journey in a state of suspended animation. He does not age, and requires very little life support. Unfortunately, the low passage system involves some intrinsic dangers to the passenger, and he runs some risk of not surviving the voyage. Therefore a qualified medic should always be in attendance when reviving passengers from low berths. When a passenger is revived from cold sleep, they must make an Easy (+4) Endurance check; failure means that the passenger dies during revival. If a medic is present, the medic may assist the passenger with an Education-based Routine (+2) [Medicine](../book1/skills.md#medicine) skill check, as per the Aid Another rules. Low passage costs Cr1,000 and includes a 10 kg baggage allowance; many commercial cryoberth units have a built-in baggage compartment.
 
-Working Passage
+#### Working Passage
 
 A starship captain with a crew shortage may hire an individual to fill the vacant position, paying not money but passage in return. Working passage may not continue for more than three jumps, or the individual is considered to have been hired for standard salary. In order to be hired for working passage, the individual must have some expertise in the position for which he is hired. Baggage totaling 1,000 kilograms is allowed.
 
-Stowaway
+#### Stowaway
 
 A stowaway is a person who secretly boards a vessel in order to travel without paying and without being detected. Unnoticed by the captain, crew, port officials and customs authorities, stowaways may gain access to a vessel with or without the assistance of port personnel. Once on board the ship, stowaways often hide in empty containers, cargo holds, maintenance shafts, crawl spaces, storage rooms, engine rooms, unused staterooms, and behind false panels. Stowaways risk imprisonment or heavy fines if caught, as it is considered a crime in most jurisdictions. If caught at the destination world, stowaways may be deported. Should this occur, the travel costs for the stowaway's return to the previous world visited, per the ship's logs, can become the obligation of the ship's owner or captain. Because of this, most commanders do not take kindly to any stowaways they discover aboard their vessels, and have been known to space them.
 
@@ -308,19 +308,19 @@ The security of a ship's computer is only as good as the Security software that'
 
 Security measures on board a starship activate when an intrusion or emergency has been detected. These measures include internal alarms, artificial gravity control, tranq gas and the venting of atmosphere.
 
-Internal Alarms
+#### Internal Alarms
 
 If an alarm is tripped (hull breach, fire, door being forced open, alarm button pressed) it will alert the crew. The location of the alarm will be shown on computer displays. The average passenger ship has several crew trained in combat; military ships will carry marines. Some vessels will even have security robots who respond automatically to alarms.
 
-Artificial Gravity Control
+#### Artificial Gravity Control
 
 It is possible to alter the artificial gravity on board. Reducing gravity to zero will limit actions to the level of a character's Zero-G skill. Gravity can also safely be increased up to 3G.
 
-Tranq Gas
+#### Tranq Gas
 
 Some ships carry tranq gas canisters in the air vents, which can be released automatically. These flood a compartment with gas that forces an Endurance check each round, with a –1 DM per previous check. Any character who fails the Endurance check is knocked unconscious.
 
-Venting Atmosphere
+#### Venting Atmosphere
 
 If a compartment is connected to an airlock, then the air can be vented from that area. Characters in that area must make a Strength check to hang on and will also begin to suffocate. Internal doors on a ship are airtight, so portions of the ship can be selectively vented, dependent on the ship's floor plan and the relative positions of airlocks.
 
@@ -345,11 +345,11 @@ In each of the situations listed in the Potential Law Enforcement Encounters tab
 | Firefight involving armored characters and military weapons | –4 | Combat |
 | Murder and carnage | –4 | Investigate |
 
-_Check_ means that the characters' travel documents and identities are checked, either by a police officer or guard, or electronically by querying the characters' comms. A successful Admin or Streetwise roll can allay suspicion, but if this check is failed, the planetary authorities move on to _Investigate_.
+**Check** means that the characters' travel documents and identities are checked, either by a police officer or guard, or electronically by querying the characters' comms. A successful Admin or Streetwise roll can allay suspicion, but if this check is failed, the planetary authorities move on to _Investigate_.
 
-_Investigate_ means that a detective or bureaucrat probes deeper into the characters' backgrounds. If the characters have a ship, it will be searched. They may be followed, or have their communications tapped. They may also be questioned closely.
+**Investigate** means that a detective or bureaucrat probes deeper into the characters' backgrounds. If the characters have a ship, it will be searched. They may be followed, or have their communications tapped. They may also be questioned closely.
 
-Finally, _Combat_ means that the police show up ready for a fight. Their response will generally be proportional to the threat posed by the player characters; if the characters are just making trouble in a bar, then most police forces will just use batons, tranq gas and other non-lethal weapons. On the other hand, if the characters are in Battle Dress and firing PGMPs at the palace of the planetary governor, then the police will show up with the best weapons and armor available at the planet's TL (or even a few levels higher).
+Finally, **Combat** means that the police show up ready for a fight. Their response will generally be proportional to the threat posed by the player characters; if the characters are just making trouble in a bar, then most police forces will just use batons, tranq gas and other non-lethal weapons. On the other hand, if the characters are in Battle Dress and firing PGMPs at the palace of the planetary governor, then the police will show up with the best weapons and armor available at the planet's TL (or even a few levels higher).
 
 ### Arrests and Sentencing
 

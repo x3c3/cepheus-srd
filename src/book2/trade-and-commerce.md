@@ -33,6 +33,8 @@ A given supplier has all Common Goods available and 1D6 randomly determined good
 
 Some goods are illegal, and can be purchased only through a black market supplier. A black market supplier has whatever illegal goods match his world's trade code, as well as any randomly rolled illegal goods. Other goods may be legal on some worlds, but not legal on others (such as personal weapons and armor, which might be restricted on a world with a high law level). The Referee should adjudicate such situations as they occur.
 
+### Common Goods
+
 | Item | Cost (Cr) | Tons |
 | --- | --- | --- |
 | Basic Consumable Goods | 1,000 | 2D6x5 |
@@ -41,6 +43,8 @@ Some goods are illegal, and can be purchased only through a black market supplie
 | Basic Manufactured Goods | 20,000 | 2D6x5 |
 | Basic Raw Materials | 5,000 | 2D6x5 |
 | Basic Unrefined Ore | 2,000 | 2D6x5 |
+
+### Trade Goods
 
 | D66 | Trade Goods | Base Price (Cr) | Tons | Purchase DMs | Sale DMs |
 | --- | --- | --- | --- | --- | --- |

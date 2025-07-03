@@ -121,9 +121,9 @@ The ship's main compartment contains all non-drive features of the ship, includi
 
 A non-starship must have a maneuver drive (M-Drive) and a power plant (P-Plant). A starship must have a Jump drive (J-Drive) and a power plant; a maneuver drive may also be installed, but is not required.
 
-|  | J-Drive | M-Drive | P-Plant |
-| --- | --- | --- | --- |
-| Drive Code | Tons | MCr | Tons | MCr | Tons | MCr |
+### Drive Costs
+
+| Drive Code | J-Drive Tons | MCr | M-Drive Tons | MCr | P-Plant Tons | MCr |
 | --- | --- | --- | --- | --- | --- | --- |
 | A | 10 | 10 | 2 | 4 | 4 | 8 |
 | B | 15 | 20 | 3 | 8 | 7 | 16 |
@@ -149,6 +149,8 @@ A non-starship must have a maneuver drive (M-Drive) and a power plant (P-Plant).
 | X | 115 | 220 | 43 | 88 | 67 | 176 |
 | Y | 120 | 230 | 45 | 92 | 70 | 182 |
 | Z | 125 | 240 | 47 | 96 | 73 | 192 |
+
+### Drive Performance by Hull Volume, Smaller Hulls
 
 |  | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | 1000 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -176,6 +178,8 @@ A non-starship must have a maneuver drive (M-Drive) and a power plant (P-Plant).
 | X | – | – | – | – | – | – | 6 | 6 | 6 | 6 |
 | Y | – | – | – | – | – | – | 6 | 6 | 6 | 6 |
 | Z | – | – | – | – | – | – | 6 | 6 | 6 | 6 |
+
+### Drive Performance by Hull Volume, Larger Hulls
 
 |  | 1200 | 1400 | 1600 | 1800 | 2000 | 3000 | 4000 | 5000 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -211,6 +215,8 @@ For maneuver drives, the potential is the Thrust number (Tn), which is the numbe
 Fuel needed for a Jump depends on the size of the ship and the length of the Jump and is calculated as 0.1 x Hull tonnage x Jump distance. A single Jump of that distance consumes that much fuel.
 
 The amount of fuel required by the power plant depends on the tonnage of the power plant itself, and is calculated as one-third of the power plant tonnage per week, rounded down to the nearest ton. Space-faring vessels require a minimum of two weeks' worth of fuel for the power plant. Deep space vessels may store four, six or even eight weeks of power plant fuel. For your convenience, the Power Plant Fuel Requirements table provides calculated values for both the fuel per week and minimum fuel volume by Drive Code.
+
+#### Power Plant Fuel Requirements
 
 | Drive Code | P-Plant (tons) | Fuel/Wk (tons) | Min. Fuel Volume |
 | --- | --- | --- | --- |
@@ -601,9 +607,7 @@ Small craft armor is purchased in the same manner as standard ship armor. Howeve
 
 A small craft must have a maneuver drive (M-Drive) and a power plant (P-Plant). The costs for each are captured in the Small Craft Drive Costs table. The performance of small craft drives are found in the Small Craft Drive Performance by Hull Volume table.
 
-|  | M-Drive | P-Plant |
-| --- | --- | --- |
-| Drive Code | Tonnage | MCr | Tonnage | MCr |
+| Drive Code | M-Drive Tonnage | MCr | P-Plant Tonnage | MCr |
 | --- | --- | --- | --- | --- |
 | sA | 0.5 | 1 | 1.2 | 3 |
 | sB | 1 | 2 | 1.5 | 3.5 |

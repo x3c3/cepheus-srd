@@ -105,7 +105,7 @@ As a space combat turn represents over 150 personal combat rounds, it stands to 
 | [Avoid Collision](#avoid-collision) | Significant | Pilot |
 | [Break Pursuit](#break-pursuit) | Significant | Pilot |
 | [Dock With Another Vessel](#dock-with-another-vessel) | Significant | Pilot |
-| [Evasive Manuevers](#evasive-maneuvers) | Significant | Pilot |
+| [Evasive Maneuvers](#evasive-maneuvers) | Significant | Pilot |
 | [Line Up The Shot](#line-up-the-shot) | Significant | Pilot |
 | [Pursuit](#pursuit) | Significant | Pilot |
 | [Ram](#ram) | Significant | Pilot |
@@ -188,7 +188,7 @@ A sensors operator may attempt to jam radio communications and sensor locks by m
 
 Alternatively, electronic warfare can be used to attack smart missiles that are targeting the ship. The sensors operator makes a Difficult (–2) [Comms](../book1/skills.md#comms) check and, if successful, a single attacking smart missile ceases attacking. The sensors operator may continue making checks to disable smart missiles until he fails one, with a cumulative –1 DM each time.
 
-### Evasive Manuevers
+### Evasive Maneuvers
 
 The pilot operates the vessel in an erratic manner in an attempt to avoid being hit by opposing weapons fire. The Pilot makes an Average(+0) [Piloting](../book1/skills.md#piloting) skill check. If successful, any attack rolls targeting the pilot's vessel suffer a DM-1 penalty, or DM-2 with an Exceptional Success.
 
@@ -390,6 +390,8 @@ The effects of damage are determined by subtracting the ship's armor from the da
 | 41–44 | Two Triple Hits |
 | For every extra three points | +1 Single Hit |
 | For every extra six points | +1 Double Hit |
+
+### Space Combat Hit Location
 
 | 2D6 | External Hit (Vessel) | Internal Hit (Vessel) | Small Craft |
 | --- | --- | --- | --- |
