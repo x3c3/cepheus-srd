@@ -78,7 +78,7 @@ Using a 100-ton hull (2 Hull, 2 Structure), the Yacht is the smallest civilian s
 
 The following are common small craft designs found in most Cepheus Engine universes.
 
-### TL 9 Cutter
+### TL9 Cutter
 
 Using a 50-ton hull (1 Hull, 1 Structure), the Cutter is designed to take a sealed 30-ton module from surface to orbit, allowing for a wide range of customized uses, depending on the contents of the module. It mounts maneuver drive sK and power plant sK, giving a performance of 4-G acceleration. Fuel tankage of 1.3 tons supports the power plant for one week. Adjacent to the bridge is a computer Model 1. The ship is equipped with Standard sensors (-4). There is a one-man control cabin and additional cabin space for one passenger. The ship has one hardpoint and one ton allocated for fire control. This small craft does not come with weapons pre-installed. Cargo capacity is 1.3 tons. The hull is Standard, and no additional armor has been installed. Special features include a 30-ton module berth, into which one of a variety of specialized modules can be installed (as captured in the Cutter Module Options table). This ship requires a crew of one: Pilot. The ship can carry one additional passenger in the control cabin. The ship costs MCr24.305 (including discounts and fees), not including module costs, and takes 32 weeks to build.
 
@@ -93,22 +93,22 @@ Using a 50-ton hull (1 Hull, 1 Structure), the Cutter is designed to take a seal
 | Prison Transport | 4.5 | 14 detention cells, 1 airlock |
 | Vehicular Transport | 6.75 | Hangar (23 tons of vehicles), allows repairs/maintenance |
 
-### TL 9 Fighter
+### TL9 Fighter
 
 Using a 10-ton hull (0 Hull, 1 Structure), the Fighter is a short-range combat vessel primarily used in system defense and large scale naval engagements. It mounts maneuver drive sC and power plant sL, giving a performance of 6-G acceleration. Fuel tankage of 1.5 tons supports the power plant for one week. Adjacent to the bridge is a computer Model 1/fib. The ship is equipped with Standard sensors (-4). There is a one-man cockpit. The ship has one hardpoint and one ton allocated for fire control. Installed on the hardpoint is a fixed mount single turret armed with a pulse laser. This small craft has no cargo capacity. The hull is Streamlined, and no additional armor has been installed. This ship comes equipped with fuel scoops. This ship requires a crew of one: Pilot. The ship cannot carry any additional passengers. The ship costs MCr10.841 (including discounts and fees) and takes 28 weeks to build.
 
-### TL 9 Launch
+### TL9 Launch
 
 Using a 20-ton hull (0 Hull, 1 Structure), the Launch is designed to provide basic transportation needs, and is sometimes used as a lifeboat in the event of emergencies in deep space. It mounts maneuver drive sA and power plant sA, giving a performance of 1-G acceleration. Fuel tankage of 0.4 tons supports the power plant for one week. Adjacent to the bridge is a computer Model 1. The ship is equipped with Standard sensors (-4). There is a two-man control cabin. The ship has one hardpoint and one ton allocated for fire control. This small craft does not come with weapons pre-installed. Cargo capacity is 10.9 tons. The hull is Standard, and no additional armor has been installed. There are no special features on this ship. This ship requires a crew of one: Pilot. The ship cannot carry any additional passengers. The ship costs MCr4.797 (including discounts and fees) and takes 29 weeks to build.
 
-### TL 9 Pinnace
+### TL9 Pinnace
 
 Using a 40-ton hull (0 Hull, 1 Structure), the Pinnace primarily serves as cargo transport on an interplanetary scale. It mounts maneuver drive sK and power plant sL, giving a performance of 5-G acceleration. Fuel tankage of 1.5 tons supports the power plant for one week. Adjacent to the bridge is a computer Model 1. The ship is equipped with Standard sensors (-4). There is a one-man control cabin. The ship has one hardpoint and one ton allocated for fire control. This small craft does not come with weapons pre-installed. Cargo capacity is 25 tons. The hull is Standard, and no additional armor has been installed. There are no special features on this ship. This ship requires a crew of one: Pilot. The ship cannot carry any additional passengers. The ship costs MCr18.567 (including discounts and fees) and takes 31 weeks to build.
 
-### TL 9 Ship's Boat
+### TL9 Ship's Boat
 
 Using a 30-ton hull (0 Hull, 1 Structure), the Ship's Boat is a general-purpose small craft designed to cover a range of tasks. It mounts maneuver drive sJ and power plant sJ, giving a performance of 6-G acceleration. Fuel tankage of 1.2 tons supports the power plant for one week. Adjacent to the bridge is a computer Model 1. The ship is equipped with Standard sensors (-4). There is a one-man control cabin. The ship has one hardpoint and one ton allocated for fire control. This small craft does not come with weapons pre-installed. Cargo capacity is 16.7 tons. The hull is Standard, and no additional armor has been installed. There are no special features on this ship. This ship requires a crew of one: Pilot. The ship cannot carry any additional passengers. The ship costs MCr16.677 (including discounts and fees) and takes 30 weeks to build.
 
-### TL 9 Shuttle
+### TL9 Shuttle
 
 Using a 90-ton hull (1 Hull, 1 Structure), the Shuttle provides significantly more cargo transport capacity than the less expensive pinnace, at the cost of slower performance. It mounts maneuver drive sN and power plant sN, giving a performance of 3-G acceleration. Fuel tankage of 1.9 tons supports the power plant for one week. Adjacent to the bridge is a computer Model 1. The ship is equipped with Standard sensors (-4). There is a two-man control cabin. The ship has one hardpoint and one ton allocated for fire control. This small craft does not come with weapons pre-installed. Cargo capacity is 67.4 tons. The hull is Standard, and no additional armor has been installed. There are no special features on this ship. This ship requires a crew of two: Two pilots. The ship can carry one additional passenger in the control cabin. The ship costs MCr25.587 (including discounts and fees) and takes 35 weeks to build.
