@@ -16,18 +16,9 @@ class World {
 
 function* worldGenerator() {
     /** Iterator that returns a World object with each next() until it exhausts its list of world names. */
-    // Names from http://www.nameexoworlds.iau.org/final-results, plus a few extras
-    let names = [
-        "Arber", "Tassili", "Madriu", "Naqaya", "Bocaprins", "Yanyan", "Sissi", "Ganja", "Tondra", "Eburonia", "Drukyul", "Yvaga", "Naron", "Guarani", "Mastika", "Bendida",
-        "Nakanbe", "Awasis", "Caleuche", "Wangshu", "Sazum", "Melquiades", "Pipitea", "Ditso", "Veles", "Finlay", "Onasilos", "Makropulos", "Surt", "Boinayel", "Eyeke",
-        "Cayahuanca", "Hamarik", "Abol", "Hiisi", "Belisama", "Mintome", "Neri", "Toge", "Iolaus", "Koyopa", "Independance", "Ixbalanque", "Victoriapeak", "Magor", "Fold",
-        "Santamasa", "Noifasui", "Kavian", "Babylonia", "Bran", "Alef", "Lete", "Asye", "Chura", "Wadirum", "Buru", "Staburags", "Beirut", "Umbaassa", "Vytis", "Peitruss",
-        "Trimobe", "Baiduri", "Ggantija", "Cuptor", "Xolotl", "Bambaruush", "Isli", "Hairu", "Bagan", "Laligurans", "Nachtwacht", "Kereru", "Xolotlan", "Equiano", "Albmi",
-        "Perwana", "Jebus", "Pollera", "Tumearandu", "Sumajmajta", "Haik", "Leklsullun", "Pirx", "Viriato", "Aumatex", "Negoiu", "Teberda", "Dopere", "Vlasina", "Viculus",
-        "Kralomoc", "Iztok", "Krotoa", "Halla", "Riosar", "Samagiya", "Isagel", "Eiger", "Ugarit", "Tanzanite", "Maeping", "Agouto", "Ramajay", "Khomsa", "Gokturk", "Tryzub",
-        "Barajeel", "Cruinlagh", "Mulchatna", "Ibirapita", "Madalitso", "Erehwemos", "Lacipyt", "Victoria", "Albert", "Diavlo", "Grizel", "Indeep", "Pynchan", "Ranther",
-        "Sainte Foy", "Sharmun", "Taldor", "Vendetierre"
-    ];
+    // Names from http://www.nameexoworlds.iau.org/, plus a few extras
+    let names = ["Arber", "Tassili", "Madriu", "Naqaya", "Bocaprins", "Yanyan", "Sissi", "Ganja", "Tondra", "Eburonia", "Drukyul", "Yvaga", "Naron", "Guarani", "Mastika", "Bendida", "Nakanbe", "Awasis", "Caleuche", "Wangshu", "Sazum", "Melquiades", "Pipitea", "Ditso", "Veles", "Finlay", "Onasilos", "Makropulos", "Surt", "Boinayel", "Eyeke", "Cayahuanca", "Hamarik", "Abol", "Hiisi", "Belisama", "Mintome", "Neri", "Toge", "Iolaus", "Koyopa", "Independance", "Ixbalanque", "Victoriapeak", "Magor", "Fold", "Santamasa", "Noifasui", "Kavian", "Babylonia", "Bran", "Alef", "Lete", "Asye", "Chura", "Wadirum", "Buru", "Staburags", "Beirut", "Umbaassa", "Vytis", "Peitruss", "Trimobe", "Baiduri", "Ggantija", "Cuptor", "Xolotl", "Bambaruush", "Isli", "Hairu", "Bagan", "Laligurans", "Nachtwacht", "Kereru", "Xolotlan", "Equiano", "Albmi", "Perwana", "Jebus", "Pollera", "Tumearandu", "Sumajmajta", "Haik", "Leklsullun", "Pirx", "Viriato", "Aumatex", "Negoiu", "Teberda", "Dopere", "Vlasina", "Viculus", "Kralomoc", "Iztok", "Krotoa", "Halla", "Riosar", "Samagiya", "Isagel", "Eiger", "Ugarit", "Tanzanite", "Maeping", "Agouto", "Ramajay", "Khomsa", "Gokturk", "Tryzub", "Barajeel", "Cruinlagh", "Mulchatna", "Ibirapita", "Madalitso",
+        "Erehwemos", "Lacipyt", "Victoria", "Albert", "Diavlo", "Grizel", "Indeep", "Pynchan", "Ranther", "Sainte Foy", "Sharmun", "Taldor", "Vendetierre"];
     while (names.length > 0) {
         let name = names.splice(Math.floor(Math.random() * names.length), 1).toString(); // Take one and remove it from the list
         let w = generateWorld(name, true);
