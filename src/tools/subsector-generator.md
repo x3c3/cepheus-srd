@@ -5,10 +5,14 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 <div>
     <center>
         Sector type:
-        <input type="radio" name="sectorType" value="4" checked onclick="init()">Standard
-        <input type="radio" name="sectorType" value="6" onclick="init()">Rift
-        <input type="radio" name="sectorType" value="5" onclick="init()">Sparse
-        <input type="radio" name="sectorType" value="3" onclick="init()">Dense
+        <input type="radio" id="sectorStandard" name="sectorType" value="4" checked onclick="init()">
+        <label for="sectorStandard">Standard</label>
+        <input type="radio" id="sectorRift" name="sectorType" value="6" onclick="init()">
+        <label for="sectorRift">Rift</label>
+        <input type="radio" id="sectorSparse" name="sectorType" value="5" onclick="init()">
+        <label for="sectorSparse">Sparse</label>
+        <input type="radio" id="sectorDense" name="sectorType" value="3" onclick="init()">
+        <label for="sectorDense">Dense</label>
     </center>
 </div>
 
