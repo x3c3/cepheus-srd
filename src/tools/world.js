@@ -222,9 +222,12 @@ function generateBases(uwp) {
         case 'C':
             scoutBase = roll() - 1 >= 7 ? true : false;
             break;
+        case 'D':
+            scoutBase = roll() >= 7 ? true : false;
+            break;
     }
     if (!navalBase && starport != 'A')
-        pirateBase = roll() == 12 ? true : false;
+        pirateBase = roll() >= 12 ? true : false;
     if (navalBase && scoutBase)
         bases = 'A';
     else if (scoutBase && pirateBase)
