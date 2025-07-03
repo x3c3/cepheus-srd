@@ -136,6 +136,20 @@ function generateUwp() {
             ++technologyLevel;
             break;
     }
+    switch (atmosphere) {
+        case 0:
+        case 1:
+        case 2:
+        case 3:
+        case 10:
+        case 11:
+        case 12:
+        case 13:
+        case 14:
+        case 15:
+            ++technologyLevel;
+            break;
+    }
     switch (hydrographics) {
         case 0:
         case 9:
@@ -185,7 +199,7 @@ function generateUwp() {
         technologyLevel = Math.max(7, technologyLevel);
     if ((atmosphere == 13 || atmosphere == 14) && hydrographics == 10)
         technologyLevel = Math.max(7, technologyLevel);
-    technologyLevel = Math.max(technologyLevel, 0);
+    technologyLevel = Math.max(0, technologyLevel);
 
     return `${starport}${pseudoHex(size)}${pseudoHex(atmosphere)}${pseudoHex(hydrographics)}${pseudoHex(population)}${pseudoHex(government)}${pseudoHex(lawLevel)}-${pseudoHex(technologyLevel)}`;
 }
