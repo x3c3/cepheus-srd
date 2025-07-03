@@ -62,10 +62,10 @@ At the start of an engagement, all crew must be assigned to a position on board 
 
 The ship's computer can cover several positions if it is running the appropriate software:
 
-*   Fire Control programs can either act as **gunners** or aid existing gunners.
-*   A ship equipped with repair drones and Auto-Repair software acts as **damage control**.
-*   A ship running an Intellect program and Expert Pilot can be the **pilot**.
-*   A ship equipped with repair drones and running an Intellect program and Expert Engineer can be a **drive engineer**.
+-   Fire Control programs can either act as **gunners** or aid existing gunners.
+-   A ship equipped with repair drones and Auto-Repair software acts as **damage control**.
+-   A ship running an Intellect program and Expert Pilot can be the **pilot**.
+-   A ship equipped with repair drones and running an Intellect program and Expert Engineer can be a **drive engineer**.
 
 ## Initiative
 
@@ -248,9 +248,9 @@ A character may make a skill check or do something else as a significant action 
 
 As in [Personal Combat](personal-combat.html), reactions are actions taken immediately in response to the action of another. A ship may react to incoming attacks. The following situations allow reactions:
 
-*   Targeted by a beam attack
-*   Incoming missile
-*   Attempted boarding
+-   Targeted by a beam attack
+-   Incoming missile
+-   Attempted boarding
 
 The ship's Initiative determines how many times it may react in a round.
 
@@ -421,82 +421,82 @@ Reduce the ship's armor by one. If the ship's armor is already 0, then this coun
 
 A random turret is hit.
 
-*   **First Hit:** The turret's tracking mechanism is damaged. It can still be used, but all attacks suffer a –2 DM.
-*   **Second Hit:** The turret and all weapons in it are disabled.
-*   **Third Hit:** The turret and all weapons in it are destroyed.
-*   **Subsequent Hits:** Count as [Hull](#hull) hits.
+-   **First Hit:** The turret's tracking mechanism is damaged. It can still be used, but all attacks suffer a –2 DM.
+-   **Second Hit:** The turret and all weapons in it are disabled.
+-   **Third Hit:** The turret and all weapons in it are destroyed.
+-   **Subsequent Hits:** Count as [Hull](#hull) hits.
 
 ### Bay
 
 A random bay is hit.
 
-*   **First Hit:** The bay's targeting mechanism is damaged. It can still be used, but all attacks suffer a –2 DM.
-*   **Second Hit:** The bay weapon is disabled.
-*   **Third Hit:** The bay weapon is destroyed.
-*   **Subsequent Hits:** Count as [Structure](#structure) hits.
+-   **First Hit:** The bay's targeting mechanism is damaged. It can still be used, but all attacks suffer a –2 DM.
+-   **Second Hit:** The bay weapon is disabled.
+-   **Third Hit:** The bay weapon is destroyed.
+-   **Subsequent Hits:** Count as [Structure](#structure) hits.
 
 ### J-Drive
 
 The Jump drive is hit.
 
-*   **First Hit:** All attempts at Jump suffer a –2 DM to Engineering checks.
-*   **Second Hit:** The jump drive is disabled.
-*   **Third Hit:** The jump drive is destroyed.
-*   **Subsequent Hits:** Count as [Structure](#structure) hits.
+-   **First Hit:** All attempts at Jump suffer a –2 DM to Engineering checks.
+-   **Second Hit:** The jump drive is disabled.
+-   **Third Hit:** The jump drive is destroyed.
+-   **Subsequent Hits:** Count as [Structure](#structure) hits.
 
 ### M-Drive
 
 The maneuver drive is hit.
 
-*   **First Hit:** Reduce the ship's thrust by one.
-*   **Second Hit:** Reduce the ship's thrust by 50%.
-*   **Third Hit:** The drive is disabled.
-*   **Subsequent Hits:** Count as [Hull](#hull) hits.
+-   **First Hit:** Reduce the ship's thrust by one.
+-   **Second Hit:** Reduce the ship's thrust by 50%.
+-   **Third Hit:** The drive is disabled.
+-   **Subsequent Hits:** Count as [Hull](#hull) hits.
 
 ### Power Plant
 
 The power plant is hit.
 
-*   **First Hit:** Damaged.
-*   **Second Hit:** The crew suffers a Crew Hit, rolling on the Radiation Damage column.
-*   **Third Hit:** The Power Plant is destroyed and the ship is disabled.
-*   **Subsequent Hits:** Count as [Structure](#structure) hits.
+-   **First Hit:** Damaged.
+-   **Second Hit:** The crew suffers a Crew Hit, rolling on the Radiation Damage column.
+-   **Third Hit:** The Power Plant is destroyed and the ship is disabled.
+-   **Subsequent Hits:** Count as [Structure](#structure) hits.
 
 ### Sensors
 
 The sensors are hit.
 
-*   **First Hit:** –2 DM to all Comms checks to use sensors.
-*   **Second Hit:** Sensors are disabled preventing the ship from making Comms checks for using sensors and on making attacks on targets beyond Adjacent range.
-*   **Third Hit:** Sensors are destroyed.
-*   **Subsequent Hits:** Count as [Hull](#hull) hits.
+-   **First Hit:** –2 DM to all Comms checks to use sensors.
+-   **Second Hit:** Sensors are disabled preventing the ship from making Comms checks for using sensors and on making attacks on targets beyond Adjacent range.
+-   **Third Hit:** Sensors are destroyed.
+-   **Subsequent Hits:** Count as [Hull](#hull) hits.
 
 ### Bridge
 
 The bridge is hit.
 
-*   **First Hit:** The crew suffers a Crew Hit, rolling on the Normal Damage column.
-*   **Second Hit:** The bridge is disabled. Until the bridge is repaired, the ship cannot take any Pilot or Sensor actions, it cannot jump, and any attacks suffer a –2 DM.
-*   **Third Hit:** The bridge is destroyed.
-*   **Subsequent Hits:** Count as [Structure](#structure) hits.
+-   **First Hit:** The crew suffers a Crew Hit, rolling on the Normal Damage column.
+-   **Second Hit:** The bridge is disabled. Until the bridge is repaired, the ship cannot take any Pilot or Sensor actions, it cannot jump, and any attacks suffer a –2 DM.
+-   **Third Hit:** The bridge is destroyed.
+-   **Subsequent Hits:** Count as [Structure](#structure) hits.
 
 ### Fuel
 
 The fuel is hit.
 
-*   **First Hit:** Causes a minor fuel leak of 1D6 tons per hour.
-*   **Second Hit:** Destroys 1D6x10% of stored fuel.
-*   **Third Hit:** Destroys fuel tank.
-*   **Subsequent Hits:** Count as [Structure](#structure) hits.
+-   **First Hit:** Causes a minor fuel leak of 1D6 tons per hour.
+-   **Second Hit:** Destroys 1D6x10% of stored fuel.
+-   **Third Hit:** Destroys fuel tank.
+-   **Subsequent Hits:** Count as [Structure](#structure) hits.
 
 ### Hold
 
 The crago hold is hit.
 
-*   **First Hit:** Destroys 1D6x10% of stored cargo.
-*   **Second Hit:** Destroys 1D6x10% of stored cargo.
-*   **Third Hit:** Destroys cargo hold and everything in it.
-*   **Subsequent Hits:** Count as [Structure](#structure) hits.
+-   **First Hit:** Destroys 1D6x10% of stored cargo.
+-   **Second Hit:** Destroys 1D6x10% of stored cargo.
+-   **Third Hit:** Destroys cargo hold and everything in it.
+-   **Subsequent Hits:** Count as [Structure](#structure) hits.
 
 ### Crew
 

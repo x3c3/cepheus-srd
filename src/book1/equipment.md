@@ -262,54 +262,54 @@ Robots and drones operate in combat like characters but take damage as if they w
 
 **Cargo Robot (TL 11):** These simple, heavy-duty robots are found in starport docks and on board cargo ships. Cargo drones can be constructed as low as Technology Level 9 but their utility is extremely limited until the invention of Intellect programs.
 
-*   Strength 30 (+8), Dexterity 9 (+1), Hull 2, Structure 2
-*   Intelligence 3 (–1), Education 5 (–1), Social Standing 0 (–3)
-*   **Traits:** Armor 8, Huge, Specialized Model 1 computer (running Intellect/1 and Expert (appropriate skill)/1)
-*   **Weapons:** Crushing Strength (Natural Weapons, 3D6 damage)
-*   **Price:** Cr75,000
+-   Strength 30 (+8), Dexterity 9 (+1), Hull 2, Structure 2
+-   Intelligence 3 (–1), Education 5 (–1), Social Standing 0 (–3)
+-   **Traits:** Armor 8, Huge, Specialized Model 1 computer (running Intellect/1 and Expert (appropriate skill)/1)
+-   **Weapons:** Crushing Strength (Natural Weapons, 3D6 damage)
+-   **Price:** Cr75,000
 
 **Repair Robot (TL 11):** Shipboard repair robots are small crab-shaped machines that carry a variety of welding and cutting tools. Specialized repair robots may run Expert Engineering rather than Expert Mechanics.
 
-*   Strength 6 (+0), Dexterity 7 (+0), Hull 1, Structure 1
-*   Intelligence 5 (–1), Education 6 (+0), Social Standing 0 (–3)
-*   **Traits:** Integral System (mechanical toolkit), Specialized Model 1 computer (running Intellect/1 and Expert Mechanics/2)
-*   **Weapons:** Tools (Natural Weapons, 1D6 damage)
-*   **Price:** Cr10,000
+-   Strength 6 (+0), Dexterity 7 (+0), Hull 1, Structure 1
+-   Intelligence 5 (–1), Education 6 (+0), Social Standing 0 (–3)
+-   **Traits:** Integral System (mechanical toolkit), Specialized Model 1 computer (running Intellect/1 and Expert Mechanics/2)
+-   **Weapons:** Tools (Natural Weapons, 1D6 damage)
+-   **Price:** Cr10,000
 
 **Personal Drone (TL 11):** This is a small floating globe about thirty centimeters in diameter. It is equipped with holographic projectors which can display the image of a person, allowing a character to have a virtual presence over a great distance.
 
-*   Strength 2 (–2), Dexterity 7 (+0), Hull 1, Structure 1
-*   **Traits:** Tiny, Integral System (comm, audio/visual), Integral System (grav floater), Integral System (TL 11 holographic projector)
-*   **Price:** Cr2,000
+-   Strength 2 (–2), Dexterity 7 (+0), Hull 1, Structure 1
+-   **Traits:** Tiny, Integral System (comm, audio/visual), Integral System (grav floater), Integral System (TL 11 holographic projector)
+-   **Price:** Cr2,000
 
 **Probe Drone (TL 11):** A probe drone is a hardened version of a personal remote, armored and carrying more sensor packages. They have an operating range of five hundred kilometers, and can fly at a speed of 300 kph.
 
-*   Strength 3 (–1), Dexterity 7 (+0), Hull 3, Structure 3
-*   **Traits:** Armor 5, Integral System (comm, audio/visual), Integral System (grav belt), Integral System (TL 11 holographic projector), Integral System (every sensor available at TL 11 and below)
-*   **Price:** Cr15,000
+-   Strength 3 (–1), Dexterity 7 (+0), Hull 3, Structure 3
+-   **Traits:** Armor 5, Integral System (comm, audio/visual), Integral System (grav belt), Integral System (TL 11 holographic projector), Integral System (every sensor available at TL 11 and below)
+-   **Price:** Cr15,000
 
 **Autodoc (TL 12):** An autodoc is a specialized, immobile medical robot, which is often installed inside vehicles or spacecraft.
 
-*   Strength 6 (+0), Dexterity 15 (+3), Hull 1, Structure 1
-*   Intelligence 9 (+1), Education 12 (+2), Social Standing 0 (–3)
-*   **Traits:** Integral System (TL 12 medikit), Specialized Model 1 computer (running Intellect/1 and Medicine/2)
-*   **Weapons:** Surgical Tools (Slashing Weapons, 1D6 damage)
-*   **Price:** Cr40,000
+-   Strength 6 (+0), Dexterity 15 (+3), Hull 1, Structure 1
+-   Intelligence 9 (+1), Education 12 (+2), Social Standing 0 (–3)
+-   **Traits:** Integral System (TL 12 medikit), Specialized Model 1 computer (running Intellect/1 and Medicine/2)
+-   **Weapons:** Surgical Tools (Slashing Weapons, 1D6 damage)
+-   **Price:** Cr40,000
 
 **Combat Drone (TL 12):** Combat drones are little more than flying guns mated to a grav floater and a computer system. The drones must be piloted with the [Comms](skills.html#comms) skill but attacks are made using the appropriate weapon skill. Combat drones loaded with Intellect and combat Expert programs (making them autonomous combat robots) are illegal on many worlds.
 
-*   Strength 12 (+2), Dexterity 10 (+1), Hull 4, Structure 4
-*   **Traits:** Armor 9, Integral System (grav floater), Integral Weapon (any)
-*   **Weapons:** Any gun
-*   **Price:** Cr90,000, plus the cost of the weapon (the Integral Weapon upgrade is included)
+-   Strength 12 (+2), Dexterity 10 (+1), Hull 4, Structure 4
+-   **Traits:** Armor 9, Integral System (grav floater), Integral Weapon (any)
+-   **Weapons:** Any gun
+-   **Price:** Cr90,000, plus the cost of the weapon (the Integral Weapon upgrade is included)
 
 **Servitor (TL 13):** Servitor robots are expensive humanoid robots who are programmed to act as butlers or servants to the nobility. Some servitor owners reprogram their robots with Expert Carousing or Expert Gambling to better suit their lifestyle.
 
-*   Strength 7 (+0), Dexterity 9 (+1), Hull 2, Structure 2
-*   Intelligence 9 (+1), Education 12 (+2), Social Standing 7 (+0)
-*   **Traits:** Computer/3 (running Intellect/1 and Expert Steward/2 – servitors also have Expert Liaison/2 and Translator/1 available should they be necessary)
-*   **Weapons:** Robot Punch (Natural Weapons, 1D6 damage)
-*   **Price:** Cr120,000
+-   Strength 7 (+0), Dexterity 9 (+1), Hull 2, Structure 2
+-   Intelligence 9 (+1), Education 12 (+2), Social Standing 7 (+0)
+-   **Traits:** Computer/3 (running Intellect/1 and Expert Steward/2 – servitors also have Expert Liaison/2 and Translator/1 available should they be necessary)
+-   **Weapons:** Robot Punch (Natural Weapons, 1D6 damage)
+-   **Price:** Cr120,000
 
 ### Robot and Drone Options
 

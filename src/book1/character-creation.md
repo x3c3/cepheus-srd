@@ -20,12 +20,12 @@ This chapter provides complete instructions for the generation of twenty-four di
     3.  If you qualify for this career, go to step 4.
     4.  If you do not qualify for that career, you can enter the Drifter career or [submit to the draft](#draft). You may only enter the draft once.
 4.  [Basic training](#basic-training)
-    *   For your first term in your first career, you get every skill in the service skills table at level 0.
-    *   For your first term in subsequent careers, you may pick any one skill from the service skills table at level 0.
+    -   For your first term in your first career, you get every skill in the service skills table at level 0.
+    -   For your first term in subsequent careers, you may pick any one skill from the service skills table at level 0.
 5.  [Survival](#survival)
-    *   Roll for survival, as indicated in the description of the career.
-    *   If you succeed, go to step 8.
-    *   If you did not succeed, you have died. Alternately, events have forced you from this career. Roll on the [mishap table](#mishap-table) and go to step 10 (you do not receive a benefit roll for this term.)
+    -   Roll for survival, as indicated in the description of the career.
+    -   If you succeed, go to step 8.
+    -   If you did not succeed, you have died. Alternately, events have forced you from this career. Roll on the [mishap table](#mishap-table) and go to step 10 (you do not receive a benefit roll for this term.)
 6.  [Commission and Advancement](#commission-and-advancement)
     1.  You begin as a Rank 0 character.
     2.  If your career offers a Commission check and you are Rank 0, you can choose to roll for Commission. If you are successful, you are now Rank 1 in your chosen career. Choose one of the skills and training tables and roll on it for an extra skill. Take any bonus skills from the ranks table for this career.
@@ -42,11 +42,11 @@ This chapter provides complete instructions for the generation of twenty-four di
     3.  If you wish to continue in this career, go to step 5.
     4.  If you wish to leave this career, go to step 10.
 1.  [Benefits](#mustering-out-benefits)
-    *   If you are leaving the career, roll for benefits. A character gets one Benefit Roll for every full term served in that career. You also get extra benefit rolls if you reached a higher rank.
+    -   If you are leaving the career, roll for benefits. A character gets one Benefit Roll for every full term served in that career. You also get extra benefit rolls if you reached a higher rank.
 1.  [Next Career](#careers)
-    *   If you're leaving your current career and your total number of terms in character creation is less than seven, you may go to step 3 to choose a new career or to step 12 if you wish to finish your character.
+    -   If you're leaving your current career and your total number of terms in character creation is less than seven, you may go to step 3 to choose a new career or to step 12 if you wish to finish your character.
 1.  [Buy starting equipment](equipment.html)
-    *   Purchase your starting equipment and, if you can afford it, possibly a starship.
+    -   Purchase your starting equipment and, if you can afford it, possibly a starship.
 
 ## Characteristics
 
@@ -119,10 +119,10 @@ Once you have assigned your characteristic scores, you can determine your charac
 
 Over the course of play, your character's characteristic scores may change for the following reasons:
 
-*   Aging can permanently lower physical characteristic scores.
-*   Physical damage, such as from combat, falling, disease or poison, temporarily lowers physical characteristic scores.
-*   Mental trauma, such as head injuries and psionic attack, temporarily lowers mental characteristic scores.
-*   Certain medications, psionic enhancements, and other scenarios can temporarily or permanently enhance specific characteristic scores.
+-   Aging can permanently lower physical characteristic scores.
+-   Physical damage, such as from combat, falling, disease or poison, temporarily lowers physical characteristic scores.
+-   Mental trauma, such as head injuries and psionic attack, temporarily lowers mental characteristic scores.
+-   Certain medications, psionic enhancements, and other scenarios can temporarily or permanently enhance specific characteristic scores.
 
 Whenever a characteristic score changes, you will need to determine the new characteristic modifier.
 
@@ -219,21 +219,21 @@ Growing up on your homeworld gave you skills that depend on the planet's nature.
 
 A formal education gives you a basic level of competence in various sciences and academic disciplines. Any character may choose from the following list:
 
-*   [Admin-0](skills.html#admin)
-*   [Advocate-0](skills.html#advocate)
-*   [Animals-0](skills.html#animals)
-*   [Carousing-0](skills.html#carousing)
-*   [Comms-0](skills.html#comms)
-*   [Computer-0](skills.html#computer)
-*   [Electronics-0](skills.html#electronics)
-*   [Engineering-0](skills.html#engineering)
-*   [Life Sciences-0](skills.html#life-sciences)
-*   [Linguistics-0](skills.html#linguistics)
-*   [Mechanics-0](skills.html#mechanics)
-*   [Medicine-0](skills.html#medicine)
-*   [Physical Sciences-0](skills.html#physical-sciences)
-*   [Social Sciences-0](skills.html#social-sciences)
-*   [Space Sciences-0](skills.html#space-sciences)
+-   [Admin-0](skills.html#admin)
+-   [Advocate-0](skills.html#advocate)
+-   [Animals-0](skills.html#animals)
+-   [Carousing-0](skills.html#carousing)
+-   [Comms-0](skills.html#comms)
+-   [Computer-0](skills.html#computer)
+-   [Electronics-0](skills.html#electronics)
+-   [Engineering-0](skills.html#engineering)
+-   [Life Sciences-0](skills.html#life-sciences)
+-   [Linguistics-0](skills.html#linguistics)
+-   [Mechanics-0](skills.html#mechanics)
+-   [Medicine-0](skills.html#medicine)
+-   [Physical Sciences-0](skills.html#physical-sciences)
+-   [Social Sciences-0](skills.html#social-sciences)
+-   [Space Sciences-0](skills.html#space-sciences)
 
 ## Careers
 
@@ -439,19 +439,19 @@ Up to 3 benefit rolls can be taken on the Cash table. All others must be taken i
 
 Material benefits may be characteristics alterations, passages or ship shares. Membership in the Explorers' Society is possible, and subsequent receipts of weapon benefits may be taken as skill levels instead. Note that characters of rank O5 or O6 gain +1 on Material Benefit rolls.
 
-*   **Courier Vessel:** The character considered to be on detached duty with the scout exploration service, and has been granted the use of a surplus 100-ton TL9 Courier starship on a reserve basis. The scout exploration service also provides free maintenance and fuel at any scout base. All other ship expenses are the responsibility of the character. While the character is at liberty to use the vessel as they see fit, the vessel still belongs to the scout exploration service, and thus cannot be abandoned or sold without consequences. In exchange for the use of the ship, the character and the ship are both considered to be available to return to active duty at a moment's notice, should the scout exploration service have need.
-*   **Explorers' Society:** The character is a member of the prestigious Explorers' Society. The Explorers' Society will provide members with a free high passage ticket every two months, plus access to the Society's information network and Society-run resorts. This benefit can only be received once; any further receipt of this has no additional benefit. After character creation, characters may purchase membership into the Explorers' Society. A successful application for lifetime membership requires a Routine (-2) Admin check modified by the character's Social Standing, and if accepted, a payment of Cr1,000,000. Failure on the application process indicates the character has been black listed. If a character has been black listed, the Explorers' Society will no longer accept membership applications from them. Membership is non-refundable and non-transferrable.
-*   **Passage:** The character has a single ticket of the type named (low, mid, high) for travel on a starship. It is good for one Jump to any destination.
-*   **Research Vessel:** A scientific foundation, an interstellar corporation or some other equally affluent patron has granted the character the use of a 200-ton TL9 Research Vessel. All ship expenses, other than annual maintenance, are the responsibility of the character. This ship still belongs to the patron, and therefore cannot be sold or abandoned without consequences.
-*   **Ship Shares:** Ship shares may be received as benefits. Each ship share is worth approximately Cr2,000,000 toward the purchase of a vessel. A starship can be purchased for one-fifth of its base value with a 40-year loan attached to it. For every one-fifth of its base value that is paid to the bank in either ship shares or cash, the period of the loan is reduced by ten years. Ship shares may not be redeemed for cash.
-*   **Weapon:** The character leaves the service with an appropriate weapon (gun or blade). Once a weapon is taken as a benefit, additional receipts of the weapon may be taken as skill in that weapon instead. An individual is always free to take additional physical examples of the weapons instead of skill levels, if so desired.
+-   **Courier Vessel:** The character considered to be on detached duty with the scout exploration service, and has been granted the use of a surplus 100-ton TL9 Courier starship on a reserve basis. The scout exploration service also provides free maintenance and fuel at any scout base. All other ship expenses are the responsibility of the character. While the character is at liberty to use the vessel as they see fit, the vessel still belongs to the scout exploration service, and thus cannot be abandoned or sold without consequences. In exchange for the use of the ship, the character and the ship are both considered to be available to return to active duty at a moment's notice, should the scout exploration service have need.
+-   **Explorers' Society:** The character is a member of the prestigious Explorers' Society. The Explorers' Society will provide members with a free high passage ticket every two months, plus access to the Society's information network and Society-run resorts. This benefit can only be received once; any further receipt of this has no additional benefit. After character creation, characters may purchase membership into the Explorers' Society. A successful application for lifetime membership requires a Routine (-2) Admin check modified by the character's Social Standing, and if accepted, a payment of Cr1,000,000. Failure on the application process indicates the character has been black listed. If a character has been black listed, the Explorers' Society will no longer accept membership applications from them. Membership is non-refundable and non-transferrable.
+-   **Passage:** The character has a single ticket of the type named (low, mid, high) for travel on a starship. It is good for one Jump to any destination.
+-   **Research Vessel:** A scientific foundation, an interstellar corporation or some other equally affluent patron has granted the character the use of a 200-ton TL9 Research Vessel. All ship expenses, other than annual maintenance, are the responsibility of the character. This ship still belongs to the patron, and therefore cannot be sold or abandoned without consequences.
+-   **Ship Shares:** Ship shares may be received as benefits. Each ship share is worth approximately Cr2,000,000 toward the purchase of a vessel. A starship can be purchased for one-fifth of its base value with a 40-year loan attached to it. For every one-fifth of its base value that is paid to the bank in either ship shares or cash, the period of the loan is reduced by ten years. Ship shares may not be redeemed for cash.
+-   **Weapon:** The character leaves the service with an appropriate weapon (gun or blade). Once a weapon is taken as a benefit, additional receipts of the weapon may be taken as skill in that weapon instead. An individual is always free to take additional physical examples of the weapons instead of skill levels, if so desired.
 
 ## Career Tables
 
-*   Athlete-Bureaucrat
-*   Colonist-Marine
-*   Maritime Defense-Physician
-*   Pirate-Technician
+-   Athlete-Bureaucrat
+-   Colonist-Marine
+-   Maritime Defense-Physician
+-   Pirate-Technician
 
 | Career | Athlete | Aerospace Defense | Agent | Barbarian | Belter | Bureaucrat |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -771,37 +771,37 @@ Reptilians have Notable Strength (2D6+1), Notable Dexterity (2d+1) and Weak Endu
 
 Many of the races in this section possess unusual racial traits, which are described below.
 
-*   **Amphibious:** A member of this species is adapted to life underwater as well as on land. It can breathe underwater, or hold its breath for a long period (Endurancex10 minutes on average). Its Dexterity is halved on land.
-*   **Anti-Psionic:** Members of this species are innately anti-psionic. The character's Psionic Strength rating always equals zero, and they cannot be trained in psionics. In addition, the character cannot suffer the mental effects of psionics, including telepathy and psionic assault. A species cannot have this alien trait if they already have the Psionic alien trait.
-*   **Aquatic:** The alien is adapted to life underwater. It can breathe underwater, or hold its breath for a long period (Endurancex10 minutes on average). If amphibious, its Dexterity is halved on land. If the species is not amphibious, then it cannot operate out of water without mechanical aid or telepresence.
-*   **Armored:** The alien possess thick fur, scales, a bony exoskeleton or other natural protection that gives it one point of natural armor.
-*   **Atmospheric Requirements:** The species requires an unusual combination of gasses to breathe, and cannot survive in most atmospheres without artificial aid.
-*   **Bad First Impression:** Members of this species possess an almost universally unpleasant appearance or physical trait that invokes an instinctive reaction in races other than their own. Most races will automatically have an Unfriendly attitude towards these characters, although this is overcome after an individual has interacted with the character for a few minutes, based on the character's personality and the circumstances of their interaction.
-*   **Caste:** Members of this species have a genetic structure for social hierarchy. When dealing with races that use Social Standing or Charisma, all social attribute DMs, whether positive or negative, are halved.
-*   **Cold-Blooded:** Members of this species are sensitive to cold climates. If exposed to extreme cold without protective equipment, the character suffers a DM–2 to initiative. The character suffers 1D6 damage for every ten minutes of exposure.
-*   **Engineered:** The species has been altered by some external factor to adapt to changed circumstances or a different environment. Medical treatment of Engineered species by a facility of a lower Technology Level than that at which the species was created receives a negative DM equal to the difference.
-*   **Fast Metabolism:** Creatures with a fast metabolism require more food than most species, and their life support costs are doubled. In combat, fast-metabolism creatures gain a +2 initiative bonus. Fast-metabolism creatures halve their Endurance for the purposes of determining fatigue.
-*   **Feral:** Feral species are uncivilised, regardless of their technological knowledge. Feral species roll Education on 1d6 only.
-*   **Flyer:** This species can fly using wings. Characters of this species gain the Athletics skill at Level 0 and can travel at a speed noted in their description. Flying creatures that are aloft must spend one minor action every round on movement or stall and fall out of the air. Winged flight is tiring and can only be sustained for a number of hours equal to the creature's Endurance before requiring a like amount of rest.
-*   **Great Leaper:** Members of this species can jump great distances. As a significant action, a member of this species may make an Athletics skill check. If successful, it jumps four squares, plus a number of squares equal to the Effect of the skill check. In addition, members of this species are treated as having the Athletics skill at level 0.
-*   **Heat Endurance:** Members of this species do not suffer hourly damage from the effects of hot weather and exposure.
-*   **Heavy Gravity Adaptation:** Members of this species evolved on a world with a higher gravity and do not have to acclimatize to high-gravity environments.
-*   **Hive Mentality:** Members of this species are driven by a hive mentality, and often pursue actions that support the greater good of their current identified family group, even at the risk of their own personal safety. Characters must make an Intelligence check to avoid risking their own safety when doing so would help their family group. The difficulty of the Intelligence check varies based on the degree of perceived benefit to the family group (this is usually an Average task (DM+0), although circumstances can arise where the difficulty ranges from Routine (DM+2) to Difficult (DM–2).)
-*   **Large:** The species is considerably larger than the average for sophonts. Large creatures generally have a Strength and Endurance of 3d6 or even 4d6, and a Dexterity of 1d6. Life support requirements for Large creatures are doubled. Some Large creatures are described as Huge. Attacks against Huge creatures receive a +1 DM to hit.
-*   **Low Gravity Adaptation:** Members of this species evolved on a world with a lower gravity and do not have to acclimatize to low-gravity environments.
-*   **Low-Light Vision:** Members of this species can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. They retain the ability to distinguish color and detail under these conditions.
-*   **Natural Pilot:** Members of this species have an innate understanding of multi-dimensional space, and so receive a DM+2 to their Piloting and Navigation checks.
-*   **Natural Swimmer:** Members of this species are natural swimmers and gain a +2 DM on all skill checks related to swimming.
-*   **Natural Weapon:** The species has a natural weapon, such as claws, a strong bite or a poisonous stinger. Such weapons are usable at Personal range and deal +1 damage. The creature gains Natural Weapons at level 0.
-*   **Naturally Curious:** Members of this species are driven by a natural sense of curiosity, and are easily dragged into any adventure. They have to check out everything and always want to know what's behind a potential mystery. Characters must make an Intelligence check to avoid acting on their curious impulses. The difficulty of the Intelligence check varies based on the degree of perceived mystery (this is usually an Average task (DM+0), although circumstances can arise where the difficulty ranges from Routine (DM+2) to Difficult (DM–2).)
-*   **No Fine Manipulators:** The species has no fingers or other prehensile appendages, preventing them from easily picking things up, pushing small buttons, reaching into tight spaces, and so on.
-*   **Notable (Characteristic):** Some species are notably dexterous, intelligent, tough or strong. Characters from such races have a positive Dice Modifier when rolling for that characteristic (+2 unless otherwise specified), and their racial maximum for that characteristic is increased by the same amount.
-*   **Psionic:** All members of the species are Psionic, and may determine their Psionic Strength and talents at the start of character generation.
-*   **Small:** Small species generally have a Strength and Endurance of only 1D6, and a Dexterity of 3D6. The minimum size for a sophont is about half that of a human.
-*   **Slow Metabolism:** Creatures with a slow metabolism require less food than most species, and their life support costs are halved. In combat, slow-metabolism creatures suffer a –2 initiative penalty.
-*   **Uplifted:** This species was originally non-sentient, but has been raised to a higher intelligence by another species. Uplifted races generally become client species of their patron. Two common uplifted animals are apes and dolphins:
-    *   **_Uplifted apes_** have Notable Strength and Endurance (+2) but all other characteristics are Weak (–2). They have the Uplifted trait.
-    *   **_Uplifted dolphins_** have Notable Strength (+4) and Notable Endurance (+2) but Weak Intelligence, Education and Social Standing (–2). They have the Uplifted, Aquatic (fully aquatic, air-breathers) and No Fine Manipulators traits.
-*   **Water Dependent:** Although members of this species are amphibious, they can only survive out of the water for 1 hour per 2 points of Endurance (after that, refer to the drowning rules).
-*   **Weak (Characteristic):** The opposite of Notable (Characteristic), some species are weaker, less resilient or less well educated than others. Characters from such races have a negative Dice Modifier when rolling for that characteristic (–2 unless otherwise specified), and their racial maximum for that characteristic is decreased by the same amount.
+-   **Amphibious:** A member of this species is adapted to life underwater as well as on land. It can breathe underwater, or hold its breath for a long period (Endurancex10 minutes on average). Its Dexterity is halved on land.
+-   **Anti-Psionic:** Members of this species are innately anti-psionic. The character's Psionic Strength rating always equals zero, and they cannot be trained in psionics. In addition, the character cannot suffer the mental effects of psionics, including telepathy and psionic assault. A species cannot have this alien trait if they already have the Psionic alien trait.
+-   **Aquatic:** The alien is adapted to life underwater. It can breathe underwater, or hold its breath for a long period (Endurancex10 minutes on average). If amphibious, its Dexterity is halved on land. If the species is not amphibious, then it cannot operate out of water without mechanical aid or telepresence.
+-   **Armored:** The alien possess thick fur, scales, a bony exoskeleton or other natural protection that gives it one point of natural armor.
+-   **Atmospheric Requirements:** The species requires an unusual combination of gasses to breathe, and cannot survive in most atmospheres without artificial aid.
+-   **Bad First Impression:** Members of this species possess an almost universally unpleasant appearance or physical trait that invokes an instinctive reaction in races other than their own. Most races will automatically have an Unfriendly attitude towards these characters, although this is overcome after an individual has interacted with the character for a few minutes, based on the character's personality and the circumstances of their interaction.
+-   **Caste:** Members of this species have a genetic structure for social hierarchy. When dealing with races that use Social Standing or Charisma, all social attribute DMs, whether positive or negative, are halved.
+-   **Cold-Blooded:** Members of this species are sensitive to cold climates. If exposed to extreme cold without protective equipment, the character suffers a DM–2 to initiative. The character suffers 1D6 damage for every ten minutes of exposure.
+-   **Engineered:** The species has been altered by some external factor to adapt to changed circumstances or a different environment. Medical treatment of Engineered species by a facility of a lower Technology Level than that at which the species was created receives a negative DM equal to the difference.
+-   **Fast Metabolism:** Creatures with a fast metabolism require more food than most species, and their life support costs are doubled. In combat, fast-metabolism creatures gain a +2 initiative bonus. Fast-metabolism creatures halve their Endurance for the purposes of determining fatigue.
+-   **Feral:** Feral species are uncivilised, regardless of their technological knowledge. Feral species roll Education on 1d6 only.
+-   **Flyer:** This species can fly using wings. Characters of this species gain the Athletics skill at Level 0 and can travel at a speed noted in their description. Flying creatures that are aloft must spend one minor action every round on movement or stall and fall out of the air. Winged flight is tiring and can only be sustained for a number of hours equal to the creature's Endurance before requiring a like amount of rest.
+-   **Great Leaper:** Members of this species can jump great distances. As a significant action, a member of this species may make an Athletics skill check. If successful, it jumps four squares, plus a number of squares equal to the Effect of the skill check. In addition, members of this species are treated as having the Athletics skill at level 0.
+-   **Heat Endurance:** Members of this species do not suffer hourly damage from the effects of hot weather and exposure.
+-   **Heavy Gravity Adaptation:** Members of this species evolved on a world with a higher gravity and do not have to acclimatize to high-gravity environments.
+-   **Hive Mentality:** Members of this species are driven by a hive mentality, and often pursue actions that support the greater good of their current identified family group, even at the risk of their own personal safety. Characters must make an Intelligence check to avoid risking their own safety when doing so would help their family group. The difficulty of the Intelligence check varies based on the degree of perceived benefit to the family group (this is usually an Average task (DM+0), although circumstances can arise where the difficulty ranges from Routine (DM+2) to Difficult (DM–2).)
+-   **Large:** The species is considerably larger than the average for sophonts. Large creatures generally have a Strength and Endurance of 3d6 or even 4d6, and a Dexterity of 1d6. Life support requirements for Large creatures are doubled. Some Large creatures are described as Huge. Attacks against Huge creatures receive a +1 DM to hit.
+-   **Low Gravity Adaptation:** Members of this species evolved on a world with a lower gravity and do not have to acclimatize to low-gravity environments.
+-   **Low-Light Vision:** Members of this species can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. They retain the ability to distinguish color and detail under these conditions.
+-   **Natural Pilot:** Members of this species have an innate understanding of multi-dimensional space, and so receive a DM+2 to their Piloting and Navigation checks.
+-   **Natural Swimmer:** Members of this species are natural swimmers and gain a +2 DM on all skill checks related to swimming.
+-   **Natural Weapon:** The species has a natural weapon, such as claws, a strong bite or a poisonous stinger. Such weapons are usable at Personal range and deal +1 damage. The creature gains Natural Weapons at level 0.
+-   **Naturally Curious:** Members of this species are driven by a natural sense of curiosity, and are easily dragged into any adventure. They have to check out everything and always want to know what's behind a potential mystery. Characters must make an Intelligence check to avoid acting on their curious impulses. The difficulty of the Intelligence check varies based on the degree of perceived mystery (this is usually an Average task (DM+0), although circumstances can arise where the difficulty ranges from Routine (DM+2) to Difficult (DM–2).)
+-   **No Fine Manipulators:** The species has no fingers or other prehensile appendages, preventing them from easily picking things up, pushing small buttons, reaching into tight spaces, and so on.
+-   **Notable (Characteristic):** Some species are notably dexterous, intelligent, tough or strong. Characters from such races have a positive Dice Modifier when rolling for that characteristic (+2 unless otherwise specified), and their racial maximum for that characteristic is increased by the same amount.
+-   **Psionic:** All members of the species are Psionic, and may determine their Psionic Strength and talents at the start of character generation.
+-   **Small:** Small species generally have a Strength and Endurance of only 1D6, and a Dexterity of 3D6. The minimum size for a sophont is about half that of a human.
+-   **Slow Metabolism:** Creatures with a slow metabolism require less food than most species, and their life support costs are halved. In combat, slow-metabolism creatures suffer a –2 initiative penalty.
+-   **Uplifted:** This species was originally non-sentient, but has been raised to a higher intelligence by another species. Uplifted races generally become client species of their patron. Two common uplifted animals are apes and dolphins:
+    -   **_Uplifted apes_** have Notable Strength and Endurance (+2) but all other characteristics are Weak (–2). They have the Uplifted trait.
+    -   **_Uplifted dolphins_** have Notable Strength (+4) and Notable Endurance (+2) but Weak Intelligence, Education and Social Standing (–2). They have the Uplifted, Aquatic (fully aquatic, air-breathers) and No Fine Manipulators traits.
+-   **Water Dependent:** Although members of this species are amphibious, they can only survive out of the water for 1 hour per 2 points of Endurance (after that, refer to the drowning rules).
+-   **Weak (Characteristic):** The opposite of Notable (Characteristic), some species are weaker, less resilient or less well educated than others. Characters from such races have a negative Dice Modifier when rolling for that characteristic (–2 unless otherwise specified), and their racial maximum for that characteristic is decreased by the same amount.
 

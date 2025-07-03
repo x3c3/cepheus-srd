@@ -259,13 +259,13 @@ If a character is firing a weapon at a target that is at Personal range to anoth
 
 A character can attempt to wrestle or grab another person instead of hitting him. The attacker must move to Personal range and beat his target in an opposed [Natural Weapons](skills.html#natural-weapons) skill check. If he wins, he may do any one of the following:
 
-*   Continue the grapple with no other effects.
-*   Disarm his opponent. If he succeeds by 6+ he can take the weapon away; otherwise it ends up on the floor.
-*   Drag his opponent up to three meters.
-*   Escape the grapple and move away (as if with a normal movement action).
-*   Inflict damage equal to 2 + the Effect.
-*   Knock his opponent prone.
-*   Throw his opponent up to three meters for 1D6 damage.
+-   Continue the grapple with no other effects.
+-   Disarm his opponent. If he succeeds by 6+ he can take the weapon away; otherwise it ends up on the floor.
+-   Drag his opponent up to three meters.
+-   Escape the grapple and move away (as if with a normal movement action).
+-   Inflict damage equal to 2 + the Effect.
+-   Knock his opponent prone.
+-   Throw his opponent up to three meters for 1D6 damage.
 
 Throwing an opponent always ends the grapple. With any other option the winner can choose to end or continue the grapple as he sees fit. A character in a grapple cannot move nor do anything other than make opposed [Natural Weapons](skills.html#natural-weapons) skill checks. Each time an opposed check is made the winner can choose an option from the above list.
 
@@ -285,11 +285,11 @@ Automatic fire can be used for Suppression fire, but no target can be affected t
 
 There are some situations and instances that can make a target so unshakeable that they do not care about Suppression fire, and will not be harried by it. Some of those exceptions are found on the list below.
 
-*   Vehicles, or targets fully enclosed in vehicles
-*   Zealots
-*   Mechanical or android targets
-*   Targets wearing full Battle Dress
-*   Suicidal targets
+-   Vehicles, or targets fully enclosed in vehicles
+-   Zealots
+-   Mechanical or android targets
+-   Targets wearing full Battle Dress
+-   Suicidal targets
 
 ### Stance
 
@@ -372,9 +372,9 @@ Other than Psionic Strength, characters may also suffer damage to their Intellig
 
 Combat in and on vehicles is much the same as ordinary combat. The differences are as follows:
 
-*   Unlike people, who are mobile and maneuverable, careful track must be kept of which way a vehicle is facing. Vehicle-mounted weapons – and armed passengers, to a lesser extent – are restricted to certain fire arcs.
-*   Vehicles are considered to move on the driver's Initiative. The driver must spend a minor action every round to keep control of the vehicle under normal circumstances – a straight road or simple maneuvers – or a significant action to navigate obstacles, conduct evasion or pursuit, or dodge incoming fire.
-*   Attackers gain a +1 DM to hit most vehicles because of their size.
+-   Unlike people, who are mobile and maneuverable, careful track must be kept of which way a vehicle is facing. Vehicle-mounted weapons – and armed passengers, to a lesser extent – are restricted to certain fire arcs.
+-   Vehicles are considered to move on the driver's Initiative. The driver must spend a minor action every round to keep control of the vehicle under normal circumstances – a straight road or simple maneuvers – or a significant action to navigate obstacles, conduct evasion or pursuit, or dodge incoming fire.
+-   Attackers gain a +1 DM to hit most vehicles because of their size.
 
 ### Closed and Open Vehicles
 

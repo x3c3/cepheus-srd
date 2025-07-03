@@ -10,23 +10,15 @@ Skill checks use the core task resolution system for the Cepheus Engine to resol
 
 Task descriptions can be formally written in a specific format, as follows.
 
-_Task Description:_ Required Skill, Characteristic, Time Increment, Difficulty.
+> _Task Description:_ Required Skill, Characteristic, Time Increment, Difficulty.
 
-Task Description
+**Task Description:** Describes the action of the task itself. In print, this is often italicized to help it stand out.
 
-Describes the action of the task itself. In print, this is often italicized to help it stand out.
+**Required Skill:** The skill required for the task. Skill levels are added as a positive DM to the check. Unskilled characters suffer a -3 DM if they do not have this skill.
 
-Required Skill
+**Characteristic:** The characteristic modifier that is added to the check.
 
-The skill required for the task. Skill levels are added as a positive DM to the check. Unskilled characters suffer a -3 DM if they do not have this skill.
-
-Characteristic
-
-The characteristic modifier that is added to the check.
-
-Time Increment
-
-The time range required to perform the task.
+**Time Increment:** The time range required to perform the task.
 
 #### Informal Skill Check Descriptions
 

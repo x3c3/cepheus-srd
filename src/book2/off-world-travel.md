@@ -69,11 +69,11 @@ A Jump carries the vessel a number of parsecs equal to the Jump number. Jumps of
 
 Roll 2D6 and add the following DMs. If the result is 0 or less, the ship misjumps. If the result is 8+ the Jump is accurate. Any other result is an inaccurate Jump. If a Jump was made using a bad Jump Plot, the ship automatically misjumps.
 
-*   \+ the Effect of the divert power [Engineering](../book1/skills.html#engineering) check
-*   –1 per month that the Jump Plot is out of date (such as when using older Jump course tapes)
-*   –2 per Jump drive hit
-*   –2 for using Unrefined fuel
-*   –8 if still within the hundred-diameter limit at the time of Jump
+-   \+ the Effect of the divert power [Engineering](../book1/skills.html#engineering) check
+-   –1 per month that the Jump Plot is out of date (such as when using older Jump course tapes)
+-   –2 per Jump drive hit
+-   –2 for using Unrefined fuel
+-   –8 if still within the hundred-diameter limit at the time of Jump
 
 ### Jump Failures and Misjumps
 
@@ -143,19 +143,19 @@ If the crew is paying off debts on their spacecraft, then these debts must be pa
 
 All starships and space vessels need a crew of some kind. Small craft like shuttles normally just have a pilot (and usually a copilot). Larger ships, and especially those using Jump drive to travel between the stars, need a larger crew. At a minimum, a starship will need:
 
-* **Pilot:** A qualified Pilot to maneuver the ship. A Pilot makes Cr6,000 per month.
-* **Navigator:** Someone to create Jump Plots and navigate the ship. On small ships, this job is often doubled up with the Pilot's duties. A Navigator makes Cr5,000 per month.
-* **Engineer:** Someone to maintain the ship and operate the drives. Larger ships may need several engineers and technicians to back them up. A Chief Engineer makes Cr4,000 per month.
+- **Pilot:** A qualified Pilot to maneuver the ship. A Pilot makes Cr6,000 per month.
+- **Navigator:** Someone to create Jump Plots and navigate the ship. On small ships, this job is often doubled up with the Pilot's duties. A Navigator makes Cr5,000 per month.
+- **Engineer:** Someone to maintain the ship and operate the drives. Larger ships may need several engineers and technicians to back them up. A Chief Engineer makes Cr4,000 per month.
 
 Other crew positions exist:
 
-* **Master:** A vessel's Master, or Captain, is responsible for the vessel and the safety of everyone aboard. A Merchant who receives the Starship benefit at mustering-out will hold this position. Aboard a small ship, he will usually have another job, such as Pilot or Navigator. The pay due to a ship's Master can vary. Assume a standard of Cr6,000 per month, or the salary of highest-paid job he is qualified to do. Many merchant ship owners take a cut of the ship's profits instead of a salary.
-* **Medic:** Ships that carry passengers must have a qualified medic. All vessels should have some form of medical assistance available. A medic makes Cr2,000 a month.
-* **Purser:** Commercial ships often employ someone to look after the accounts and supplies. This is the purser's job. It is often doubled-up with other duties. A purser is often paid a cut of the ship's profits rather than a salary; a standard salary would be Cr3,000 per month.
-* **Gunner:** Armed ships must employ gunners to operate the weapons. Salary is Cr1,000 per month.
-* **Assistant Engineers and Technicians:** Technically adept people can assist the Engineer in maintaining the ship and operating her drives. Salary is Cr1000 per month.
-* **Cargo Handlers, Deck Hands and Security:** Some ships employ personnel to carry out these duties. While not essential to the operation of the ship, these people are useful to have around. Salary is Cr1000 per month.
-* **Stewards:** While anyone can be assigned to look after the passengers and cook everyone's meals, professional stewards are useful in ensuring the passengers enjoy their trip, and thus that the ship stays in business. Salary is Cr3,000 per month.
+- **Master:** A vessel's Master, or Captain, is responsible for the vessel and the safety of everyone aboard. A Merchant who receives the Starship benefit at mustering-out will hold this position. Aboard a small ship, he will usually have another job, such as Pilot or Navigator. The pay due to a ship's Master can vary. Assume a standard of Cr6,000 per month, or the salary of highest-paid job he is qualified to do. Many merchant ship owners take a cut of the ship's profits instead of a salary.
+- **Medic:** Ships that carry passengers must have a qualified medic. All vessels should have some form of medical assistance available. A medic makes Cr2,000 a month.
+- **Purser:** Commercial ships often employ someone to look after the accounts and supplies. This is the purser's job. It is often doubled-up with other duties. A purser is often paid a cut of the ship's profits rather than a salary; a standard salary would be Cr3,000 per month.
+- **Gunner:** Armed ships must employ gunners to operate the weapons. Salary is Cr1,000 per month.
+- **Assistant Engineers and Technicians:** Technically adept people can assist the Engineer in maintaining the ship and operating her drives. Salary is Cr1000 per month.
+- **Cargo Handlers, Deck Hands and Security:** Some ships employ personnel to carry out these duties. While not essential to the operation of the ship, these people are useful to have around. Salary is Cr1000 per month.
+- **Stewards:** While anyone can be assigned to look after the passengers and cook everyone's meals, professional stewards are useful in ensuring the passengers enjoy their trip, and thus that the ship stays in business. Salary is Cr3,000 per month.
 
 The basic living expenses of crewmembers during their shipboard duties are considered paid out of the ship's overheads. Note that salaries are generalized and can vary considerably depending upon circumstances and special arrangements.
 

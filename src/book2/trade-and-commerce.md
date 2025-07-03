@@ -126,6 +126,6 @@ A speculative trader can hire a local broker to represent him in trade negotiati
 
 Selling goods works just like purchasing goods, with the following changes:
 
-*   A character must find a buyer, instead of a supplier. The same rules apply.
-*   When selling goods, add the largest Sale DMs for the world trade code and subtract the largest Purchase DMs.
-*   If a character does not accept the price offered for his goods, he must find another buyer or wait a week, in which case he may attempt a new skill check to determine the selling price.
+-   A character must find a buyer, instead of a supplier. The same rules apply.
+-   When selling goods, add the largest Sale DMs for the world trade code and subtract the largest Purchase DMs.
+-   If a character does not accept the price offered for his goods, he must find another buyer or wait a week, in which case he may attempt a new skill check to determine the selling price.
