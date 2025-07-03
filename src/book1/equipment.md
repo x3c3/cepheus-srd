@@ -185,7 +185,7 @@ Medications often supplement the direct medical attention of a trained health pr
 
 **Fast Drug:** Also known as 'Hibernation', this drug puts the user into a state akin to suspended animation, slowing his metabolic rate down to a ratio of 60 to 1 – a subjective day for the user is actually two months. Fast drug is normally used to prolong life support reserves or as a cheap substitute for a cryoberth.
 
-**Medicinal Drugs:** These medications include vaccines, antitoxins and antibiotics. They range in cost from Cr5 to 1D6x1,000 Credits, depending on the rarity and complexity of the drug. Medicinal drugs require the [Medic](skills.md#medic) skill to use properly – using the wrong drug can be worse than doing nothing. With a successful [Medic](skills.md#medic) check the correct drug can counteract most poisons or diseases, or at the very least give a positive DM towards resisting them. If the wrong drug is administered, treat it as a Difficult (–2 DM) poison with a damage of 1D6.
+**Medicinal Drugs:** These medications include vaccines, antitoxins and antibiotics. They range in cost from Cr5 to 1D6×1,000 Credits, depending on the rarity and complexity of the drug. Medicinal drugs require the [Medic](skills.md#medic) skill to use properly – using the wrong drug can be worse than doing nothing. With a successful [Medic](skills.md#medic) check the correct drug can counteract most poisons or diseases, or at the very least give a positive DM towards resisting them. If the wrong drug is administered, treat it as a Difficult (–2 DM) poison with a damage of 1D6.
 
 **Medicinal Slow:** A variant of the slow drug. It can only be applied safely in a medical facility where life-support and cryo-technology is available as it increases the metabolism to around thirty times normal, allowing a patient to undergo a month of healing in a single day.
 
@@ -197,7 +197,7 @@ Medications often supplement the direct medical attention of a trained health pr
 
 ## Explosives
 
-The [Demolitions](skills.md#demolitions) skill is used with explosives – the Effect of the [Demolitions](skills.md#demolitions) skill check multiplies the damage, with a minimum of x1 damage for an Effect of 0 or 1. Explosives are not legally available on any world with a Law Level of 1 or greater.
+The [Demolitions](skills.md#demolitions) skill is used with explosives – the Effect of the [Demolitions](skills.md#demolitions) skill check multiplies the damage, with a minimum of ×1 damage for an Effect of 0 or 1. Explosives are not legally available on any world with a Law Level of 1 or greater.
 
 | Weapon | TL | Damage | Radius | Cost (Cr) |
 | --- | --- | --- | --- | --- |
@@ -778,7 +778,7 @@ A grenade is a small explosive device designed to be thrown by hand (treat as Ra
 | Aerosol | 9 | 90 | 0.5 | Special; see description | 1 |
 | Stun | 9 | 180 | 0.5 | 3D6 stun; see description | 1 |
 
-**Aerosol:** Aerosol grenades create a fine mist six meters in radius that diffuses lasers but does not block normal vision. Any laser attack made through the mist has its damage reduced by 10. Laser communications through the mist are completely blocked. The mist dissipates in 1D6x3 rounds, although high winds and other extreme weather can sharply reduce this time.
+**Aerosol:** Aerosol grenades create a fine mist six meters in radius that diffuses lasers but does not block normal vision. Any laser attack made through the mist has its damage reduced by 10. Laser communications through the mist are completely blocked. The mist dissipates in 1D6×3 rounds, although high winds and other extreme weather can sharply reduce this time.
 
 **Frag:** The damage from fragmentation grenades decreases with distance from the blast:
 
@@ -788,7 +788,7 @@ A grenade is a small explosive device designed to be thrown by hand (treat as Ra
 | 6 meters | 3D6 |
 | 9 meters | 1D6 |
 
-**Smoke:** Smoke grenades create a thick cloud of smoke six meters in radius, centered on the location of the grenade. This smoke imposes a –2 DM on all attacks within or through the cloud (doubled for laser weapons). Smoke dissipates in 1D6x3 rounds, although high winds and other extreme weather can sharply reduce this time.
+**Smoke:** Smoke grenades create a thick cloud of smoke six meters in radius, centered on the location of the grenade. This smoke imposes a –2 DM on all attacks within or through the cloud (doubled for laser weapons). Smoke dissipates in 1D6×3 rounds, although high winds and other extreme weather can sharply reduce this time.
 
 **Stun:** Stun weapons, such as stun grenades, are non-lethal and do not inflict normal damage. A character within six meters of a stun grenade detonation must make an Endurance check with a negative DM equal to the damage (after armor is subtracted). If this Endurance check is failed the character is knocked unconscious. If the Endurance check is successful, the character is unaffected by the weapon and the stun damage is ignored.
 

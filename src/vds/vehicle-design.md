@@ -92,8 +92,8 @@ Note that closed vehicles are not sealed or airtight. They are just enclosed, of
 
 | Configuration | Chassis Price Modifier |
 | --- | --- |
-| Closed | x1 |
-| Open | x0.9 |
+| Closed | ×1 |
+| Open | ×0.9 |
 
 ### Vehicle Configuration Options
 
@@ -201,37 +201,37 @@ A vehicle with a propulsion system must have a power source with a drive code eq
 
 | Power Plant Type | TL | Space Mod | Price Mod | Fuel |
 | --- | --- | --- | --- | --- |
-| External Combustion | 3 | x15 | x0.20 | Coal or Wood |
-| Internal Combustion | 5 | x6 | x0.05 | Hydrocarbons |
-| Fission | 6 | x2 | x2 | Radioactives |
-| Fuel Cell (Closed) | 7 | x1 | x1 | Hydrogen |
-| Fuel Cell (Open) | 7 | x2 | x0.25 | Hydrogen |
-| Gas Turbine | 7 | x1 | x1 | Hydrocarbons |
-| Early Fusion | 9 | x1 | x1 | Hydrogen |
-| Fusion | 12 | x0.75 | x1 | Hydrogen |
-| Advanced Fusion | 15 | x0.5 | x2 | Hydrogen |
-| Antimatter | 17 | x1 | x1 | Hydrogen |
+| External Combustion | 3 | ×15 | ×0.20 | Coal or Wood |
+| Internal Combustion | 5 | ×6 | ×0.05 | Hydrocarbons |
+| Fission | 6 | ×2 | ×2 | Radioactives |
+| Fuel Cell (Closed) | 7 | ×1 | ×1 | Hydrogen |
+| Fuel Cell (Open) | 7 | ×2 | ×0.25 | Hydrogen |
+| Gas Turbine | 7 | ×1 | ×1 | Hydrocarbons |
+| Early Fusion | 9 | ×1 | ×1 | Hydrogen |
+| Fusion | 12 | ×0.75 | ×1 | Hydrogen |
+| Advanced Fusion | 15 | ×0.5 | ×2 | Hydrogen |
+| Antimatter | 17 | ×1 | ×1 | Hydrogen |
 
 ### Vehicle Propulsion Types
 
 | Propulsion Type | TL | Type | Space Mod | Price Mod | Examples |
 | --- | --- | --- | --- | --- | --- |
-| Sails, Non-Powered | 1 | Thrust | x1 | x0.2 | Sailing Ship |
-| Wheels, Non-Powered | 1 | Contact | x1 | x0.5 | Stagecoach |
-| Rails | 3 | Contact | x2 | x1 | Train |
-| Screw Propeller | 3 | Thrust | x1 | x0.1 | Motor Boat, Steamship |
-| Airship | 4 | Thrust | x1 | x0.5 | Dirigible |
-| Rotor | 4 | Thrust | x2 | x0.5 | Biplane, Helicopter |
-| Tracks | 4 | Contact | x1 | x2 | Tank |
-| Wheels | 4 | Contact | x1 | x1 | Ground Car |
-| Jet | 5 | Thrust | x2 | x2 | Twin-Engine Jet |
-| Mole | 5 | Contact | x2 | x8 | Mole |
-| Air Cushion | 7 | Thrust | x1 | x0.5 | Hovercraft |
-| Hypersonic | 8 | Thrust | x1.5 | x4 | Passenger Air Liner |
-| Legs | 8 | Contact | x2 | x4 | Walker |
-| Grav | 9 | Thrust | x1 | x1 | Air/Raft, Speeder |
-| Advanced Grav | 12 | Thrust | x0.75 | x2 | Grav Bike |
-| Extreme Grav | 15 | Thrust | x0.5 | x4 | G/Carrier |
+| Sails, Non-Powered | 1 | Thrust | ×1 | ×0.2 | Sailing Ship |
+| Wheels, Non-Powered | 1 | Contact | ×1 | ×0.5 | Stagecoach |
+| Rails | 3 | Contact | ×2 | ×1 | Train |
+| Screw Propeller | 3 | Thrust | ×1 | ×0.1 | Motor Boat, Steamship |
+| Airship | 4 | Thrust | ×1 | ×0.5 | Dirigible |
+| Rotor | 4 | Thrust | ×2 | ×0.5 | Biplane, Helicopter |
+| Tracks | 4 | Contact | ×1 | ×2 | Tank |
+| Wheels | 4 | Contact | ×1 | ×1 | Ground Car |
+| Jet | 5 | Thrust | ×2 | ×2 | Twin-Engine Jet |
+| Mole | 5 | Contact | ×2 | ×8 | Mole |
+| Air Cushion | 7 | Thrust | ×1 | ×0.5 | Hovercraft |
+| Hypersonic | 8 | Thrust | ×1.5 | ×4 | Passenger Air Liner |
+| Legs | 8 | Contact | ×2 | ×4 | Walker |
+| Grav | 9 | Thrust | ×1 | ×1 | Air/Raft, Speeder |
+| Advanced Grav | 12 | Thrust | ×0.75 | ×2 | Grav Bike |
+| Extreme Grav | 15 | Thrust | ×0.5 | ×4 | G/Carrier |
 
 ### Vehicle Drive Costs
 
@@ -381,16 +381,16 @@ The amount of fuel required by the power plant depends on the volume of the powe
 
 | Power Plant Type | TL | Fuel Mod | Price/Space (Cr) | Notes |
 | --- | --- | --- | --- | --- |
-| External Combustion | 3 | x9 (wood) or x5 (coal) | 540 |  |
-| Internal Combustion | 5 | x3 | 830 |  |
-| Fission | 6 | x0.04 | 8,300 |  |
-| Fuel Cell (Closed) | 7 | x20 | 40 | Does not require an external source of oxygen |
-| Fuel Cell (Open) | 7 | x2 | 40 | Requires an external source of oxygen |
-| Gas Turbine | 7 | x3 | 830 |  |
-| Early Fusion | 9 | x1 | 40 |  |
-| Fusion | 12 | x0.75 | 40 |  |
-| Advanced Fusion | 15 | x0.5 | 40 |  |
-| Antimatter | 17 | x0 | Special | Must be refueled once a month, at a cost of Cr40 per Space of Antimatter power plant. |
+| External Combustion | 3 | ×9 (wood) or ×5 (coal) | 540 |  |
+| Internal Combustion | 5 | ×3 | 830 |  |
+| Fission | 6 | ×0.04 | 8,300 |  |
+| Fuel Cell (Closed) | 7 | ×20 | 40 | Does not require an external source of oxygen |
+| Fuel Cell (Open) | 7 | ×2 | 40 | Requires an external source of oxygen |
+| Gas Turbine | 7 | ×3 | 830 |  |
+| Early Fusion | 9 | ×1 | 40 |  |
+| Fusion | 12 | ×0.75 | 40 |  |
+| Advanced Fusion | 15 | ×0.5 | 40 |  |
+| Antimatter | 17 | ×0 | Special | Must be refueled once a month, at a cost of Cr40 per Space of Antimatter power plant. |
 
 ## Vehicle Drive Options
 
@@ -518,9 +518,9 @@ Installing a communication system allows the crew to interact with others. The f
 
 | Type | TL | Space | Mod Price | Mod Notes |
 | --- | --- | --- | --- | --- |
-| Laser | 8 | x2 | x3 | Requires clear line of sight between communicators |
-| Maser | 10 | x4 | x6 | Works like lasers, but can cut through smoke and aerosols |
-| Meson | 11 | x10 | x50 | Cannot be jammed or blocked, but cannot be used while moving |
+| Laser | 8 | ×2 | ×3 | Requires clear line of sight between communicators |
+| Maser | 10 | ×4 | ×6 | Works like lasers, but can cut through smoke and aerosols |
+| Meson | 11 | ×10 | ×50 | Cannot be jammed or blocked, but cannot be used while moving |
 
 ## Vehicle Sensors
 
@@ -804,7 +804,7 @@ Vehicle turrets come in two varieties: small and large. A vehicle turret takes u
 | --- | --- | --- |
 | Small | 0.5, plus weapon volume in Spaces | Cr8,000 per Space |
 | Large | 3, plus weapon volume in Spaces | Cr16,000 per Space |
-| Pop-Up | Base x2 | As base, plus additional Cr4,000 per Space |
+| Pop-Up | Base ×2 | As base, plus additional Cr4,000 per Space |
 
 ### Vehicular Weapons
 
@@ -951,14 +951,14 @@ Note that an ordinance bay takes up one weapon point per 60 Spaces in size, or f
 | Torpedo, High Explosive, Standard | 4 | 12 | Cr2,400 | ranged (v distant) | 12D6 | Treat as aquatic missiles |
 | Bomb, High Explosive, Heavy | 5 | 6 | Cr4,000 | ranged (v distant) | 14D6 |  |
 | Torpedo, High Explosive, Heavy | 5 | 24 | Cr8,000 | ranged (v distant) | 14D6 | Treat as aquatic missiles |
-| Bomb, Nuclear, Heavy | 6 | 6 | Cr8,000 | ranged (v distant) | 28D6 + 2D6x10 rads |  |
-| Bomb, Nuclear, Standard | 6 | 3 | Cr2,400 | ranged (v distant) | 24D6 + 2D6x10 rads |  |
-| Torpedo, Nuclear, Heavy | 6 | 24 | Cr16,000 | ranged (v | 28D6 + 2D6x10 | Treat as aquatic missiles |
-| Torpedo, Nuclear, Standard | 6 | 12 | Cr4,800 | ranged (v distant) | 24D6 + 2D6x10 rads | Treat as aquatic missiles |
-| Bomb, Antimatter, Heavy | 17 | 6 | Cr24,000 | ranged (extreme) | 42D6 + 4D6x10 rads |  |
-| Bomb, Antimatter, Standard | 17 | 3 | Cr7,200 | ranged (extreme) | 36D6 + 4D6x10 rads |  |
-| Torpedo, Antimatter, Heavy | 17 | 24 | Cr48,000 | ranged (extreme) | 42D6 + 4D6x10 rads | Treat as aquatic missiles |
-| Torpedo, Antimatter, Standard | 17 | 12 | Cr14,400 | ranged (extreme) | 36D6 + 4D6x10 rads | Treat as aquatic missiles |
+| Bomb, Nuclear, Heavy | 6 | 6 | Cr8,000 | ranged (v distant) | 28D6 + 2D6×10 rads |  |
+| Bomb, Nuclear, Standard | 6 | 3 | Cr2,400 | ranged (v distant) | 24D6 + 2D6×10 rads |  |
+| Torpedo, Nuclear, Heavy | 6 | 24 | Cr16,000 | ranged (v | 28D6 + 2D6×10 | Treat as aquatic missiles |
+| Torpedo, Nuclear, Standard | 6 | 12 | Cr4,800 | ranged (v distant) | 24D6 + 2D6×10 rads | Treat as aquatic missiles |
+| Bomb, Antimatter, Heavy | 17 | 6 | Cr24,000 | ranged (extreme) | 42D6 + 4D6×10 rads |  |
+| Bomb, Antimatter, Standard | 17 | 3 | Cr7,200 | ranged (extreme) | 36D6 + 4D6×10 rads |  |
+| Torpedo, Antimatter, Heavy | 17 | 24 | Cr48,000 | ranged (extreme) | 42D6 + 4D6×10 rads | Treat as aquatic missiles |
+| Torpedo, Antimatter, Standard | 17 | 12 | Cr14,400 | ranged (extreme) | 36D6 + 4D6×10 rads | Treat as aquatic missiles |
 
 ### Missiles
 

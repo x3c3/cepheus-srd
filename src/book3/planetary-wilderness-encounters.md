@@ -323,7 +323,7 @@ Each entry should be generated in turn. When an encounter table indicates that a
 | 7 | 3D6 | 6kg | Intermittent (H) | F 6m | 38217B | Horns (1d6) | Fur (1) |
 | 8 | 3D6 | 5,000kg | Grazer (H) | W 12m | N3M16B | Hooves (3d6), horns (3d6) | Shell (7) |
 | 9 | 4D6 | 400kg | Chaser (C) | W 12m | E8B1AE | Claws (3d6), stinger (3d6) | Fur (1) |
-| 10 | Event | Cliff, standing 1d6x5 meters tall (Randomly determine if group is at top or bottom) |
+| 10 | Event | Cliff, standing 1d6×5 meters tall (Randomly determine if group is at top or bottom) |
 | 11 | 2D6 | 800kg | Chaser (C) | W 12m | AAD1A6 | Projectile (2d6) | Hide (2) |
 | 12 | 1D6 | 3,200kg | Killer (C) | W 12m | B7G18A | Teeth (3d6) | Fur (3) |
 

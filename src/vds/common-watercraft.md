@@ -4,7 +4,7 @@ This section describes some of the watercraft that can be commonly encountered i
 
 ## TL9 Destroyer
 
-Using a closed 800-ton chassis (160 Hull, 160 Structure \[Personal Combat Scale\], 16 Hull, 16 Structure \[Space Combat Scale\], Armor 6), the Destroyer is a fast, maneuverable long-endurance watercraft built for military action, intended to escort larger watercraft in a fleet, convoy or battle group and defend them against smaller powerful short-range attackers. It carries an Early Fusion power plant, Code K, and a Screw Propeller propulsion system, Code K, giving a top speed of 60kph, a cruising speed of 45kph and an Agility DM of -3. 496 kiloliters of hydrogen support the power plant for 28 days. This vehicle is designed with an increased Agility, already included in the Agility DM above. This vehicle is equipped with Advanced controls, a Class IV communication system (Continental), Basic Civilian sensors (DM -2), and a Model/1fib computer. This vessel is equipped with Autopilot (Ocean Ships-2). There is an extended control cabin that supports 30 crew on shift), and 29 standard staterooms. The vehicle has 160 weapon points, but only 23 are used. The vehicle has four small turrets armed with Autocannon-TL 8, one small turret armed with a Heavy Mass Driver-TL 8, eight small turrets armed with Heavy Rocket Artillery-TL 7, four missile racks (armed with Smart Standard HE missiles), and two HE torpedo ordinance bays (3 torpedoes each). This vehicle also carries 1800 rounds of Autocannon ammunition, 300 rounds of Heavy Mass Driver ammunition, 900 rounds of Heavy Rocket Artillery ammunition, 900 Smart Standard HE missiles, and 240 Standard HE torpedoes. Cargo capacity is 70.615 tons. The chassis is additionally armored with Titanium Steel (x2.) The vehicle requires a crew of 28: 1 Captain, 1 Executive Officer, 3 Pilots, 1 Navigator, 1 Engineer, 1 Sensors Operator, 17 Turret Gunners, 2 Bay Weapon Gunners, and 1 Chief Security Officer. The vehicle can carry up to forty additional passengers in twenty standard staterooms, or forty-two if both the Captain and Executive Officer share a stateroom. The vehicle costs KCr51,521.940 (including discounts and fees) and takes 92 weeks to build.
+Using a closed 800-ton chassis (160 Hull, 160 Structure \[Personal Combat Scale\], 16 Hull, 16 Structure \[Space Combat Scale\], Armor 6), the Destroyer is a fast, maneuverable long-endurance watercraft built for military action, intended to escort larger watercraft in a fleet, convoy or battle group and defend them against smaller powerful short-range attackers. It carries an Early Fusion power plant, Code K, and a Screw Propeller propulsion system, Code K, giving a top speed of 60kph, a cruising speed of 45kph and an Agility DM of -3. 496 kiloliters of hydrogen support the power plant for 28 days. This vehicle is designed with an increased Agility, already included in the Agility DM above. This vehicle is equipped with Advanced controls, a Class IV communication system (Continental), Basic Civilian sensors (DM -2), and a Model/1fib computer. This vessel is equipped with Autopilot (Ocean Ships-2). There is an extended control cabin that supports 30 crew on shift), and 29 standard staterooms. The vehicle has 160 weapon points, but only 23 are used. The vehicle has four small turrets armed with Autocannon-TL 8, one small turret armed with a Heavy Mass Driver-TL 8, eight small turrets armed with Heavy Rocket Artillery-TL 7, four missile racks (armed with Smart Standard HE missiles), and two HE torpedo ordinance bays (3 torpedoes each). This vehicle also carries 1800 rounds of Autocannon ammunition, 300 rounds of Heavy Mass Driver ammunition, 900 rounds of Heavy Rocket Artillery ammunition, 900 Smart Standard HE missiles, and 240 Standard HE torpedoes. Cargo capacity is 70.615 tons. The chassis is additionally armored with Titanium Steel (×2.) The vehicle requires a crew of 28: 1 Captain, 1 Executive Officer, 3 Pilots, 1 Navigator, 1 Engineer, 1 Sensors Operator, 17 Turret Gunners, 2 Bay Weapon Gunners, and 1 Chief Security Officer. The vehicle can carry up to forty additional passengers in twenty standard staterooms, or forty-two if both the Captain and Executive Officer share a stateroom. The vehicle costs KCr51,521.940 (including discounts and fees) and takes 92 weeks to build.
 
 | Category | Component | Spaces | Price(Cr) | Notes |
 | --- | --- | --- | --- | --- |
@@ -22,8 +22,8 @@ Using a closed 800-ton chassis (160 Hull, 160 Structure \[Personal Combat Scale\
 | Computer | Model/1 | \-0.01 | 500 |  |
 |  | Options |  | 250 | Hardened System (fib) |
 | Accommodations | Control Cabin, Standard plus Extended | \-324 | 90000 |  |
-|  | Standard Staterooms (x36) | \-1728 | 18000000 |  |
-| Armaments | Small Turrets (x17) | \-8.5 | 3620000 |  |
+|  | Standard Staterooms (×36) | \-1728 | 18000000 |  |
+| Armaments | Small Turrets (×17) | \-8.5 | 3620000 |  |
 |  | Autocannon-TL 8 | \-8.5 | 3620000 |  |
 | Cargo |  | \-17.22 |  |  |
 | **TOTALS** |  | **0** | **817894.22** | **Cr736,110 with Std Design Discount** |
@@ -61,7 +61,7 @@ Using a closed 60-ton chassis (12 Hull, 12 Structure \[Personal Combat Scale\], 
 | Controls | Basic | \-1 | 0 | Included in Chassis Price |
 | Communications | Class II | \-0.02 | 1000 | Very Distant (50 km) |
 | Accommodations | Control Cabin, Standard | \-72 | 20000 | 2 Crew (1 Pilot, 1 Engineer) |
-|  | Standard Staterooms (x5) | \-240 | 2500000 |  |
+|  | Standard Staterooms (×5) | \-240 | 2500000 |  |
 | Cargo |  | \-272.85 |  |  |
 | **TOTALS** |  | **0** | **2998267.143** | **Cr2,698,450 with Std Design Discount** |
 
@@ -78,7 +78,7 @@ Using a closed 200-ton chassis (40 Hull, 40 Structure \[Personal Combat Scale\],
 | Fuel | Coal | \-200 | 108000 | Fuel capacity = 240 hours |
 | Controls | Basic | \-1 | 0 | Included in Chassis Price |
 | Accommodations | Control Cabin, Standard plus Extended | \-216 | 30000 | 5 Crew (1 Captain, 1 Pilot, 1 Navigator, 1 Engineer, 1 Steward) |
-|  | Standard Staterooms (x8) | \-384 | 4000000 |  |
+|  | Standard Staterooms (×8) | \-384 | 4000000 |  |
 | Additional Components | Galley (15 people) | \-24 | 9500 |  |
 | Cargo |  | \-516.6 |  |  |
 | **TOTALS** |  | **0** | **6366700** | **Cr5,730,030 with Std Design Discount** |
@@ -100,7 +100,7 @@ Using a closed 100-ton chassis (20 Hull, 20 Structure \[Personal Combat Scale\],
 | Controls | Basic | \-1 | 0 | Included in Chassis Price |
 |  | Autopilot |  | 2000 | [Submarine-0](../book1/skills.md#submarine) |
 | Accommodations | Control Cabin, Standard plus Extended | \-108 | 30000 | 5 Crew (1 Captain, 1 Pilot, 1 Navigator, 1 Engineer, 1 Steward) |
-|  | Standard Staterooms (x8) | \-384 | 4000000 |  |
+|  | Standard Staterooms (×8) | \-384 | 4000000 |  |
 |  | Extended Life Support (15 People) | \-9 | 157500 |  |
 | Additional Components | Galley (15 people) | \-24 | 9500 |  |
 |  | Airlock | \-12 | 200000 |  |

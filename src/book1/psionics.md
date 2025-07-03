@@ -200,7 +200,7 @@ Teleportation always involves the movement of one's body to another location. In
 
 **Energy and Momentum:** Teleportation involves serious restrictions on movement in order to assure the conservation of energy and momentum.
 
-On planetary surfaces, teleportation is restricted to jumps of Very Distant range or less. Jumps at Very Distant range involve disorientation for a period of 20 to 120 seconds (2D6x10) after arrival. This restriction results from the law of conservation of momentum: on a rotating planet, two locations will have different rotational speeds and directions. A jump from a point on the Earth's equator to one of its poles would result in a total velocity difference between the character and his surroundings of over 3300 kph, which would lead to a messy death in short order.
+On planetary surfaces, teleportation is restricted to jumps of Very Distant range or less. Jumps at Very Distant range involve disorientation for a period of 20 to 120 seconds (2D6×10) after arrival. This restriction results from the law of conservation of momentum: on a rotating planet, two locations will have different rotational speeds and directions. A jump from a point on the Earth's equator to one of its poles would result in a total velocity difference between the character and his surroundings of over 3300 kph, which would lead to a messy death in short order.
 
 Teleporting to or from vehicles travelling at high speed can also result in energy gains or losses. When teleporting into, onto or out of a fast-moving vehicle the psion takes damage as if the vehicle had rammed him at its current speed.
 

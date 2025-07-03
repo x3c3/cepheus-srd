@@ -91,10 +91,10 @@ At any Radiation Level below Mild, the character is treated as having a lower En
 | Irradiated area, medium level | — | 2D6/hour |
 | Irradiated area, high level | — | 6D6/hour |
 | Irradiated area, severe level | — | 12D6/hour |
-| Active exposure, low level | 3D6 | 3D6x10/hour |
-| Active exposure, medium level | 1D6x10 | 1D6x100/hour |
-| Active exposure, high level | 2D6x10 | 2D6x100/hour |
-| Active exposure, severe level | 4D6x10 | 3D6x100/hour |
+| Active exposure, low level | 3D6 | 3D6×10/hour |
+| Active exposure, medium level | 1D6×10 | 1D6×100/hour |
+| Active exposure, high level | 2D6×10 | 2D6×100/hour |
+| Active exposure, severe level | 4D6×10 | 3D6×100/hour |
 
 ### Radiation Effects
 

@@ -4,13 +4,13 @@ This section details various ground-based vehicles that can be commonly encounte
 
 ## TL12 AFV, Tracked
 
-Using a closed ten-ton chassis (2 Hull, 2 Structure, Armor 25), the Tracked Armored Fighting Vehicle (AFV) is a heavily armored tracked vehicle used in military engagements on planetary surfaces. This vehicle is equipped with Insidious Environmental Protection. It carries a Fusion power plant, Code Q, and a Tracked propulsion system, Code Q, giving a top speed of 67.5 kph, a cruising speed of 50 kph and an Agility DM of -1. This vehicle is equipped for Off-Road Capability. 1.51 kiloliters of hydrogen support the power plant for 72 hours. This vehicle is equipped with Advanced controls, a Class IV communication system (Continental), a Laser Class IV communication system (Continental), Basic Military sensors (Comms DM +0), and a Model 3 computer. This vehicle also comes equipped with Autopilot (Tracked Vehicles-1). There is an extended cockpit and cramped seating for six. The vehicle has one weapon point, bearing a small turret armed with a Beam Laser-TL 11. This vehicle is also equipped with basic life support (covers 20 people for 10 days), a fresher, and a galley suitable for 8 people. Cargo capacity is 11.31 kiloliters. The chassis is additionally armored with Superdense armor (x4).The vehicle requires a crew of two: one driver and one gunner. The vehicle can carry up to six passengers in cramped seating. The vehicle costs KCr287.790 (including discounts and fees) and takes 240 hours (10 days) to build.
+Using a closed ten-ton chassis (2 Hull, 2 Structure, Armor 25), the Tracked Armored Fighting Vehicle (AFV) is a heavily armored tracked vehicle used in military engagements on planetary surfaces. This vehicle is equipped with Insidious Environmental Protection. It carries a Fusion power plant, Code Q, and a Tracked propulsion system, Code Q, giving a top speed of 67.5 kph, a cruising speed of 50 kph and an Agility DM of -1. This vehicle is equipped for Off-Road Capability. 1.51 kiloliters of hydrogen support the power plant for 72 hours. This vehicle is equipped with Advanced controls, a Class IV communication system (Continental), a Laser Class IV communication system (Continental), Basic Military sensors (Comms DM +0), and a Model 3 computer. This vehicle also comes equipped with Autopilot (Tracked Vehicles-1). There is an extended cockpit and cramped seating for six. The vehicle has one weapon point, bearing a small turret armed with a Beam Laser-TL 11. This vehicle is also equipped with basic life support (covers 20 people for 10 days), a fresher, and a galley suitable for 8 people. Cargo capacity is 11.31 kiloliters. The chassis is additionally armored with Superdense armor (×4).The vehicle requires a crew of two: one driver and one gunner. The vehicle can carry up to six passengers in cramped seating. The vehicle costs KCr287.790 (including discounts and fees) and takes 240 hours (10 days) to build.
 
 | Category | Component | Spaces | Price(Cr) | Notes |
 | --- | --- | --- | --- | --- |
 | Chassis | Base | 120 | 17750 | Code E |
 |  | Configuration |  |  | Closed |
-|  | Armor | \-24 | 14200 | Superdense (x4) |
+|  | Armor | \-24 | 14200 | Superdense (×4) |
 |  | Insidious EPS | \-6 | 50000 |  |
 | Power Plant | Fusion | \-6.38 | 9575 | Code Q |
 | Propulsion | Tracked | \-11 | 21450 | Code Q |
@@ -23,7 +23,7 @@ Using a closed ten-ton chassis (2 Hull, 2 Structure, Armor 25), the Tracked Armo
 | Sensors | Basic Military | \-12 | 20000 | [Comms DM+0](../book1/skills.md#comms) |
 | Computer | Model/3 | 0 | 2000 |  |
 | Accommodations | Cockpit, Extended | \-4 | 2000 | Supports two crew |
-|  | Seating, Cramped (x2) | \-8 | 4000 | Seats 6 people cramped |
+|  | Seating, Cramped (×2) | \-8 | 4000 | Seats 6 people cramped |
 |  | Basic Life Support | \-3 | 3500 | Last 10 days for 20 people |
 | Additional Components | Fresher | \-6 | 1500 |  |
 |  | Galley (8 people) | \-21 | 6000 |  |
@@ -52,7 +52,7 @@ Using a closed ten-ton chassis (2 Hull, 2 Structure, Armor 5), the Tracked All-T
 | Sensors | Basic Civilian | \-6 | 10000 | [Comms DM-2](../book1/skills.md#comms) |
 | Computer | Model/3 | 0 | 2000 |  |
 | Accommodations | Cockpit, Extended | \-4 | 2000 | Supports two crew |
-|  | Seating, Cramped (x2) | \-8 | 4000 | Seats 6 people cramped |
+|  | Seating, Cramped (×2) | \-8 | 4000 | Seats 6 people cramped |
 |  | Basic Life Support | \-3 | 3500 | Last 10 days for 20 people |
 | Additional Components | Fresher | \-6 | 1500 |  |
 |  | Galley (8 people) | \-21 | 6000 |  |

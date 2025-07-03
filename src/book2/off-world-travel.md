@@ -77,7 +77,7 @@ Roll 2D6 and add the following DMs. If the result is 0 or less, the ship misjump
 
 ### Jump Failures and Misjumps
 
-When a starship suffers an inaccurate Jump, the vessel emerges from Jump in the wrong part of the target star system, requiring 1D6 days travel through normal space. When a starship misjumps, the ship ends up 1D6x1D6 parsecs in a random direction.
+When a starship suffers an inaccurate Jump, the vessel emerges from Jump in the wrong part of the target star system, requiring 1D6 days travel through normal space. When a starship misjumps, the ship ends up 1D6×1D6 parsecs in a random direction.
 
 In both cases, the emergence is extremely hard. The vessel takes the equivalent of a critical hit from the discordant transition. In addition, everyone aboard the vessel suffers severe headaches, nausea and even nosebleeds for several hours before and after the ship emerges from Jump space.
 
@@ -213,9 +213,9 @@ Starships generate revenue by carrying passengers, cargo, mail and charters. Goo
 
 | Starport Class | Freight (tons) | High Passengers | Mid Passengers | Low Passengers |
 | --- | --- | --- | --- | --- |
-| A | 3D6x10 | 3D6 | 3D6 | 3D6x3 |
-| B | 3D6x5 | 2D6 | 3D6 | 3D6x3 |
-| C | 3D6x2 | 1D6-1 | 2D6 | 3D6 |
+| A | 3D6×10 | 3D6 | 3D6 | 3D6×3 |
+| B | 3D6×5 | 2D6 | 3D6 | 3D6×3 |
+| C | 3D6×2 | 1D6-1 | 2D6 | 3D6 |
 | D | 3D6 | 0 | 1D6-1 | 2D6 |
 | E | 1D6 | 0 | 1D3-1 | 1D6-1 |
 | X | No Freight | 0 | 0 | 0 |
@@ -368,10 +368,10 @@ A character with the [Advocate](../book1/skills.md#advocate) skill may attempt t
 | Result | Sentence |
 | --- | --- |
 | 0 or less | Dismissed or trivial punishment |
-| 1–2 | Fine of 1D6x1,000 Credits |
-| 3–4 | Fine of 2D6x5,000 Credits |
-| 5–6 | Exile or a fine of 2D6x10,000 Credits |
-| 7–8 | Imprisonment for 1D6 months or exile or fine of 2D6x20,000 Credits |
+| 1–2 | Fine of 1D6×1,000 Credits |
+| 3–4 | Fine of 2D6×5,000 Credits |
+| 5–6 | Exile or a fine of 2D6×10,000 Credits |
+| 7–8 | Imprisonment for 1D6 months or exile or fine of 2D6×20,000 Credits |
 | 9–10 | Imprisonment for 1D6 years or exile |
 | 11–12 | Imprisonment for 2D6 years or exile |
 | 13–14 | Life imprisonment |

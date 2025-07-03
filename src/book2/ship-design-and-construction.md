@@ -77,9 +77,9 @@ A ship may have any of three configurations – standard (a wedge, cone, sphere 
 
 | Configuration | Hull Cost Modifier | Notes |
 | --- | --- | --- |
-| Distributed | x0.9 | Cannot mount fuel scoops. Atmospheric operations suffer -4 DM (failed checks inflict 2D6 damage). |
-| Standard | x1 | Atmospheric operations suffer a -2 DM. |
-| Streamlined | x1.1 | Includes fuel scoops. |
+| Distributed | ×0.9 | Cannot mount fuel scoops. Atmospheric operations suffer -4 DM (failed checks inflict 2D6 damage). |
+| Standard | ×1 | Atmospheric operations suffer a -2 DM. |
+| Streamlined | ×1.1 | Includes fuel scoops. |
 
 ### Ship Armor
 
@@ -409,7 +409,7 @@ The tonnage and cost outlined in the Hangar Cost and Tonnage for Vehicles and Dr
 
 **Life Boat, Ship's Boat, Shuttle, Pinnace, Cutter:** These are all small craft, hangered either in or on the ship's hull.
 
-**Mining Drones:** Mining drones allow a ship to mine asteroids. Each set of mining drones takes up ten tons, and allows the ship to process 1D6x10 tons of asteroid per working day. The tonnage allocated includes ore handling machinery, allowing the ship to take on ore and transfer it to the cargo bay.
+**Mining Drones:** Mining drones allow a ship to mine asteroids. Each set of mining drones takes up ten tons, and allows the ship to process 1D6×10 tons of asteroid per working day. The tonnage allocated includes ore handling machinery, allowing the ship to take on ore and transfer it to the cargo bay.
 
 **Probe Drones:** Probe drones are for surveying planetary surfaces. Each ton of probe drones contains five drones. Probe drones can be dropped from orbit in disposable entry shells but must be recovered manually. Probe drones are also capable of surveying orbiting satellites, derelicts and other space debris. They can also be used as communications relays.
 
@@ -443,7 +443,7 @@ One turret may be attached to each hardpoint on the ship. If a turret is install
 | Double Turret | 8 | 1 | 0.5 |
 | Triple Turret | 9 | 1 | 1 |
 | Pop-up Turret | 10 | 2 | +1 |
-| Fixed Mounting | \- | 0 | x0.5 |
+| Fixed Mounting | \- | 0 | ×0.5 |
 
 **Single, Double and Triple turrets** can hold one, two or three weapons.
 

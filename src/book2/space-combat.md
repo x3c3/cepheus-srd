@@ -487,7 +487,7 @@ The bridge is hit.
 The fuel is hit.
 
 -   **First Hit:** Causes a minor fuel leak of 1D6 tons per hour.
--   **Second Hit:** Destroys 1D6x10% of stored fuel.
+-   **Second Hit:** Destroys 1D6×10% of stored fuel.
 -   **Third Hit:** Destroys fuel tank.
 -   **Subsequent Hits:** Count as [Structure](#structure) hits.
 
@@ -495,8 +495,8 @@ The fuel is hit.
 
 The crago hold is hit.
 
--   **First Hit:** Destroys 1D6x10% of stored cargo.
--   **Second Hit:** Destroys 1D6x10% of stored cargo.
+-   **First Hit:** Destroys 1D6×10% of stored cargo.
+-   **Second Hit:** Destroys 1D6×10% of stored cargo.
 -   **Third Hit:** Destroys cargo hold and everything in it.
 -   **Subsequent Hits:** Count as [Structure](#structure) hits.
 
@@ -507,10 +507,10 @@ Each hit on the crew indicates that radiation or flying debris has injured one o
 | Roll | Normal Damage | Radiation Damage |
 | --- | --- | --- |
 | 4 or less | Lucky escape – no damage | Lucky escape – no radiation |
-| 5–8 | One random crew member suffers 2D6 damage | One random crew member suffers 2D6x10 rads |
-| 9–10 | One random crew member suffers 4D6 damage | One random crew member suffers 4D6x10 rads |
-| 11 | All crew suffer 2D6 damage | All crew suffer 2D6x10 rads |
-| 12 | All crew suffer 4D6 damage | All crew suffer 4D6x10 rads |
+| 5–8 | One random crew member suffers 2D6 damage | One random crew member suffers 2D6×10 rads |
+| 9–10 | One random crew member suffers 4D6 damage | One random crew member suffers 4D6×10 rads |
+| 11 | All crew suffer 2D6 damage | All crew suffer 2D6×10 rads |
+| 12 | All crew suffer 4D6 damage | All crew suffer 4D6×10 rads |
 
 ### Scaling Damage: Ship Weapons Against Personal-Scale Targets
 
@@ -518,13 +518,13 @@ Ship weapons suffer a DM -4 to hit a specific target on the personal combat scal
 
 | Ship Weapon | Personal Combat Damage |
 | --- | --- |
-| Beam Laser | 1D6x50 |
-| Fusion Gun (bay) | 5D6x50 |
-| Meson Gun (bay) | 5D6x50, plus 4D6x10 rads |
-| Nuclear Missile | 2D6x50, plus 4D6x10 rads |
-| Particle Beam (bay) | 6D6x50, plus 4D6x10 rads |
-| Particle Beam (turret) | 3D6x50, plus 4D6x10 rads |
-| Pulse Laser | 2D6x50 |
+| Beam Laser | 1D6×50 |
+| Fusion Gun (bay) | 5D6×50 |
+| Meson Gun (bay) | 5D6×50, plus 4D6×10 rads |
+| Nuclear Missile | 2D6×50, plus 4D6×10 rads |
+| Particle Beam (bay) | 6D6×50, plus 4D6×10 rads |
+| Particle Beam (turret) | 3D6×50, plus 4D6×10 rads |
+| Pulse Laser | 2D6×50 |
 | Sandcaster | 8D6 |
-| Smart Missile | 1D6x50 |
-| Standard Missile | 1D6x50 |
+| Smart Missile | 1D6×50 |
+| Standard Missile | 1D6×50 |

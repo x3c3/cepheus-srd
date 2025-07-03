@@ -37,50 +37,50 @@ Some goods are illegal, and can be purchased only through a black market supplie
 
 | Item | Cost (Cr) | Tons |
 | --- | --- | --- |
-| Basic Consumable Goods | 1,000 | 2D6x5 |
-| Basic Electronics | 25,000 | 2D6x5 |
-| Basic Machine Parts | 10,000 | 2D6x5 |
-| Basic Manufactured Goods | 20,000 | 2D6x5 |
-| Basic Raw Materials | 5,000 | 2D6x5 |
-| Basic Unrefined Ore | 2,000 | 2D6x5 |
+| Basic Consumable Goods | 1,000 | 2D6×5 |
+| Basic Electronics | 25,000 | 2D6×5 |
+| Basic Machine Parts | 10,000 | 2D6×5 |
+| Basic Manufactured Goods | 20,000 | 2D6×5 |
+| Basic Raw Materials | 5,000 | 2D6×5 |
+| Basic Unrefined Ore | 2,000 | 2D6×5 |
 
 ### Trade Goods
 
 | D66 | Trade Goods | Base Price (Cr) | Tons | Purchase DMs | Sale DMs |
 | --- | --- | --- | --- | --- | --- |
-| 11 | Advanced Electronics | 100,000 | 1D6x5 | Ht +2, In +3 | Ni +2, Po +1 |
-| 12 | Advanced Manufactured Goods | 200,000 | 1D6x5 | In +3, Ri +2 | Ag +1, Ni +2 |
+| 11 | Advanced Electronics | 100,000 | 1D6×5 | Ht +2, In +3 | Ni +2, Po +1 |
+| 12 | Advanced Manufactured Goods | 200,000 | 1D6×5 | In +3, Ri +2 | Ag +1, Ni +2 |
 | 13 | Agricultural Equipment | 150,000 | 1D6 | In +3, Ri +2 | Ag +2, Ga +1 |
-| 14 | Animal Products | 1,500 | 4D6x5 | Ag +2, Ga +3 | Hi +2, Ri +1 |
+| 14 | Animal Products | 1,500 | 4D6×5 | Ag +2, Ga +3 | Hi +2, Ri +1 |
 | 15 | Collectibles | 50,000 | 1D6 | In +2, Ri +3 | Hi +2, Ni +1 |
 | 16 | Computers & Computer Parts | 150,000 | 2D6 | Ht +3, In +2 | Na +1, Ni +2 |
-| 21 | Crystals & Gems | 20,000 | 1D6x5 | Ni +3, Na +2 | In +1, Ri +2 |
-| 22 | Cybernetic Parts | 250,000 | 1D6x5 | Ht +3, Ri +2 | Na +1, Ni +2 |
+| 21 | Crystals & Gems | 20,000 | 1D6×5 | Ni +3, Na +2 | In +1, Ri +2 |
+| 22 | Cybernetic Parts | 250,000 | 1D6×5 | Ht +3, Ri +2 | Na +1, Ni +2 |
 | 23 | Food Service Equipment | 4,000 | 2D6 | In +3, Na +2 | Ag +1, Ni +2 |
 | 24 | Furniture | 5,000 | 4D6 | Ag +2, Ga +3 | Hi +1, Ri +2 |
 | 25 | Gambling Devices & Equipment | 4,000 | 1D6 | Hi +2, Ri +3 | Na +2, Ni +1 |
 | 26 | Grav Vehicles | 160,000 | 1D6 | Ht +3, Ri +2 | Ni +2, Po +1 |
-| 31 | Grocery Products | 6,000 | 1D6x5 | Ag +3, Ga +2 | Hi +1, Ri +2 |
+| 31 | Grocery Products | 6,000 | 1D6×5 | Ag +3, Ga +2 | Hi +1, Ri +2 |
 | 32 | Household Appliances | 12,000 | 4D6 | Hi +2, In +3 | Na +1, Ni +2 |
 | 33 | Industrial Supplies | 75,000 | 2D6 | In +3, Ri +2 | Na +1, Ni +2 |
-| 34 | Liquor & Other Intoxicants | 15,000 | 1D6x5 | Ag +3, Ga +2 | In +1, Ri +2 |
+| 34 | Liquor & Other Intoxicants | 15,000 | 1D6×5 | Ag +3, Ga +2 | In +1, Ri +2 |
 | 35 | Luxury Goods | 150,000 | 1D6 | Ag +2, Ga +3 | In +1, Ri +2 |
-| 36 | Manufacturing Equipment | 750,000 | 1D6x5 | In +3, Ri +2 | Na +1, Ni +2 |
-| 41 | Medical Equipment | 50,000 | 1D6x5 | Ht +2, Ri +3 | Hi +1, In +2 |
-| 42 | Petrochemicals | 10,000 | 2D6x5 | Na +2, Ni +3 | Ag +1, In +2 |
+| 36 | Manufacturing Equipment | 750,000 | 1D6×5 | In +3, Ri +2 | Na +1, Ni +2 |
+| 41 | Medical Equipment | 50,000 | 1D6×5 | Ht +2, Ri +3 | Hi +1, In +2 |
+| 42 | Petrochemicals | 10,000 | 2D6×5 | Na +2, Ni +3 | Ag +1, In +2 |
 | 43 | Pharmaceuticals | 100,000 | 1D6 | Ht +3, Wa +2 | In +2, Ri +1 |
-| 44 | Polymers | 7,000 | 4D6x5 | In +2, Ri +3 | Ni +2, Va +1 |
+| 44 | Polymers | 7,000 | 4D6×5 | In +2, Ri +3 | Ni +2, Va +1 |
 | 45 | Precious Metals | 50,000 | 1D6 | As +3, Ic +2 | In +1, Ri +2 |
 | 46 | Radioactives | 1,000,000 | 1D6 | As +2, Ni +3 | In +2, Ht +1 |
-| 51 | Robots & Drones | 500,000 | 1D6x5 | Ht +3, In +2 | Ni +1, Ri +2 |
-| 52 | Scientific Equipment | 50,000 | 1D6x5 | Ht +3, Ri +2 | Hi +2, Ni +1 |
+| 51 | Robots & Drones | 500,000 | 1D6×5 | Ht +3, In +2 | Ni +1, Ri +2 |
+| 52 | Scientific Equipment | 50,000 | 1D6×5 | Ht +3, Ri +2 | Hi +2, Ni +1 |
 | 53 | Survival Gear | 4,000 | 2D6 | Ga +3, Ri +2 | Fl +2, Va +1 |
-| 54 | Textiles | 3,000 | 3D6x5 | Ag +3, Ni +2 | Na +1, Ri +2 |
-| 55 | Uncommon Raw Materials | 50,000 | 2D6x5 | Ag +3, Ni +2 | In +2, Na +1 |
-| 56 | Uncommon Unrefined Ores | 20,000 | 2D6x5 | As +2, Va +1 | In +2, Na +1 |
+| 54 | Textiles | 3,000 | 3D6×5 | Ag +3, Ni +2 | Na +1, Ri +2 |
+| 55 | Uncommon Raw Materials | 50,000 | 2D6×5 | Ag +3, Ni +2 | In +2, Na +1 |
+| 56 | Uncommon Unrefined Ores | 20,000 | 2D6×5 | As +2, Va +1 | In +2, Na +1 |
 | 61 | Illicit Luxury Goods | 150,000 | 1D6 | Ag +2, Ga +3 | In +4, Ri +6 |
 | 62 | Illicit Pharmaceuticals | 100,000 | 1D6 | Ht +3, Wa +2 | In +6, Ri +4 |
-| 63 | Medical Research Material | 50,000 | 1D6x5 | Ht +2, Ri +3 | In +6, Na +4 |
+| 63 | Medical Research Material | 50,000 | 1D6×5 | Ht +2, Ri +3 | In +6, Na +4 |
 | 64 | Military Equipment | 150,000 | 2D6 | Ht +3, In +2 | Hi +6, Ni +4 |
 | 65 | Personal Weapons & Armor | 30,000 | 2D6 | In +3, Ri +2 | Ni +6, Po +4 |
 | 66 | Unusual Cargo | \* | \* | \* | \* |

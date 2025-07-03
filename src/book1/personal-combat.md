@@ -543,7 +543,7 @@ A damaged system can be jury-rigged back to functioning, but it will stop functi
 
 The Passengers and Cockpit systems cannot take hits to provide spare parts, although cybernetic parts might be able to provide enough spare material to repair minor damage.
 
-A destroyed system costs 2D6x10% of its original cost to repair, and cannot be repaired using spare parts. It requires a full workshop and specialist materials.
+A destroyed system costs 2D6×10% of its original cost to repair, and cannot be repaired using spare parts. It requires a full workshop and specialist materials.
 
 #### Hull Damage
 

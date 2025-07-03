@@ -180,7 +180,7 @@ Here is an example of a system-wide human celebrity that has been entertaining h
 Bruce Ayala 786A9A  Age 38
 Entertainer (5 terms)   Cr70,000
 Athletics-1, Admin-1, Advocate-1, Bribery-1, Carousing-3, Computer-2, Gambling-0, Grav Vehicle-0, Liaison-2, Linguistics-0, Streetwise-0
-High passage (x2)
+High passage (×2)
 ```
 
 ## Background Skills
@@ -364,7 +364,7 @@ Characters that are wounded in combat or accidents during character creation mus
 
 ### Injury Crisis
 
-If any characteristic is reduced to 0, then the character suffers an injury crisis. The character dies unless he can pay 1D6x10,000 Credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
+If any characteristic is reduced to 0, then the character suffers an injury crisis. The character dies unless he can pay 1D6×10,000 Credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
 
 ### Medical Care
 
@@ -399,7 +399,7 @@ The effects of aging begin when a character reaches 34 years of age. At the end 
 
 ### Aging Crisis
 
-If any characteristic is reduced to 0 by aging, then the character suffers an aging crisis. The character dies unless he can pay 1D6x10,000 Credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
+If any characteristic is reduced to 0 by aging, then the character suffers an aging crisis. The character dies unless he can pay 1D6×10,000 Credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
 
 ### Anagathics
 
@@ -407,7 +407,7 @@ While using anagathic drugs, the character effectively does not age – add the 
 
 The risk of trying to obtain a reliable supply and the disruption to the character's biochemistry means the character must make a second Survival check if he passes his first Survival check in a term. If either check is failed, the character suffers a mishap and is ejected from the career.
 
-The drugs cost 1D6x2,500 Credits for each term that the character uses the drugs. These costs are paid out of the character's eventual mustering-out cash benefits. If the character cannot pay these bills, he goes into debt.
+The drugs cost 1D6×2,500 Credits for each term that the character uses the drugs. These costs are paid out of the character's eventual mustering-out cash benefits. If the character cannot pay these bills, he goes into debt.
 
 ## Reenlistment and Retirement
 
@@ -739,7 +739,7 @@ Descended from Omnivore/Hunter flyers, Avians are a small winged sentient race c
 
 #### Game Mechanics
 
-Avians have Weak Strength (1D6), Notable Dexterity (3D6) and Weak Endurance (1D6). Avians also have the Flyer (9m), Low Gravity Adaptation, Natural Pilot, Slow Speed (4.5m) and Small traits. This winged race reaches maturity at 22, starts aging at 46, stands 105+(2D6x2) centimeters tall, and have a mass of 20+(2D6x2) kilograms.
+Avians have Weak Strength (1D6), Notable Dexterity (3D6) and Weak Endurance (1D6). Avians also have the Flyer (9m), Low Gravity Adaptation, Natural Pilot, Slow Speed (4.5m) and Small traits. This winged race reaches maturity at 22, starts aging at 46, stands 105+(2D6×2) centimeters tall, and have a mass of 20+(2D6×2) kilograms.
 
 ### Espers
 
@@ -755,7 +755,7 @@ Descended from Carnivore/Chaser stock, the Insectans are an insectoid race that 
 
 #### Game Mechanics
 
-Insectans have Notable Dexterity (2D6+2). Insectans also have the Armored, Bad First Impression, Caste, Cold-blooded, Fast Speed (9m), Great Leaper and Hive Mentality traits. Insectans reach maturity at 18 and start aging at 34 (much like humans), stand 160+(2D6x5) centimeters tall, and have a mass of 60+(2D6x5) kilograms.
+Insectans have Notable Dexterity (2D6+2). Insectans also have the Armored, Bad First Impression, Caste, Cold-blooded, Fast Speed (9m), Great Leaper and Hive Mentality traits. Insectans reach maturity at 18 and start aging at 34 (much like humans), stand 160+(2D6×5) centimeters tall, and have a mass of 60+(2D6×5) kilograms.
 
 NOTE: Insectans have a different characteristic score called Caste, which replaces Social Standing. Caste is generated in the same manner as Social Standing. All modifications to Social Standing referenced in the character creation process impacts Caste equally.
 
@@ -773,15 +773,15 @@ Bearing a strong saurian appearance, the Reptilians descend from homeothermic ca
 
 #### Game Mechanics
 
-Reptilians have Notable Strength (2D6+1), Notable Dexterity (2d+1) and Weak Endurance (2D6-2). Reptilians also possess the Anti-Psionic, Fast Speed (9m), Heat Endurance, Low-Light Vision, Natural Weapon (teeth) and Low Gravity Adaptation traits. Reptilians reach maturity at 22, start aging at 42, stand 155+(2D6x5) centimeters tall, and have a mass of 50+(2D6x5) kilograms.
+Reptilians have Notable Strength (2D6+1), Notable Dexterity (2d+1) and Weak Endurance (2D6-2). Reptilians also possess the Anti-Psionic, Fast Speed (9m), Heat Endurance, Low-Light Vision, Natural Weapon (teeth) and Low Gravity Adaptation traits. Reptilians reach maturity at 22, start aging at 42, stand 155+(2D6×5) centimeters tall, and have a mass of 50+(2D6×5) kilograms.
 
 ### Alien Species Trait Descriptions
 
 Many of the races in this section possess unusual racial traits, which are described below.
 
--   **Amphibious:** A member of this species is adapted to life underwater as well as on land. It can breathe underwater, or hold its breath for a long period (Endurancex10 minutes on average). Its Dexterity is halved on land.
+-   **Amphibious:** A member of this species is adapted to life underwater as well as on land. It can breathe underwater, or hold its breath for a long period (Endurance×10 minutes on average). Its Dexterity is halved on land.
 -   **Anti-Psionic:** Members of this species are innately anti-psionic. The character's Psionic Strength rating always equals zero, and they cannot be trained in psionics. In addition, the character cannot suffer the mental effects of psionics, including telepathy and psionic assault. A species cannot have this alien trait if they already have the Psionic alien trait.
--   **Aquatic:** The alien is adapted to life underwater. It can breathe underwater, or hold its breath for a long period (Endurancex10 minutes on average). If amphibious, its Dexterity is halved on land. If the species is not amphibious, then it cannot operate out of water without mechanical aid or telepresence.
+-   **Aquatic:** The alien is adapted to life underwater. It can breathe underwater, or hold its breath for a long period (Endurance×10 minutes on average). If amphibious, its Dexterity is halved on land. If the species is not amphibious, then it cannot operate out of water without mechanical aid or telepresence.
 -   **Armored:** The alien possess thick fur, scales, a bony exoskeleton or other natural protection that gives it one point of natural armor.
 -   **Atmospheric Requirements:** The species requires an unusual combination of gasses to breathe, and cannot survive in most atmospheres without artificial aid.
 -   **Bad First Impression:** Members of this species possess an almost universally unpleasant appearance or physical trait that invokes an instinctive reaction in races other than their own. Most races will automatically have an Unfriendly attitude towards these characters, although this is overcome after an individual has interacted with the character for a few minutes, based on the character's personality and the circumstances of their interaction.
