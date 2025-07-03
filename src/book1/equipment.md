@@ -566,6 +566,8 @@ A number of melee weapons are described in the Common Personal Melee Weapons tab
 
 **LL:** The Law Level where the weapon first becomes illegal.
 
+### Common Personal Melee Weapons
+
 | Weapon | TL | Cost | Wgt | Range | Damage | Type | LL |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Unarmed Strike | — | — | — | melee (close quarters) | 1D6 | B | — |
@@ -605,7 +607,9 @@ A number of melee weapons are described in the Common Personal Melee Weapons tab
 
 ### Ranged Weapons
 
-The Common Ranged Weapons table lists the ranged weapons commonly available in a Cepheus Engine campaign. Each column is described as follows:
+#### Common Personal Ranged Weapons
+
+The Common Personal Ranged Weapons table lists the ranged weapons commonly available in a Cepheus Engine campaign. Each column is described as follows:
 
 **Cost:** Price in Credits (Cr) or 1000s of Credits (KCr).
 
@@ -624,16 +628,6 @@ The Common Ranged Weapons table lists the ranged weapons commonly available in a
 **Recoil:** Lists if the weapon has recoil when fired.
 
 **LL:** The Law Level where the weapon first becomes illegal.
-
-The Common Ranged Ammunition table describes the cost of ammunitions and power packs for certain ranged weapons. Each column is described as follows:
-
-**Cost:** The cost of a full magazine of standard ammunition or power pack for a weapon.
-
-**TL:** The minimum tech level required to manufacture such an item.
-
-**Wgt:** The weight of a full magazine or power pack for a weapon.
-
-**Rounds:** The number of rounds the weapon may fire before it must be reloaded or recharged.
 
 | Weapon | TL | Cost | Wgt | RoF | Range | Dmg | Type | Recoil | LL |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -655,6 +649,19 @@ The Common Ranged Ammunition table describes the cost of ammunitions and power p
 | Advanced Combat Rifle | 10 | Cr1000 | 3500g | 1/4 | ranged (rifle) | 3D6 | P | Yes | 6 |
 | Gauss Rifle | 12 | Cr1500 | 3500g | 1/4/10 | ranged (rifle) | 4D6 | P | No | 6 |
 | Laser Pistol | 12 | Cr1000 | 1200g | 1 | ranged (pistol) | 4D6 | E | No | 2 |
+
+#### Common Ranged Ammunition
+
+The Common Ranged Ammunition table describes the cost of ammunitions and power packs for certain ranged weapons. Each column is described as follows:
+
+**Cost:** The cost of a full magazine of standard ammunition or power pack for a weapon.
+
+**TL:** The minimum tech level required to manufacture such an item.
+
+**Wgt:** The weight of a full magazine or power pack for a weapon.
+
+**Rounds:** The number of rounds the weapon may fire before it must be reloaded or recharged.
+
 
 | Weapon | TL | Cost | Wgt | Rounds |
 | --- | --- | --- | --- | --- |
@@ -787,6 +794,8 @@ A grenade is a small explosive device designed to be thrown by hand (treat as Ra
 
 ### Heavy Weapons
 
+### Common Heavy Weapons
+
 Heavy weapons are man-portable and larger weapons that cause extreme property damage. Common Heavy Weapons table lists the heavy weapons commonly available in a Cepheus Engine campaign. Each column is described as follows:
 
 **Cost:** Price in Credits (Cr) or 1000s of Credits (KCr).
@@ -805,6 +814,16 @@ Heavy weapons are man-portable and larger weapons that cause extreme property da
 
 **LL:** The Law Level where the weapon first becomes illegal.
 
+| Weapon | TL | Cost | Wgt | RoF | Range | Damage | Recoil | LL |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Grenade Launcher | 7 | 400 | 6 | 1 | ranged (shotgun) | By grenade | Yes | 3 |
+| Rocket Launcher | 7 | 2,000 | 6 | 1 | ranged (rocket) | 4D6 | No | 3 |
+| RAM Grenade Launcher | 8 | 800 | 6 | 1/3 | ranged (assault weapon) | By grenade | Yes | 3 |
+| PGMP | 12 | 20,000 | 10 | 1/4 | ranged (rifle) | 10D6 | Yes | 2 |
+| FGMP | 14 | 100,000 | 12 | 1/4 | ranged (rifle) | 16D6 | Yes | 2 |
+
+### Common Heavy Weapon Ammunition
+
 The Common Heavy Weapons Ammunition table describes the cost of ammunitions and power packs for certain heavy weapons. Each column is described as follows:
 
 **Cost:** The cost of a full magazine of standard ammunition or power pack for a weapon
@@ -814,14 +833,6 @@ The Common Heavy Weapons Ammunition table describes the cost of ammunitions and 
 **Wgt:** The weight of a full magazine or power pack for a weapon.
 
 **Rounds:** The number of rounds the weapon may fire before it must be reloaded or recharged.
-
-| Weapon | TL | Cost | Wgt | RoF | Range | Damage | Recoil | LL |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Grenade Launcher | 7 | 400 | 6 | 1 | ranged (shotgun) | By grenade | Yes | 3 |
-| Rocket Launcher | 7 | 2,000 | 6 | 1 | ranged (rocket) | 4D6 | No | 3 |
-| RAM Grenade Launcher | 8 | 800 | 6 | 1/3 | ranged (assault weapon) | By grenade | Yes | 3 |
-| PGMP | 12 | 20,000 | 10 | 1/4 | ranged (rifle) | 10D6 | Yes | 2 |
-| FGMP | 14 | 100,000 | 12 | 1/4 | ranged (rifle) | 16D6 | Yes | 2 |
 
 | Weapon | TL | Cost | Wgt | Rounds |
 | --- | --- | --- | --- | --- |
@@ -842,4 +853,3 @@ The Common Heavy Weapons Ammunition table describes the cost of ammunitions and 
 **Rocket Launcher:** To counteract the recoil of the weapon, a rocket launcher channels exhaust backwards in an explosive back blast. Anyone up to 1.5 meters behind a rocket launcher when it fires takes 3D6 damage from the burning gasses. Vehicle-mounted rocket launchers lose this side-effect as a vehicle is a more stable firing platform than a person. It takes three minor actions to reload a rocket launcher.
 
 The rockets presented are high-explosive models. Do not add the Effect of the attack roll to their damage but apply that damage to everything within six meters of the impact point. A rocket that misses has a 50% chance (4+ on 1D6) of detonating upon impact with the ground (6 – Effect meters away in a random direction). Otherwise it will miss completely and leave the battlefield without striking anything or detonating.
-

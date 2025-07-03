@@ -31,25 +31,15 @@ Training requires four months of work, and costs Cr100,000. As part of training,
 
 There are several psionic talents, each of which works like a skill for the powers in question. A character trained in the use of psionics may develop his talents over time just as if they were normal skills. Unlike other skills, psionic talents cannot be used untrained. The most common talents are:
 
-Awareness
+**Awareness:** control over one's own mind and body.
 
-control over one's own mind and body.
+**Clairvoyance:** perceiving at a distance.
 
-Clairvoyance
+**Telekinesis:** mind over matter.
 
-perceiving at a distance.
+**Telepathy:** reading minds and mental communication.
 
-Telekinesis
-
-mind over matter.
-
-Telepathy
-
-reading minds and mental communication.
-
-Teleportation
-
-moving from one point to another instantly.
+**Teleportation:** moving from one point to another instantly.
 
 Each talent grants access to all of its powers – a character with Telepathy 0 can use life detection, read surface thoughts or assault as the situation demands.
 

@@ -439,6 +439,8 @@ To determine the effects of an attack on a vehicle, first determine how much dam
 | For every extra three points | +1 Single Hit |
 | For every extra six points | +1 Double Hit |
 
+#### Vehicle Hit Location
+
 | 2D6 | External Hit (Vehicle) | Internal Hit (Vehicle) | Robot or Drone |
 | --- | --- | --- | --- |
 | 2 | Hull | Structure | Hull |
