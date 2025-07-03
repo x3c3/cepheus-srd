@@ -285,7 +285,7 @@ function generateTradeCodes(uwp) {
         tradeCodes.push("Ni");
     if (atmosphere >= 2 && atmosphere <= 5 && hydrographics <= 3)
         tradeCodes.push("Po");
-    else if ((atmosphere == 6 || atmosphere == 8) && population >= 6 && population <= 8)
+    if ((atmosphere == 6 || atmosphere == 8) && population >= 6 && population <= 8)
         tradeCodes.push("Ri");
     if (hydrographics == 10)
         tradeCodes.push("Wa");
@@ -302,7 +302,7 @@ function generatePbg(uwp) {
     // Population Modifier
     let populationModifier = 0;
     if (population > 0)
-        populationModifier = Math.max(1, Math.min(roll() - 3)); // CE actually is -2, however all other Traveller versions are at maximum 9; this is also needed for usage with Traveller Map
+        populationModifier = Math.max(1, Math.min(roll() - 3)); // Cepheus Engine is actually -2, however all other Traveller versions are at maximum 9; this is also needed for usage with Traveller Map
 
     // Planetoid Belt Presence
     let planetoidBelts = roll() >= 4 ? Math.max(1, roll(1) - 3) : 0;
