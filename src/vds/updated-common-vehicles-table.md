@@ -15,7 +15,7 @@ This table replaces the [Common Vehicles table](../book1/equipment.md#vehicles) 
 | Hovercraft | 7 | [Rotor Aircraft](../book1/skills.md#rotor-aircraft) | +0 | 75 kph | 1 pilot, 15 psgr | Closed | 3 | 1 | 2 | None | 144.660 |
 | Twin Jet Aircraft | 7 | [Winged Aircraft](../book1/skills.md#winged-aircraft) | \-1 | 562.5 kph | 1 pilot, 7 psgr | Closed | 3 | 1 | 1 | None | 736.110 |
 | Air/Raft | 9 | [Grav Vehicle](../book1/skills.md#grav-vehicle) | +0 | 75 kph | 1 pilot, 3 psgr | Open | 3 | 0 | 1 | None | 94.340 |
-| Destroyer | 9 | [Ocean Ships](../book1/skills.md#ocean-ships) | \-3 | 45 kph | 9 crew, 19 gnners, 20 psgr | Closed | 6 | 160 | 160 | [See description](common-watercraft.md#destroyer) | 51,521.940 |
+| Destroyer | 9 | [Ocean Ships](../book1/skills.md#ocean-ships) | \-3 | 45 kph | 9 crew, 19 gnners, 20 psgr | Closed | 6 | 160 | 160 | [See description](common-watercraft.md#tl9-destroyer) | 51,521.940 |
 | Grav Tank | 9 | [Grav Vehicle](../book1/skills.md#grav-vehicle) | +1 | 375 kph | 1 pilot, 1 gnnr, 12 psgr | Closed | 9 | 1 | 2 | Beam Laser-TL 9 | 1,469.400 |
 | Speeder | 9 | [Grav Vehicle](../book1/skills.md#grav-vehicle) | +2 | 750 kph | 1 pilot, 1 psgr | Closed | 3 | 0 | 1 | None | 330.250 |
 | Grav Floater | 11 | [Grav Vehicle](../book1/skills.md#grav-vehicle) | +2 | 75 kph | 1 pilot | Open | 4 | 0 | 1 | None | 30.580 |

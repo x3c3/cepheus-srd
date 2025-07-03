@@ -422,30 +422,30 @@ Some vehicles are easier to drive than others. A vehicle’s Agility rating refl
 
 | Agility Factor | Modifier |
 | --- | --- |
-| Vehicle Type | — |
-|  Airplane | \-2 |
-|  Airship | \-4 |
-|  Grav Vehicle | +0 |
-|  Helicopter | \-1 |
-|  Hovercraft | +0 |
-|  Hypersonic | \-2 |
-|  Jet | \-1 |
-|  Mole | \-4 |
-|  Motorboat | +1 |
-|  Ocean Ship | \-2 |
-|  Sailing Ship | \-2 |
-|  Submarine | \-2 |
-|  Tracked Ground Vehicle | \-1 |
-|  Train | \-2 |
-|  Walker | +1 |
-|  Wheeled Ground Vehicle | +2 |
-| Size and Power Factors | — |
-|  Animal-Powered | \-2 |
-|  Wind-Powered | \-1 |
-|  Small (2- tons) | +1 |
-|  Large (10+ tons) | \-1 |
-|  Huge (20+ tons) | \-2 |
-|  Gargantuan (100+ tons) | \-3 |
+| **Vehicle Type** |  |
+| &emsp;Airplane | \-2 |
+| &emsp;Airship | \-4 |
+| &emsp;Grav Vehicle | +0 |
+| &emsp;Helicopter | \-1 |
+| &emsp;Hovercraft | +0 |
+| &emsp;Hypersonic | \-2 |
+| &emsp;Jet | \-1 |
+| &emsp;Mole | \-4 |
+| &emsp;Motorboat | +1 |
+| &emsp;Ocean Ship | \-2 |
+| &emsp;Sailing Ship | \-2 |
+| &emsp;Submarine | \-2 |
+| &emsp;Tracked Ground Vehicle | \-1 |
+| &emsp;Train | \-2 |
+| &emsp;Walker | +1 |
+| &emsp;Wheeled Ground Vehicle | +2 |
+| **Size and Power Factors** |  |
+| &emsp;Animal-Powered | \-2 |
+| &emsp;Wind-Powered | \-1 |
+| &emsp;Small (2- tons) | +1 |
+| &emsp;Large (10+ tons) | \-1 |
+| &emsp;Huge (20+ tons) | \-2 |
+| &emsp;Gargantuan (100+ tons) | \-3 |
 
 ## Vehicle Controls
 
@@ -546,7 +546,7 @@ Vehicle sensors allow the crew to identify, track and jam other vehicles. These 
 
 ## Vehicle Computer
 
-The vehicle computer is identified by its model number; the [Vehicle Computer Models](#vehicle-computer) table indicates details of price, rating, and tech level available. The Model number is the computer rating, which determines the power of a computer. Rating measures the complexity of the programs a computer can run. (Storage space is effectively unlimited at TL 9 and above.) Programs are rated by the computer rating they require. A system can run a number of programs up to its rating, minimum of one (for Model 0 computers). Vehicle computers are optional, but often highly recommended at higher tech levels.
+The vehicle computer is identified by its model number; the Vehicle Computer Models table indicates details of price, rating, and tech level available. The Model number is the computer rating, which determines the power of a computer. Rating measures the complexity of the programs a computer can run. (Storage space is effectively unlimited at TL 9 and above.) Programs are rated by the computer rating they require. A system can run a number of programs up to its rating, minimum of one (for Model 0 computers). Vehicle computers are optional, but often highly recommended at higher tech levels.
 
 | Computer | TL | Space | Price (Cr) |
 | --- | --- | --- | --- |
