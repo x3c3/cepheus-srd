@@ -107,7 +107,7 @@ function generateUwp() {
     // Law Level
     let lawLevel = 0;
     if (government != 0)
-        lawLevel = Math.max(0, roll() - 7 + government);
+        lawLevel = Math.max(0, Math.min(roll() - 7 + government, 15));
 
     // Technology Level
     let technologyLevel = roll(1);
