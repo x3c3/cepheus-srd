@@ -48,15 +48,15 @@ function generateUwp() {
 
     // Hydrographics
     let hydrographics = 0;
-    if (size >= 1) {
+    if (size > 1) {
         hydrographics = roll() - 7 + size;
         if (atmosphere <= 1 || (atmosphere >= 10 && atmosphere <= 12)) {
             hydrographics -= 4;
         } else if (atmosphere == 15) {
             hydrographics -= 2;
         }
+        hydrographics = Math.max(0, Math.min(hydrographics, 10));
     }
-    hydrographics = Math.max(0, Math.min(hydrographics, 10));
 
     // World Population
     let population = roll() - 2;
