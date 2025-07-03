@@ -40,17 +40,17 @@ Using the Cepheus Engine rules as guidelines, a player will create a character r
 
 ## Characteristics
 
-All characters have certain basic characteristics that define what they are capable of doing. These characteristics are Strength, Dexterity, Endurance, Intelligence, Education, and Social Standing. They each have a numeric characteristic score, averaging 7 for a normally capable human. Higher characteristic scores grant bonuses (+1 or more) on task resolution checks, while lower characteristic scores grant penalties (as low as -2). As part of creating your character, you decide how strong, smart, and tough your character is by choosing the appropriate characteristic scores. See [Chapter 1:** Character Creation](book1/character-creation.html) for more information.
+All characters have certain basic characteristics that define what they are capable of doing. These characteristics are Strength, Dexterity, Endurance, Intelligence, Education, and Social Standing. They each have a numeric characteristic score, averaging 7 for a normally capable human. Higher characteristic scores grant bonuses (+1 or more) on task resolution checks, while lower characteristic scores grant penalties (as low as -2). As part of creating your character, you decide how strong, smart, and tough your character is by choosing the appropriate characteristic scores. See [Chapter 1: Character Creation](book1/character-creation.html) for more information.
 
 ## Careers
 
-As a part of their development, characters follow certain life paths called careers. The Cepheus Engine provides a variety of career options for characters to pursue, which opens up opportunities for characters to gain skill levels, characteristic boosts and significant mustering out benefits before they enter into play. See [Chapter 1:** Character Creation](book1/character-creation.html) for more information.
+As a part of their development, characters follow certain life paths called careers. The Cepheus Engine provides a variety of career options for characters to pursue, which opens up opportunities for characters to gain skill levels, characteristic boosts and significant mustering out benefits before they enter into play. See [Chapter 1: Character Creation](book1/character-creation.html) for more information.
 
 ## Skills
 
 Skills represent training in a particular sort of task or knowledge, everything from acrobatic maneuvers to negotiation, piloting a starship, and programming a computer. Someone trained in athletics is able to climb faster and with more confidence than someone who isn't, for example. Skills are measured in levels, reflecting how much training a character has in the skill. When recording skills and their associated levels, the skill name is written first, followed by a hyphen, and then the number of levels that the character possesses in that skill. For example, Gambling-2 means that the character has two levels of Gambling skill.
 
-Each skill level represents roughly two years' worth of education and training in that skill. For skills of an academic bent, you could equate that to an Associate's Degree (or similar two-year academic program) at level one, a Bachelor's Degree (or other four-year program) at level two, a Master's Degree at level three, a Doctorate at level four, and so on. Skill levels act as a bonus on task resolutions rolls when a character attempts an action related to a skill. As your character follows their career, they gain skills. See [Chapter 2:** Skills](book1/skills.html) for more information on specific skills.
+Each skill level represents roughly two years' worth of education and training in that skill. For skills of an academic bent, you could equate that to an Associate's Degree (or similar two-year academic program) at level one, a Bachelor's Degree (or other four-year program) at level two, a Master's Degree at level three, a Doctorate at level four, and so on. Skill levels act as a bonus on task resolutions rolls when a character attempts an action related to a skill. As your character follows their career, they gain skills. See [Chapter 2: Skills](book1/skills.html) for more information on specific skills.
 
 ## Game Play
 
@@ -91,7 +91,7 @@ A check's Difficulty is a number set by the Referee that modifies your check res
 | Very Difficult | \-4 |
 | Formidable | \-6 |
 
-In some cases, the consequences of a check vary based on how much the check result is above or below the target of 8. The difference between the check result and the target of 8 is called the Effect. If the Effect is 6 or higher, the check is considered an Exceptional Success. When the Effect is -6 or lower, the check is considered an Exceptional Failure. See [Chapter 2:** Skills](book1/skills.html) for more details.
+In some cases, the consequences of a check vary based on how much the check result is above or below the target of 8. The difference between the check result and the target of 8 is called the Effect. If the Effect is 6 or higher, the check is considered an Exceptional Success. When the Effect is -6 or lower, the check is considered an Exceptional Failure. See [Chapter 2: Skills](book1/skills.html) for more details.
 
 | Effect Range | Degree of Success |
 | --- | --- |
@@ -110,16 +110,16 @@ In general, you can try a check again if you fail, and keep trying indefinitely.
 
 ### Circumstance Modifiers
 
-Some circumstances make a check easier or harder, resulting in a bonus or penalty that is added to the check result. The Referee can alter the odds of success in two ways:**
+Some circumstances make a check easier or harder, resulting in a bonus or penalty that is added to the check result. The Referee can alter the odds of success in two ways:
 
 *   If a character has help, such as good tools, competent aids or other beneficial circumstances, he receives a +1 bonus to his skill check.
 *   If a character is hampered, such as having defective tools, incompetent assistance or other negative circumstances, he receives a -1 penalty to his skill check.
 
 ### Time and Checks
 
-Outside of stressful situations such as combat, performing a particular task often takes a random amount of time, depending on circumstances. For most tasks, roll 1D6 and multiply it by the increment that the Referee provides for that action. For example, breaking a flimsy wooden door down may only require 1D6 seconds, while performing delicate surgery might take 1D6 hours. More information on time increments can be found in [Chapter 2:** Skills](book1/skills.html).
+Outside of stressful situations such as combat, performing a particular task often takes a random amount of time, depending on circumstances. For most tasks, roll 1D6 and multiply it by the increment that the Referee provides for that action. For example, breaking a flimsy wooden door down may only require 1D6 seconds, while performing delicate surgery might take 1D6 hours. More information on time increments can be found in [Chapter 2: Skills](book1/skills.html).
 
-During combat, most actions are more refined to a finite period. Some of these actions are considered minor actions, while others are deemed significant actions. More information is provided in [Chapter 5:** Personal Combat](book1/personal-combat.html).
+During combat, most actions are more refined to a finite period. Some of these actions are considered minor actions, while others are deemed significant actions. More information is provided in [Chapter 5: Personal Combat](book1/personal-combat.html).
 
 ### Aiding Another
 
@@ -127,7 +127,7 @@ Sometimes characters work together and help each other out. In this case, one ch
 
 ## Types of Checks
 
-There are two main types of checks:** skill checks and characteristic checks.
+There are two main types of checks: skill checks and characteristic checks.
 
 ### Skill Checks
 
@@ -143,13 +143,13 @@ A characteristic check is like a skill check, but measures raw ability, like str
 
 ## The Combat Round
 
-When things really start happening in a Cepheus Engine game, time is broken down into six-second segments called rounds, or combat rounds, since they're most often used in fights. A round isn't very much time, just long enough for a character to do something. The types of actions your character can perform during a round are significant actions, minor actions, extended actions, free actions, and reactions. During a round you can do one of the following:**
+When things really start happening in a Cepheus Engine game, time is broken down into six-second segments called rounds, or combat rounds, since they're most often used in fights. A round isn't very much time, just long enough for a character to do something. The types of actions your character can perform during a round are significant actions, minor actions, extended actions, free actions, and reactions. During a round you can do one of the following:
 
 *   Initiate or continue an extended action.
 *   Take a significant action and a minor action.
 *   Take three minor actions, and forego taking a significant action this turn.
 
-You can perform as many free actions and reactions in a round as you wish, although the Referee may choose to limit them to a reasonable number to keep the game moving. See [Chapter 5:** Personal Combat](book1/personal-combat.html) for more information.
+You can perform as many free actions and reactions in a round as you wish, although the Referee may choose to limit them to a reasonable number to keep the game moving. See [Chapter 5: Personal Combat](book1/personal-combat.html) for more information.
 
 ## Pseudo-Hexadecimal Notation
 
@@ -172,7 +172,7 @@ The Cepheus Engine uses a form of pseudo-hexadecimal notation as a type of short
 
 ## Important Terms
 
-The Cepheus Engine uses certain words and abbreviations throughout the rules system. In order properly understand the Cepheus Engine rules, both players and Referees should become familiar with these terms. The following words, phrases and abbreviations are commonly used in The Cepheus Engine:**
+The Cepheus Engine uses certain words and abbreviations throughout the rules system. In order properly understand the Cepheus Engine rules, both players and Referees should become familiar with these terms. The following words, phrases and abbreviations are commonly used in The Cepheus Engine:
 
 **2D6:** Two six-sided dice, used to resolve all actions in the Cepheus Engine.
 
