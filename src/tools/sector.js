@@ -10,8 +10,8 @@ function generateSector(target = 4, subsectors = 1) {
         subsectors == 1; // TODO: this is a temporary guard - the world generator exhausts its names too quickly
     let width = 8;
     let height = 10;
-    let wGen = worldGenerator();
-    let sectorName = "Unnamed"; // placeholder
+    const wGen = worldGenerator();
+    const sectorName = "Unnamed"; // placeholder
     let r = sectorName + " Sector \n" +
         " 1-13: Name\n" +
         "15-18: HexNbr\n" +
@@ -41,10 +41,10 @@ function calculatePopulation(sec) {
     let total = 0;
     let lines = sec.split("\n");
     lines.forEach(line => {
-        let uwp = line.match(/[ABCDEX][0-9A-Z]{6}-[0-9A-Z]/);
-        let pbg = line.match(/\s\s(\d[0-9A-F][0-9A-F])\s/);
+        const uwp = line.match(/[ABCDEX][0-9A-Z]{6}-[0-9A-Z]/);
+        const pbg = line.match(/\s\s(\d[0-9A-F][0-9A-F])\s/);
         if (uwp && pbg)
             total += pseudoHex(pbg[1][0]) * Math.pow(10, pseudoHex(uwp[0][4]));
     });
-    return `Subsector Population: ${total.toLocaleString('en')}`;
+    return `Subsector Population: ${total.toLocaleString("en")}`;
 }
