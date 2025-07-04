@@ -1,3 +1,15 @@
+/**
+ * Represents a Cepheus Engine world.
+ * @typedef {Object} World
+ * @property {string} [name="WorldName"] - The world's name. Defaults to "WorldName" if not supplied.
+ * @property {string} [uwp] - The world's Universal World Profile (A123456-7). Automatically generated randomly if not supplied.
+ * @property {string} [bases] - Naval/Scout/Pirate bases single-letter code. Automatically derived from UWP if not supplied.
+ * @property {string} [remarks] - The world's Trade Codes. Automatically derived from UWP if not supplied.
+ * @property {string} [travelZone] - Single-letter Amber or Red travel zone identifier. Automatically derived from UWP if not supplied.
+ * @property {string} [pbg] - Population Modifier/Planetoid Belts/Gas Giants. Automatically derived from UWP if not supplied.
+ * @property {string} [allegiance="Na"] - Two-letter allegiance code. Defaults to the non-aligned "Na" code if not supplied.
+ * @property {string} [stellarData=""] - The world's stellar data. Defaults to an empty string if not supplied.
+ */
 class World {
     constructor(name, uwp, bases, remarks, travelZone, pbg, allegiance, stellarData) {
         this.name = name ? name : "WorldName";
@@ -14,8 +26,8 @@ class World {
     }
 }
 
+// Iterator that returns a World object with each next() until it exhausts its list of world names.
 function* worldGenerator() {
-    /** Iterator that returns a World object with each next() until it exhausts its list of world names. */
     // Names from http://www.nameexoworlds.iau.org/, plus a few extras
     let names = ["Arber", "Tassili", "Madriu", "Naqaya", "Bocaprins", "Yanyan", "Sissi", "Ganja", "Tondra", "Eburonia", "Drukyul", "Yvaga", "Naron", "Guarani", "Mastika", "Bendida", "Nakanbe", "Awasis", "Caleuche", "Wangshu", "Sazum", "Melquiades", "Pipitea", "Ditso", "Veles", "Finlay", "Onasilos", "Makropulos", "Surt", "Boinayel", "Eyeke", "Cayahuanca", "Hamarik", "Abol", "Hiisi", "Belisama", "Mintome", "Neri", "Toge", "Iolaus", "Koyopa", "Independance", "Ixbalanque", "Victoriapeak", "Magor", "Fold", "Santamasa", "Noifasui", "Kavian", "Babylonia", "Bran", "Alef", "Lete", "Asye", "Chura", "Wadirum", "Buru", "Staburags", "Beirut", "Umbaassa", "Vytis", "Peitruss", "Trimobe", "Baiduri", "Ggantija", "Cuptor", "Xolotl", "Bambaruush", "Isli", "Hairu", "Bagan", "Laligurans", "Nachtwacht", "Kereru", "Xolotlan", "Equiano", "Albmi", "Perwana", "Jebus", "Pollera", "Tumearandu", "Sumajmajta", "Haik", "Leklsullun", "Pirx", "Viriato", "Aumatex", "Negoiu", "Teberda", "Dopere", "Vlasina", "Viculus", "Kralomoc", "Iztok", "Krotoa", "Halla", "Riosar", "Samagiya", "Isagel", "Eiger", "Ugarit", "Tanzanite", "Maeping", "Agouto", "Ramajay", "Khomsa", "Gokturk", "Tryzub", "Barajeel", "Cruinlagh", "Mulchatna", "Ibirapita", "Madalitso",
         "Erehwemos", "Lacipyt", "Victoria", "Albert", "Diavlo", "Grizel", "Indeep", "Pynchan", "Ranther", "Sainte Foy", "Sharmun", "Taldor", "Vendetierre"];
@@ -27,6 +39,7 @@ function* worldGenerator() {
     return w;
 }
 
+// Generates a Cepheus Engine UWP per the SRD rules
 function generateUwp() {
     // World Size
     let size = roll() - 2;
@@ -195,6 +208,7 @@ function generateUwp() {
     return `${starport}${pseudoHex(size)}${pseudoHex(atmosphere)}${pseudoHex(hydrographics)}${pseudoHex(population)}${pseudoHex(government)}${pseudoHex(lawLevel)}-${pseudoHex(technologyLevel)}`;
 }
 
+// Generates Naval/Scout/Pirate bases for a supplied UWP string
 function generateBases(uwp) {
     let starport = uwp[0];
     let navalBase = false;
@@ -233,6 +247,7 @@ function generateBases(uwp) {
     return bases;
 }
 
+// Generates Trade Codes for a supplied UWP string
 function generateTradeCodes(uwp) {
     // let starport = pseudoHex(uwp[0]);
     let size = pseudoHex(uwp[1]);
@@ -286,6 +301,7 @@ function generateTradeCodes(uwp) {
     return tradeCodes.join(" ");
 }
 
+// Generates Population Modifier/Planetoid Belts/Gas Giants for a supplied UWP string
 function generatePbg(uwp) {
     let size = pseudoHex(uwp[1]);
     let population = pseudoHex(uwp[4]);
@@ -306,6 +322,7 @@ function generatePbg(uwp) {
     return `${pseudoHex(populationModifier)}${pseudoHex(planetoidBelts)}${pseudoHex(gasGiants)}`;
 }
 
+// Generates Amber travel zones for a supplied UWP string
 function generateTravelZone(uwp) {
     let atmosphere = pseudoHex(uwp[2]);
     let government = pseudoHex(uwp[5]);
@@ -317,6 +334,13 @@ function generateTravelZone(uwp) {
     return travelZone;
 }
 
+/**
+ * Creates a new World object with the specified name, handling special predefined world names.
+ *
+ * @param {string} [name] - The name to use for the world.
+ * @param {boolean} outputAsObject - Whether to return a World object, or directly print the results.
+ * @returns {World|string} The generated World object, or alternatively a string representation of it.
+ */
 function generateWorld(name, outputAsObject = false) {
     let worlds = {
         "Victoria": new World("Victoria", "X697770-4", ' ', undefined, 'R', "112", undefined, "K6 V"),
