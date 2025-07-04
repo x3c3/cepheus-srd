@@ -19,7 +19,7 @@ class World {
         this.travelZone = travelZone ? travelZone : generateTravelZone(this.uwp);
         this.pbg = pbg ? pbg : generatePbg(this.uwp);
         this.allegiance = allegiance ? allegiance : "Na";
-        this.stellarData = stellarData ? stellarData : '';
+        this.stellarData = stellarData ? stellarData : "";
     }
     print() {
         return `${this.uwp} ${this.bases} ${this.remarks.padEnd(16, " ")} ${this.travelZone}  ${this.pbg} ${this.allegiance} ${this.stellarData}`;
@@ -42,7 +42,7 @@ function* worldGenerator() {
 // Generates a Cepheus Engine UWP per the SRD rules
 function generateUwp() {
     // World Size
-    let size = roll() - 2;
+    const size = roll() - 2;
 
     // Atmosphere
     let atmosphere = 0;
@@ -79,26 +79,26 @@ function generateUwp() {
     // Primary Starport
     let starport = roll() - 7 + population;
     if (starport <= 2)
-        starport = 'X';
+        starport = "X";
     else if (starport >= 11)
-        starport = 'A';
+        starport = "A";
     else {
         switch (starport) {
             case 3:
             case 4:
-                starport = 'E';
+                starport = "E";
                 break;
             case 5:
             case 6:
-                starport = 'D';
+                starport = "D";
                 break;
             case 7:
             case 8:
-                starport = 'C';
+                starport = "C";
                 break;
             case 9:
             case 10:
-                starport = 'B';
+                starport = "B";
                 break;
         }
     }
@@ -116,16 +116,16 @@ function generateUwp() {
     // Technology Level
     let technologyLevel = roll(1);
     switch (starport) {
-        case 'A':
+        case "A":
             technologyLevel += 6;
             break;
-        case 'B':
+        case "B":
             technologyLevel += 4;
             break;
-        case 'C':
+        case "C":
             technologyLevel += 2;
             break;
-        case 'X':
+        case "X":
             technologyLevel -= 4;
             break;
     }
@@ -210,39 +210,39 @@ function generateUwp() {
 
 // Generates Naval/Scout/Pirate bases for a supplied UWP string
 function generateBases(uwp) {
-    let starport = uwp[0];
+    const starport = uwp[0];
     let navalBase = false;
     let scoutBase = false;
     let pirateBase = false;
     let bases = " ";
     switch (starport) {
-        case 'A':
+        case "A":
             navalBase = roll() >= 8 ? true : false;
             scoutBase = roll() - 3 >= 7 ? true : false;
             break;
-        case 'B':
+        case "B":
             navalBase = roll() >= 8 ? true : false;
             scoutBase = roll() - 2 >= 7 ? true : false;
             break;
-        case 'C':
+        case "C":
             scoutBase = roll() - 1 >= 7 ? true : false;
             break;
-        case 'D':
+        case "D":
             scoutBase = roll() >= 7 ? true : false;
             break;
     }
-    if (!navalBase && starport != 'A')
+    if (!navalBase && starport != "A")
         pirateBase = roll() >= 12 ? true : false;
     if (navalBase && scoutBase)
-        bases = 'A';
+        bases = "A";
     else if (scoutBase && pirateBase)
-        bases = 'G';
+        bases = "G";
     else if (navalBase)
-        bases = 'N';
+        bases = "N";
     else if (pirateBase)
-        bases = 'P';
+        bases = "P";
     else if (scoutBase)
-        bases = 'S';
+        bases = "S";
 
     return bases;
 }
@@ -250,14 +250,14 @@ function generateBases(uwp) {
 // Generates Trade Codes for a supplied UWP string
 function generateTradeCodes(uwp) {
     // let starport = pseudoHex(uwp[0]);
-    let size = pseudoHex(uwp[1]);
-    let atmosphere = pseudoHex(uwp[2]);
-    let hydrographics = pseudoHex(uwp[3]);
-    let population = pseudoHex(uwp[4]);
-    let government = pseudoHex(uwp[5]);
-    let lawLevel = pseudoHex(uwp[6]);
+    const size = pseudoHex(uwp[1]);
+    const atmosphere = pseudoHex(uwp[2]);
+    const hydrographics = pseudoHex(uwp[3]);
+    const population = pseudoHex(uwp[4]);
+    const government = pseudoHex(uwp[5]);
+    const lawLevel = pseudoHex(uwp[6]);
     // uwp[7] is "-"
-    let technologyLevel = pseudoHex(uwp[8]);
+    const technologyLevel = pseudoHex(uwp[8]);
 
     // Trade Codes
     let tradeCodes = [];
@@ -303,8 +303,8 @@ function generateTradeCodes(uwp) {
 
 // Generates Population Modifier/Planetoid Belts/Gas Giants for a supplied UWP string
 function generatePbg(uwp) {
-    let size = pseudoHex(uwp[1]);
-    let population = pseudoHex(uwp[4]);
+    const size = pseudoHex(uwp[1]);
+    const population = pseudoHex(uwp[4]);
 
     // Population Modifier
     let populationModifier = 0;
@@ -317,19 +317,19 @@ function generatePbg(uwp) {
         planetoidBelts = Math.max(1, planetoidBelts);
 
     // Gas Giant Presence
-    let gasGiants = roll() >= 5 ? Math.max(1, roll(1) - 2) : 0;
+    const gasGiants = roll() >= 5 ? Math.max(1, roll(1) - 2) : 0;
 
     return `${pseudoHex(populationModifier)}${pseudoHex(planetoidBelts)}${pseudoHex(gasGiants)}`;
 }
 
 // Generates Amber travel zones for a supplied UWP string
 function generateTravelZone(uwp) {
-    let atmosphere = pseudoHex(uwp[2]);
-    let government = pseudoHex(uwp[5]);
-    let lawLevel = pseudoHex(uwp[6]);
-    let travelZone = ' ';
+    const atmosphere = pseudoHex(uwp[2]);
+    const government = pseudoHex(uwp[5]);
+    const lawLevel = pseudoHex(uwp[6]);
+    let travelZone = " ";
     if (atmosphere >= 10 || government == 0 || government == 7 || government == 10 || lawLevel == 0 || lawLevel >= 9)
-        travelZone = 'A';
+        travelZone = "A";
 
     return travelZone;
 }
@@ -342,14 +342,14 @@ function generateTravelZone(uwp) {
  * @returns {World|string} The generated World object, or alternatively a string representation of it.
  */
 function generateWorld(name, outputAsObject = false) {
-    let worlds = {
-        "Victoria": new World("Victoria", "X697770-4", ' ', undefined, 'R', "112", undefined, "K6 V"),
-        "Sharmun": new World("Sharmun", "X86787A–5", undefined, undefined, 'R'),
+    const worlds = {
+        "Victoria": new World("Victoria", "X697770-4", " ", undefined, "R", "112", undefined, "K6 V"),
+        "Sharmun": new World("Sharmun", "X86787A–5", undefined, undefined, "R"),
         "Taldor": new World("Taldor", "C866413-8"),
         "Ranther": new World("Ranther", "D539598-5"),
-        "Pynchan": new World("Pynchan", "C656795-9", undefined, undefined, 'A'),
-        "Sainte Foy": new World("Sainte Foy", "B756733–7", undefined, undefined, 'A'),
-        "Grizel": new World("Grizel", "C768400-6", undefined, undefined, 'A'),
+        "Pynchan": new World("Pynchan", "C656795-9", undefined, undefined, "A"),
+        "Sainte Foy": new World("Sainte Foy", "B756733–7", undefined, undefined, "A"),
+        "Grizel": new World("Grizel", "C768400-6", undefined, undefined, "A"),
         "Vendetierre": new World("Vendetierre", "C759685-8")
     }; // :)
     if ((name == "Victoria" && roll() == 12) || worlds[name])
