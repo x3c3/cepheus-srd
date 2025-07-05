@@ -6,8 +6,6 @@
  * @returns {string} The complete generated sector in SEC format (see https://travellermap.com/doc/fileformats#sec).
  */
 function generateSector(target = 4, subsectors = 1) {
-    if (subsectors != 1)
-        subsectors == 1; // TODO: this is a temporary guard - the world generator exhausts its names too quickly
     let width = 8;
     let height = 10;
     const wGen = worldGenerator();
