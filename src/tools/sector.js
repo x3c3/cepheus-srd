@@ -33,11 +33,13 @@ function generateSector(target = 4, subsectors = 1) {
 }
 
 // Calculates the population of a sector given SEC data input
-function calculatePopulation(sec) {
-    if (sec === undefined)
+function calculatePopulation(sectorData) {
+    if (sectorData === undefined) {
         console.error("Error! No SEC data provided.");
+        return;
+    }
     let total = 0;
-    let lines = sec.split("\n");
+    let lines = sectorData.split("\n");
     lines.forEach(line => {
         const uwp = line.match(/[ABCDEX][0-9A-Z]{6}-[0-9A-Z]/);
         const pbg = line.match(/\s\s(\d[0-9A-F][0-9A-F])\s/);
@@ -45,4 +47,45 @@ function calculatePopulation(sec) {
             total += pseudoHex(pbg[1][0]) * Math.pow(10, pseudoHex(uwp[0][4]));
     });
     return `Subsector Population: ${total.toLocaleString("en")}`;
+}
+
+/**
+ * Gets a subsector, quadrant or sector map from the TravellerMap API.
+ *
+ * @param {number} subsectors - Specify how many subsectors to generate. Expects 1 (subsector), 4 (quadrant) or 16 (sector).
+ * @param {string} sectorData - Sector data in SEC format.
+ * @returns {Blob} The generated map in a PNG image.
+ */
+async function getSectorMap(subsectors, sectorData) {
+    if (subsectors === undefined) {
+        console.error("Error! Invalid number of subsectors provided.");
+        return;
+    }
+    let apiUrl = "https://travellermap.com/api/poster?style=print";
+    switch (subsectors) {
+        case 1:
+            apiUrl += "&subsector=A";
+            break;
+        case 4:
+            apiUrl += "&quadrant=Alpha";
+            break;
+    }
+    try {
+        const response = await fetch(apiUrl, {
+            method: "POST",
+            headers: {
+                "Content-Type": "text/plain",
+                "Accept": "image/png"
+            },
+            body: sectorData
+        });
+        if (!response.ok)
+            throw new Error("Error! Could not retrieve sector image: " + response.statusText);
+        const blob = await response.blob();
+        if (!blob)
+            throw new Error("Error! Got no sector image.");
+        return '<img src="' + URL.createObjectURL(blob) + '">';
+    } catch (error) {
+        return null;
+    }
 }

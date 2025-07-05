@@ -30,13 +30,28 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 
 <!-- <pre id="output" style="border: 1px solid"></pre> -->
 <textarea id="output" rows="12" style="min-width: 100%; max-width: 100%"></textarea>
-<div id="sectorPopulation"></div>
+<div>
+    <span id="sectorPopulation"></span>
+    <button id="mapButton" style="float: right" onclick="generateMap()">Generate Map</button>
+</div>
+
+<div id="sectorMap"></div>
 
 <script src="pseudohex.js"></script>
 <script src="roll.js"></script>
 <script src="sector.js"></script>
 <script src="world.js"></script>
 <script>
+    async function generateMap() {
+        const mapType = document.querySelector('input[name="mapType"]:checked').value;
+        document.getElementById("mapButton").disabled = true;
+        try {
+            const mapImage = await getSectorMap(mapType, document.getElementById("output").value);
+            document.getElementById("sectorMap").innerHTML = mapImage;
+        } finally {
+            document.getElementById("mapButton").disabled = false;
+        }
+    }
     function init() {
         const mapType = document.querySelector('input[name="mapType"]:checked').value;
         const sectorType = document.querySelector('input[name="sectorType"]:checked').value;
