@@ -56,5 +56,4 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
         document.getElementById("mapButton").disabled = false;
     }
     init();
-    //TODO: Would be nice to get a map image using the API (https://travellermap.com/doc/api#poster-render-a-sector-quadrant-or-subsector) and display it under the textarea
 </script>
