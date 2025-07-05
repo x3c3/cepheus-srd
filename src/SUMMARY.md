@@ -42,7 +42,7 @@
 
 # Tools
 
-- [Subsector Generator](tools/subsector-generator.md)
+- [Sector Generator](tools/sector-generator.md)
 
 * * *
 
