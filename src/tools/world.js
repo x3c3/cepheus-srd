@@ -39,7 +39,7 @@ function* worldGenerator() {
     for (const name of names)
         yield generateWorld(name, true);
     while (true)
-        yield "WorldName"; // when out of names, just use WorldName
+        yield generateWorld("WorldName", true); // when out of names, just use WorldName
 }
 
 // Generates a Cepheus Engine UWP per the SRD rules
