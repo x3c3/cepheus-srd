@@ -50,18 +50,18 @@ function calculatePopulation(sectorData) {
 }
 
 /**
- * Gets a subsector, quadrant or sector map from the TravellerMap API.
+ * Gets a subsector, quadrant or sector map image from the TravellerMap API.
  *
  * @param {number} subsectors - Specify how many subsectors to generate. Expects 1 (subsector), 4 (quadrant) or 16 (sector).
  * @param {string} sectorData - Sector data in SEC format.
- * @returns {Blob} The generated map in a PNG image.
+ * @returns {string} HTML code pointing to the map image.
  */
 async function getSectorMap(subsectors, sectorData) {
-    if (subsectors === undefined || isNaN(subsectors)) {
+    subsectors = parseInt(subsectors);
+    if (isNaN(subsectors) || ![1, 4, 16].includes(subsectors)) {
         console.error("Error! Invalid number of subsectors provided.");
         return;
     }
-    subsectors = parseInt(subsectors);
     let apiUrl = "https://travellermap.com/api/poster?style=print";
     switch (subsectors) {
         case 1:
