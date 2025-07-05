@@ -84,7 +84,8 @@ async function getSectorMap(subsectors, sectorData) {
         const blob = await response.blob();
         if (!blob)
             throw new Error("Error! Got no sector image.");
-        return '<img src="' + URL.createObjectURL(blob) + '">';
+        img = URL.createObjectURL(blob);
+        return `<a href="${img}" target="_blank"><img src="${img}"></a>`;
     } catch (error) {
         return null;
     }
