@@ -21,8 +21,8 @@ function generateSector(target = 4, subsectors = 1) {
         "56-57: Allegiance\n" +
         "59-74: Stellar Data\n\n" +
         "....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8\n\n";
-    for (let i = 1; i <= width * subsectors; ++i) {
-        for (let j = 1; j <= height * subsectors; ++j) {
+    for (let i = 1; i <= width * Math.sqrt(subsectors); ++i) {
+        for (let j = 1; j <= height * Math.sqrt(subsectors); ++j) {
             if (roll(1) >= target) {
                 let w = wGen.next().value;
                 r += `${w.name.padEnd(13, " ")} ${i.toString().padStart(2, 0) + j.toString().padStart(2, 0)} ${w.uwp} ${w.bases} ${w.remarks.padEnd(16, " ")} ${w.travelZone}  ${w.pbg} ${w.allegiance} ${w.stellarData}\n`;
