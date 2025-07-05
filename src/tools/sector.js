@@ -57,10 +57,11 @@ function calculatePopulation(sectorData) {
  * @returns {Blob} The generated map in a PNG image.
  */
 async function getSectorMap(subsectors, sectorData) {
-    if (subsectors === undefined) {
+    if (subsectors === undefined || isNaN(subsectors)) {
         console.error("Error! Invalid number of subsectors provided.");
         return;
     }
+    subsectors = parseInt(subsectors);
     let apiUrl = "https://travellermap.com/api/poster?style=print";
     switch (subsectors) {
         case 1:
