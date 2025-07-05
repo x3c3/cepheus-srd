@@ -4,6 +4,18 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 
 <div>
     <center>
+        Map type:
+        <input type="radio" id="mapSubsector" name="mapType" value="1" checked onclick="init()">
+        <label for="mapSubsector">Subsector</label>
+        <input type="radio" id="mapQuadrant" name="mapType" value="4" onclick="init()">
+        <label for="mapQuadrant">Quadrant</label>
+        <input type="radio" id="mapSector" name="mapType" value="16" onclick="init()">
+        <label for="mapSector">Sector</label>
+    </center>
+</div>
+
+<div>
+    <center>
         Sector type:
         <input type="radio" id="sectorStandard" name="sectorType" value="4" checked onclick="init()">
         <label for="sectorStandard">Standard</label>
@@ -26,7 +38,9 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 <script src="world.js"></script>
 <script>
     function init() {
-        document.getElementById("output").value = generateSector(document.querySelector('input[name="sectorType"]:checked').value);
+        const mapType = document.querySelector('input[name="mapType"]:checked').value;
+        const sectorType = document.querySelector('input[name="sectorType"]:checked').value;
+        document.getElementById("output").value = generateSector(sectorType, mapType);
         document.getElementById("sectorPopulation").textContent = calculatePopulation(document.getElementById("output").value);
     }
     init();
