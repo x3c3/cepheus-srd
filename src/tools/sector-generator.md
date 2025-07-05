@@ -30,18 +30,30 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 
 <!-- <pre id="output" style="border: 1px solid"></pre> -->
 <textarea id="output" rows="12" style="min-width: 100%; max-width: 100%"></textarea>
-<div id="sectorPopulation"></div>
+<div>
+    <span id="sectorPopulation"></span>
+    <button id="mapButton" style="float: right" onclick="generateMap()">Generate Map</button>
+</div>
+
+<div id="sectorMap" style="display:flex; justify-content: center"></div>
 
 <script src="pseudohex.js"></script>
 <script src="roll.js"></script>
 <script src="sector.js"></script>
 <script src="world.js"></script>
 <script>
+    async function generateMap() {
+        const mapType = document.querySelector('input[name="mapType"]:checked').value;
+        document.getElementById("mapButton").disabled = true;
+        const mapImage = await getSectorMap(mapType, document.getElementById("output").value);
+        document.getElementById("sectorMap").innerHTML = mapImage;
+    }
     function init() {
         const mapType = document.querySelector('input[name="mapType"]:checked').value;
         const sectorType = document.querySelector('input[name="sectorType"]:checked').value;
         document.getElementById("output").value = generateSector(sectorType, mapType);
         document.getElementById("sectorPopulation").textContent = calculatePopulation(document.getElementById("output").value);
+        document.getElementById("mapButton").disabled = false;
     }
     init();
     //TODO: Would be nice to get a map image using the API (https://travellermap.com/doc/api#poster-render-a-sector-quadrant-or-subsector) and display it under the textarea
