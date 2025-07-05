@@ -32,12 +32,14 @@ function* worldGenerator() {
     let names = ["Abol", "Absolutno", "Agouto", "Ahra", "Aiolos", "Alasia", "Albmi", "Alef", "Amadioha", "Amansinaya", "Anadolu", "Aniara", "Arber", "Arcalís", "Astrolábos", "Asye", "Atakoraka", "Aumatex", "Awasis", "Awohali ", "Axólotl", "Ayeyarwady", "Añañuca", "Babylonia", "Baekdu", "Bagan", "Baiduri", "Bambaruush", "Banksia", "Barajeel", "Batsũ̀", "Beirut", "Belel", "Bendida", "Berehynia", "Bibhā", "Bocaprins", "Boinayel", "Bosona", "Bran", "Bubup", "Buna", "Buru", "Bélisama", "Bélénos", "Caleuche", "Catalineta", "Cayahuanca", "Ceibo", "Chaophraya", "Chasoň", "Chechia", "Chura", "Citadelle", "Citalá", "Cocibolca", "Cruinlagh", "Cuancoá", "Cuptor", "Danfeng", "Dilmun", "Dingolay", "Ditsö̀", "Diya", "Dofida", "Dombay", "Dopere", "Drukyul", "Dìwö", "Ebla", "Eburonia", "Eiger", "Emiw", "Enaiposha", "Equiano", "Eyeke", "Felixvarela", "Filetdor", "Finlay", "Flegetonte", "Fold", "Formosa", "Franz", "Funi", "Gakyid", "Ganja", "Gar", "Gloas", "Gnomon", "Guahayona", "Guarani", "Guataubá", "Gumala", "Göktürk", "Haik", "Hairu", "Halla", "Hiisi", "Hoggar", "Horna", "Hunahpú", "Hunor", "Hämarik", "Ibirapitá", "Illyrian", "Indépendance", "Inquill", "Intan", "Iolaus", "Irena", "Isagel", "Isli", "Itonda", "Ixbalanqué", "Iztok", "Jebus", "Kaewkosin", "Kalausi", "Kamuy", "Karaka", "Kaveh", "Kavian", "Kererū", "Khomsa", "Koeia", "Koit", "Komondor", "Kosjenka", "Koyopa'", "Krotoa", "Kráľomoc", "Kua'kua", "Laligurans", "Leklsullun", "Lerna", "Lete", "Levantes", "Liesma", "Lionrock", "Lucilinburhuc", "Lusitânia", "Macondo", "Madalitso", "Madriu", "Maeping", "Mago", "Magor", "Mahsati", "Makombé", "Makropulos", "Malmok", "Maru", "Mastika", "Matza", "Mazalaai", "Melquíades", "Mintome", "Moldoveanu", "Montuno", "Morava", "Moriah", "Mouhoun", "Mpingo", "Mulchatna", "Muspelheim", "Márohu", "Mönch", "Nachtwacht", "Najsakopajk", "Nakanbé", "Naledi", "Naqaỹa", "Naron", "Natasha", "Negoiu", "Nenque", "Neri", "Nervia", "Nikawiy", "Noifasui", "Noquisi", "Nosaxa", "Nushagak", "Nyamien", "Násti", "Onasilos", "Orkaria", "Parumleo", "Peitruss", "Perwana", "Petra", "Phailinsiam", "Phoenicia", "Pincoya", "Pipitea", "Pipoltr", "Pirx", "Poerava", "Pollera", "Puli", "Qingluan", "Ramajay", "Rapeto", "Regoč", "Riosar", "Rosaliadecastro", "Sagarmatha", "Samagiya", "Sansuna", "Santamasa", "Sazum", "Shama", "Sharjah", "Sika", "Sissi", "Solaris", "Staburags", "Sterrennacht", "Stribor", "Su", "Sumajmajta", "Surt", "Sāmaya", "Tahay", "Taika", "Tangra", "Tanzanite", "Tapecue", "Tassili", "Teberda", "Tevel", "Timir", "Tislit", "Toge", "Tojil", "Tondra", "Trimobe", "Tryzub", "Tuiren", "Tumearandu", "Tupi", "Tupã", "Tylos", "Ugarit", "Uklun", "Umbäässa", "Uruk", "Uúba", "Veles", "Victoriapeak", "Viculus", "Viriato", "Vlasina", "Vytis", "Wadirum", "Wangshu", "Wattle", "Wouri", "Xihe", "Xolotlan", "Xólotl", "Yanyan", "Yvaga", "Zembra", "Zembretta", "Ġgantija",
         // below names are "special" Traveller names :)
         "Erehwemos", "Lacipyt", "Victoria", "Albert", "Diavlo", "Grizel", "Indeep", "Pynchan", "Ranther", "Sainte Foy", "Sharmun", "Taldor", "Vendetierre"];
-    while (names.length > 0) {
-        let name = names.splice(Math.floor(Math.random() * names.length), 1).toString(); // Take one and remove it from the list
-        let w = generateWorld(name, true);
-        yield w;
+    for (let i = names.length - 1; i > 0; i--) { // shuffle the names
+        const j = Math.floor(Math.random() * (i + 1));
+        [names[i], names[j]] = [names[j], names[i]];
     }
-    return w;
+    for (const name of names)
+        yield generateWorld(name, true);
+    while (true)
+        yield "WorldName"; // when out of names, just use WorldName
 }
 
 // Generates a Cepheus Engine UWP per the SRD rules
