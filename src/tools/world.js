@@ -33,12 +33,6 @@ function* worldGenerator() {
         "Abol", "Absolutno", "Agouto", "Ahra", "Aiolos", "Alasia", "Albmi", "Alef", "Amadioha", "Amansinaya", "Anadolu", "Ananuca", "Aniara", "Arber", "Arcalis", "Astrolabos", "Asye", "Atakoraka", "Aumatex", "Awasis", "Awohali", "Axolotl", "Ayeyarwady", "Babylonia", "Baekdu", "Bagan", "Baiduri", "Bambaruush", "Banksia", "Barajeel", "Batsu", "Beirut", "Belel", "Belenos", "Belisama", "Bendida", "Berehynia", "Bibha", "Bocaprins", "Boinayel", "Bosona", "Bran", "Bubup", "Buna", "Buru", "Caleuche", "Catalineta", "Cayahuanca", "Ceibo", "Chaophraya", "Chason", "Chechia", "Chura", "Citadelle", "Citala", "Cocibolca", "Cruinlagh", "Cuancoa", "Cuptor", "Danfeng", "Decastro", "Dilmun", "Dingolay", "Ditso", "Diwo", "Diya", "Dofida", "Dombay", "Dopere", "Drukyul", "Ebla", "Eburonia", "Eiger", "Emiw", "Enaiposha", "Equiano", "Eyeke", "Felixvarela", "Filetdor", "Finlay", "Flegetonte", "Fold", "Formosa", "Franz", "Funi", "Gakyid", "Ganja", "Gar", "Ggantija", "Gloas", "Gnomon", "Gokturk", "Guahayona", "Guarani", "Guatauba", "Gumala", "Haik", "Hairu", "Halla", "Hamarik", "Hiisi", "Hoggar", "Horna", "Hunahpu", "Hunor", "Ibirapita", "Illyrian", "Independance", "Inquill", "Intan", "Iolaus", "Irena", "Isagel", "Isli", "Itonda", "Ixbalanque", "Iztok", "Jebus", "Kaewkosin", "Kalausi", "Kamuy", "Karaka", "Kaveh", "Kavian", "Kereru", "Khomsa", "Koeia", "Koit", "Komondor", "Kosjenka", "Koyopa", "Kralomoc", "Krotoa", "Kua'kua", "Laligurans", "Leklsullun", "Lerna", "Lete", "Levantes", "Liesma", "Lionrock", "Lucilinburhuc", "Lusitania", "Macondo", "Madalitso", "Madriu", "Maeping", "Mago", "Magor", "Mahsati", "Makombe", "Makropulos", "Malmok", "Marohu", "Maru", "Mastika", "Matza", "Mazalaai", "Melquiades", "Mintome", "Moldoveanu", "Monch", "Montuno", "Morava", "Moriah", "Mouhoun", "Mpingo", "Mulchatna", "Muspelheim", "Nachtwacht", "Najsakopajk", "Nakanbe", "Naledi", "Naqaya", "Naron", "Nasti", "Natasha", "Negoiu", "Nenque", "Neri", "Nervia", "Nikawiy", "Noifasui", "Noquisi", "Nosaxa", "Nushagak", "Nyamien", "Onasilos", "Orkaria", "Parumleo", "Peitruss", "Perwana", "Petra", "Phailinsiam", "Phoenicia", "Pincoya", "Pipitea", "Pipoltr", "Pirx", "Poerava", "Pollera", "Puli", "Qingluan", "Ramajay", "Rapeto", "Regoc", "Riosar", "Rosalia", "Sagarmatha", "Samagiya", "Samaya", "Sansuna", "Santamasa", "Sazum", "Shama", "Sharjah", "Sika", "Sissi", "Solaris", "Staburags", "Sterrennacht", "Stribor", "Su", "Sumajmajta", "Surt", "Tahay", "Taika", "Tangra", "Tanzanite", "Tapecue", "Tassili", "Teberda", "Tevel", "Timir", "Tislit", "Toge", "Tojil", "Tondra", "Trimobe", "Tryzub", "Tuiren", "Tumearandu", "Tupa", "Tupi", "Tylos", "Ugarit", "Uklun", "Umbaassa", "Uruk", "Uuba", "Veles", "Victoriapeak", "Viculus", "Viriato", "Vlasina", "Vytis", "Wadirum", "Wangshu", "Wattle", "Wouri", "Xihe", "Xolotl", "Xolotlan", "Yanyan", "Yvaga", "Zembra", "Zembretta",
         "Erehwemos", "Lacipyt", "Victoria", "Albert", "Diavlo", "Grizel", "Indeep", "Pynchan", "Ranther", "Sainte Foy", "Sharmun", "Taldor", "Vendetierre" // these are "special" Traveller names :)
     ];
-    for (let i = names.length - 1; i > 0; i--) { // shuffle the names
-        const j = Math.floor(Math.random() * (i + 1));
-        [names[i], names[j]] = [names[j], names[i]];
-    }
-    for (const name of names)
-        yield generateWorld(name, true);
     try {
         let usedNames = [];
         const markov = new Markov(); // using https://www.npmjs.com/package/js-markov/v/2.0.3
@@ -52,8 +46,15 @@ function* worldGenerator() {
             }
         }
     } catch (error) {
-        console.warn("Warning! Couldn't use Markov generator, worlds will be named (Unnamed).");
         console.error(error);
+        console.warn("Warning! Couldn't use Markov generator, after predefined worlds are exhausted, remainder will be named (Unnamed).");
+        for (let i = names.length - 1; i > 0; i--) { // shuffle the names
+            const j = Math.floor(Math.random() * (i + 1));
+            [names[i], names[j]] = [names[j], names[i]];
+        }
+        for (const name of names) {
+            yield generateWorld(name, true);
+        }
         while (true)
             yield generateWorld("(Unnamed)", true); // if the Markov generator fails, return "(Unnamed)"
     }
