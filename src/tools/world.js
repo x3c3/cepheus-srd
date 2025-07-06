@@ -41,7 +41,7 @@ function* worldGenerator() {
         yield generateWorld(name, true);
     try {
         let usedNames = [];
-        const markov = new Markov(); // using https://github.com/TobiasNickel/js-markov
+        const markov = new Markov(); // using https://www.npmjs.com/package/js-markov/v/2.0.3
         markov.addStates(names);
         markov.train();
         while (true) {

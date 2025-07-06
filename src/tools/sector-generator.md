@@ -40,7 +40,7 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 <script src="roll.js"></script>
 <script src="sector.js"></script>
 <script src="world.js"></script>
-<script src="https://unpkg.com/js-markov/dist/markov.js"></script> <!-- using https://github.com/TobiasNickel/js-markov -->
+<script src="https://unpkg.com/js-markov/dist/markov.js"></script> <!-- using https://www.npmjs.com/package/js-markov/v/2.0.3 -->
 <script>
     async function generateMap() {
         const mapType = document.querySelector('input[name="mapType"]:checked').value;
