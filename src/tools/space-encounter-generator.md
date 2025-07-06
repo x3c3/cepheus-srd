@@ -5,7 +5,7 @@ This tool will generate a Cepheus Engine Starship Encounter according to the rul
 <div>
     <center>
         <b>Encounter type:</b>
-        <input type="radio" id="randomEncounter" name="encounterType" checked onclick="init()">
+        <input type="radio" id="randomEncounter" name="encounterType" value="random" checked onclick="init()">
         <label for="randomEncounter">Random</label>
         <br>
         <input type="radio" id="alienVessel" name="encounterType" value="alien" onclick="init()">
@@ -32,11 +32,12 @@ This tool will generate a Cepheus Engine Starship Encounter according to the rul
     </center>
 </div>
 
-<div id="output" style="display:flex; justify-content: center"></div>
+<div id="output" style="display:flex; justify-content: center; font-size: 2em; padding-top: 1.5em"></div>
 
 <script src="space-encounter.js"></script>
 <script>
     function init() {
-        spaceEncounterGenerator(document.querySelector('input[name="encounterType"]:checked').value);
+        document.getElementById("output").innerHTML = spaceEncounterGenerator(document.querySelector('input[name="encounterType"]:checked').value);
     }
+    init();
 </script>
