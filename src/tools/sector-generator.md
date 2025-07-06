@@ -4,7 +4,7 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 
 <div>
     <center>
-        Map type:
+        <b>Map type:</b>
         <input type="radio" id="mapSubsector" name="mapType" value="1" checked onclick="init()">
         <label for="mapSubsector">Subsector</label>
         <input type="radio" id="mapQuadrant" name="mapType" value="4" onclick="init()">
@@ -16,7 +16,7 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 
 <div>
     <center>
-        Sector type:
+        <b>Sector type:</b>
         <input type="radio" id="sectorStandard" name="sectorType" value="4" checked onclick="init()">
         <label for="sectorStandard">Standard</label>
         <input type="radio" id="sectorRift" name="sectorType" value="6" onclick="init()">
@@ -43,9 +43,12 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 <script src="https://unpkg.com/js-markov/dist/markov.js"></script> <!-- using https://www.npmjs.com/package/js-markov/v/2.0.3 -->
 <script>
     async function generateMap() {
+        const DARK_THEME = !["ayu", "coal", "navy"].some(className => 
+                Array.from(document.documentElement.classList).includes(className)
+        );
         const MAP_TYPE = document.querySelector('input[name="mapType"]:checked').value;
         document.getElementById("mapButton").disabled = true;
-        const MAP_IMAGE = await getSectorMap(MAP_TYPE, document.getElementById("output").value);
+        const MAP_IMAGE = await getSectorMap(DARK_THEME, MAP_TYPE, document.getElementById("output").value);
         document.getElementById("sectorMap").innerHTML = MAP_IMAGE;
     }
     function init() {
