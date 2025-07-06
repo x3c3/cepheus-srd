@@ -43,15 +43,15 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
 <script src="https://unpkg.com/js-markov/dist/markov.js"></script> <!-- using https://www.npmjs.com/package/js-markov/v/2.0.3 -->
 <script>
     async function generateMap() {
-        const mapType = document.querySelector('input[name="mapType"]:checked').value;
+        const MAP_TYPE = document.querySelector('input[name="mapType"]:checked').value;
         document.getElementById("mapButton").disabled = true;
-        const mapImage = await getSectorMap(mapType, document.getElementById("output").value);
-        document.getElementById("sectorMap").innerHTML = mapImage;
+        const MAP_IMAGE = await getSectorMap(MAP_TYPE, document.getElementById("output").value);
+        document.getElementById("sectorMap").innerHTML = MAP_IMAGE;
     }
     function init() {
-        const mapType = document.querySelector('input[name="mapType"]:checked').value;
-        const sectorType = document.querySelector('input[name="sectorType"]:checked').value;
-        document.getElementById("output").value = generateSector(sectorType, mapType);
+        const MAP_TYPE = document.querySelector('input[name="mapType"]:checked').value;
+        const SECTOR_TYPE = document.querySelector('input[name="sectorType"]:checked').value;
+        document.getElementById("output").value = generateSector(SECTOR_TYPE, MAP_TYPE);
         document.getElementById("sectorPopulation").textContent = calculatePopulation(document.getElementById("output").value);
         document.getElementById("mapButton").disabled = false;
     }

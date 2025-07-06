@@ -8,9 +8,9 @@
 function generateSector(target = 4, subsectors = 1) {
     let width = 8;
     let height = 10;
-    const wGen = worldGenerator();
-    const sectorName = "Unnamed"; // placeholder
-    let r = sectorName + " Sector \n" +
+    const WORLD_GENERATOR = worldGenerator();
+    const SECTOR_NAME = "Unnamed"; // placeholder
+    let r = SECTOR_NAME + " Sector \n" +
         " 1-13: Name\n" +
         "15-18: HexNbr\n" +
         "20-28: UWP\n" +
@@ -24,7 +24,7 @@ function generateSector(target = 4, subsectors = 1) {
     for (let i = 1; i <= width * Math.sqrt(subsectors); ++i) {
         for (let j = 1; j <= height * Math.sqrt(subsectors); ++j) {
             if (roll(1) >= target) {
-                let w = wGen.next().value;
+                let w = WORLD_GENERATOR.next().value;
                 r += `${w.name.padEnd(13, " ")} ${i.toString().padStart(2, 0) + j.toString().padStart(2, 0)} ${w.uwp} ${w.bases} ${w.remarks.padEnd(16, " ")} ${w.travelZone}  ${w.pbg} ${w.allegiance} ${w.stellarData}\n`;
             }
         }
@@ -41,10 +41,10 @@ function calculatePopulation(sectorData) {
     let total = 0;
     let lines = sectorData.split("\n");
     lines.forEach(line => {
-        const uwp = line.match(/[ABCDEX][0-9A-Z]{6}-[0-9A-Z]/);
-        const pbg = line.match(/\s\s(\d[0-9A-F][0-9A-F])\s/);
-        if (uwp && pbg)
-            total += pseudoHex(pbg[1][0]) * Math.pow(10, pseudoHex(uwp[0][4]));
+        const UWP = line.match(/[ABCDEX][0-9A-Z]{6}-[0-9A-Z]/);
+        const PBG = line.match(/\s\s(\d[0-9A-F][0-9A-F])\s/);
+        if (UWP && PBG)
+            total += pseudoHex(PBG[1][0]) * Math.pow(10, pseudoHex(UWP[0][4]));
     });
     return `Subsector Population: ${total.toLocaleString("en")}`;
 }
@@ -72,7 +72,7 @@ async function getSectorMap(subsectors, sectorData) {
             break;
     }
     try {
-        const response = await fetch(apiUrl, {
+        const RESPONSE = await fetch(apiUrl, {
             method: "POST",
             headers: {
                 "Content-Type": "text/plain",
@@ -80,12 +80,12 @@ async function getSectorMap(subsectors, sectorData) {
             },
             body: sectorData
         });
-        if (!response.ok)
-            throw new Error("Error! Could not retrieve sector image: " + response.statusText);
-        const blob = await response.blob();
-        if (!blob)
+        if (!RESPONSE.ok)
+            throw new Error("Error! Could not retrieve sector image: " + RESPONSE.statusText);
+        const BLOB = await RESPONSE.blob();
+        if (!BLOB)
             throw new Error("Error! Got no sector image.");
-        img = URL.createObjectURL(blob);
+        img = URL.createObjectURL(BLOB);
         return `<a href="${img}" target="_blank"><img src="${img}"></a>`;
     } catch (error) {
         return null;

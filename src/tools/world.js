@@ -35,11 +35,11 @@ function* worldGenerator() {
     ];
     try {
         let usedNames = [];
-        const markov = new Markov(); // using https://www.npmjs.com/package/js-markov/v/2.0.3
-        markov.addStates(names);
-        markov.train();
+        const MARKOV = new Markov(); // using https://www.npmjs.com/package/js-markov/v/2.0.3
+        MARKOV.addStates(names);
+        MARKOV.train();
         while (true) {
-            let newName = markov.generateRandom(13);
+            let newName = MARKOV.generateRandom(13);
             if (!usedNames.includes(newName)) {
                 yield generateWorld(newName, true);
                 usedNames.push(newName);
@@ -49,11 +49,11 @@ function* worldGenerator() {
         console.error(error);
         console.warn("Warning! Couldn't use Markov generator, after predefined worlds are exhausted, remainder will be named (Unnamed).");
         for (let i = names.length - 1; i > 0; i--) { // shuffle the names
-            const j = Math.floor(Math.random() * (i + 1));
-            [names[i], names[j]] = [names[j], names[i]];
+            const J = Math.floor(Math.random() * (i + 1));
+            [names[i], names[J]] = [names[J], names[i]];
         }
-        for (const name of names) {
-            yield generateWorld(name, true);
+        for (const NAME of names) {
+            yield generateWorld(NAME, true);
         }
         while (true)
             yield generateWorld("(Unnamed)", true); // if the Markov generator fails, return "(Unnamed)"
@@ -63,18 +63,18 @@ function* worldGenerator() {
 // Generates a Cepheus Engine UWP per the SRD rules
 function generateUwp() {
     // World Size
-    const size = roll() - 2;
+    const SIZE = roll() - 2;
 
     // Atmosphere
     let atmosphere = 0;
-    if (size != 0) {
-        atmosphere = Math.max(0, Math.min(roll() - 7 + size, 15));
+    if (SIZE != 0) {
+        atmosphere = Math.max(0, Math.min(roll() - 7 + SIZE, 15));
     }
 
     // Hydrographics
     let hydrographics = 0;
-    if (size > 1) {
-        hydrographics = roll() - 7 + size;
+    if (SIZE > 1) {
+        hydrographics = roll() - 7 + SIZE;
         if (atmosphere <= 1 || (atmosphere >= 10 && atmosphere <= 12)) {
             hydrographics -= 4;
         } else if (atmosphere == 15) {
@@ -85,7 +85,7 @@ function generateUwp() {
 
     // World Population
     let population = roll() - 2;
-    if (size <= 2)
+    if (SIZE <= 2)
         --population;
     if (atmosphere >= 10)
         population -= 2;
@@ -150,7 +150,7 @@ function generateUwp() {
             technologyLevel -= 4;
             break;
     }
-    switch (size) {
+    switch (SIZE) {
         case 0:
         case 1:
             technologyLevel += 2;
@@ -226,17 +226,17 @@ function generateUwp() {
         technologyLevel = Math.max(7, technologyLevel);
     technologyLevel = Math.max(0, technologyLevel);
 
-    return `${starport}${pseudoHex(size)}${pseudoHex(atmosphere)}${pseudoHex(hydrographics)}${pseudoHex(population)}${pseudoHex(government)}${pseudoHex(lawLevel)}-${pseudoHex(technologyLevel)}`;
+    return `${starport}${pseudoHex(SIZE)}${pseudoHex(atmosphere)}${pseudoHex(hydrographics)}${pseudoHex(population)}${pseudoHex(government)}${pseudoHex(lawLevel)}-${pseudoHex(technologyLevel)}`;
 }
 
 // Generates Naval/Scout/Pirate bases for a supplied UWP string
 function generateBases(uwp) {
-    const starport = uwp[0];
+    const STARPORT = uwp[0];
     let navalBase = false;
     let scoutBase = false;
     let pirateBase = false;
     let bases = " ";
-    switch (starport) {
+    switch (STARPORT) {
         case "A":
             navalBase = roll() >= 8 ? true : false;
             scoutBase = roll() - 3 >= 7 ? true : false;
@@ -252,7 +252,7 @@ function generateBases(uwp) {
             scoutBase = roll() >= 7 ? true : false;
             break;
     }
-    if (!navalBase && starport != "A")
+    if (!navalBase && STARPORT != "A")
         pirateBase = roll() >= 12 ? true : false;
     if (navalBase && scoutBase)
         bases = "A";
@@ -271,52 +271,52 @@ function generateBases(uwp) {
 // Generates Trade Codes for a supplied UWP string
 function generateTradeCodes(uwp) {
     // let starport = pseudoHex(uwp[0]);
-    const size = pseudoHex(uwp[1]);
-    const atmosphere = pseudoHex(uwp[2]);
-    const hydrographics = pseudoHex(uwp[3]);
-    const population = pseudoHex(uwp[4]);
-    const government = pseudoHex(uwp[5]);
-    const lawLevel = pseudoHex(uwp[6]);
+    const SIZE = pseudoHex(uwp[1]);
+    const ATMOSPHERE = pseudoHex(uwp[2]);
+    const HYDROGRAPHICS = pseudoHex(uwp[3]);
+    const POPULATION = pseudoHex(uwp[4]);
+    const GOVERNMENT = pseudoHex(uwp[5]);
+    const LAW_LEVEL = pseudoHex(uwp[6]);
     // uwp[7] is "-"
-    const technologyLevel = pseudoHex(uwp[8]);
+    const TECHNOLOGY_LEVEL = pseudoHex(uwp[8]);
 
     // Trade Codes
     let tradeCodes = [];
-    if (atmosphere >= 4 && atmosphere <= 9 && hydrographics >= 4 && hydrographics <= 8 && population >= 5 && population <= 7)
+    if (ATMOSPHERE >= 4 && ATMOSPHERE <= 9 && HYDROGRAPHICS >= 4 && HYDROGRAPHICS <= 8 && POPULATION >= 5 && POPULATION <= 7)
         tradeCodes.push("Ag");
-    if (size == 0 && atmosphere == 0 && hydrographics == 0)
+    if (SIZE == 0 && ATMOSPHERE == 0 && HYDROGRAPHICS == 0)
         tradeCodes.push("As");
-    if (population == 0 && government == 0 && lawLevel == 0)
+    if (POPULATION == 0 && GOVERNMENT == 0 && LAW_LEVEL == 0)
         tradeCodes.push("Ba");
-    if (atmosphere >= 2 && hydrographics == 0)
+    if (ATMOSPHERE >= 2 && HYDROGRAPHICS == 0)
         tradeCodes.push("De");
-    if (atmosphere >= 10 && hydrographics >= 1)
+    if (ATMOSPHERE >= 10 && HYDROGRAPHICS >= 1)
         tradeCodes.push("Fl");
-    if ((atmosphere == 5 || atmosphere == 6 || atmosphere == 8) && hydrographics >= 4 && hydrographics <= 9 && population >= 4 && population <= 8)
+    if ((ATMOSPHERE == 5 || ATMOSPHERE == 6 || ATMOSPHERE == 8) && HYDROGRAPHICS >= 4 && HYDROGRAPHICS <= 9 && POPULATION >= 4 && POPULATION <= 8)
         tradeCodes.push("Ga");
-    if (population >= 9)
+    if (POPULATION >= 9)
         tradeCodes.push("Hi");
-    if (technologyLevel >= 12)
+    if (TECHNOLOGY_LEVEL >= 12)
         tradeCodes.push("Ht");
-    if (atmosphere <= 1 && hydrographics >= 1)
+    if (ATMOSPHERE <= 1 && HYDROGRAPHICS >= 1)
         tradeCodes.push("Ic");
-    if ((atmosphere <= 2 || atmosphere == 4 || atmosphere == 7 || atmosphere == 9) && population >= 9)
+    if ((ATMOSPHERE <= 2 || ATMOSPHERE == 4 || ATMOSPHERE == 7 || ATMOSPHERE == 9) && POPULATION >= 9)
         tradeCodes.push("In");
-    if (population >= 1 && population <= 3)
+    if (POPULATION >= 1 && POPULATION <= 3)
         tradeCodes.push("Lo");
-    if (technologyLevel <= 5)
+    if (TECHNOLOGY_LEVEL <= 5)
         tradeCodes.push("Lt");
-    if (atmosphere <= 3 && hydrographics <= 3 && population >= 6)
+    if (ATMOSPHERE <= 3 && HYDROGRAPHICS <= 3 && POPULATION >= 6)
         tradeCodes.push("Na");
-    if (population >= 4 && population <= 6)
+    if (POPULATION >= 4 && POPULATION <= 6)
         tradeCodes.push("Ni");
-    if (atmosphere >= 2 && atmosphere <= 5 && hydrographics <= 3)
+    if (ATMOSPHERE >= 2 && ATMOSPHERE <= 5 && HYDROGRAPHICS <= 3)
         tradeCodes.push("Po");
-    if ((atmosphere == 6 || atmosphere == 8) && population >= 6 && population <= 8)
+    if ((ATMOSPHERE == 6 || ATMOSPHERE == 8) && POPULATION >= 6 && POPULATION <= 8)
         tradeCodes.push("Ri");
-    if (hydrographics == 10)
+    if (HYDROGRAPHICS == 10)
         tradeCodes.push("Wa");
-    if (atmosphere == 0)
+    if (ATMOSPHERE == 0)
         tradeCodes.push("Va");
 
     return tradeCodes.join(" ");
@@ -324,32 +324,32 @@ function generateTradeCodes(uwp) {
 
 // Generates Population Modifier/Planetoid Belts/Gas Giants for a supplied UWP string
 function generatePbg(uwp) {
-    const size = pseudoHex(uwp[1]);
-    const population = pseudoHex(uwp[4]);
+    const SIZE = pseudoHex(uwp[1]);
+    const POPULATION = pseudoHex(uwp[4]);
 
     // Population Modifier
     let populationModifier = 0;
-    if (population > 0)
+    if (POPULATION > 0)
         populationModifier = Math.max(1, Math.min(roll() - 3)); // Cepheus Engine is actually -2, however all other Traveller versions are at maximum 9; this is also needed for usage with Traveller Map
 
     // Planetoid Belt Presence
     let planetoidBelts = roll() >= 4 ? Math.max(1, roll(1) - 3) : 0;
-    if (size == 0)
+    if (SIZE == 0)
         planetoidBelts = Math.max(1, planetoidBelts);
 
     // Gas Giant Presence
-    const gasGiants = roll() >= 5 ? Math.max(1, roll(1) - 2) : 0;
+    const GAS_GIANTS = roll() >= 5 ? Math.max(1, roll(1) - 2) : 0;
 
-    return `${pseudoHex(populationModifier)}${pseudoHex(planetoidBelts)}${pseudoHex(gasGiants)}`;
+    return `${pseudoHex(populationModifier)}${pseudoHex(planetoidBelts)}${pseudoHex(GAS_GIANTS)}`;
 }
 
 // Generates Amber travel zones for a supplied UWP string
 function generateTravelZone(uwp) {
-    const atmosphere = pseudoHex(uwp[2]);
-    const government = pseudoHex(uwp[5]);
-    const lawLevel = pseudoHex(uwp[6]);
+    const ATMOSPHERE = pseudoHex(uwp[2]);
+    const GOVERNMENT = pseudoHex(uwp[5]);
+    const LAW_LEVEL = pseudoHex(uwp[6]);
     let travelZone = " ";
-    if (atmosphere >= 10 || government == 0 || government == 7 || government == 10 || lawLevel == 0 || lawLevel >= 9)
+    if (ATMOSPHERE >= 10 || GOVERNMENT == 0 || GOVERNMENT == 7 || GOVERNMENT == 10 || LAW_LEVEL == 0 || LAW_LEVEL >= 9)
         travelZone = "A";
 
     return travelZone;
@@ -363,7 +363,7 @@ function generateTravelZone(uwp) {
  * @returns {World|string} The generated World object, or alternatively a string representation of it.
  */
 function generateWorld(name, outputAsObject = false) {
-    const worlds = {
+    const WORLDS = {
         "Victoria": new World("Victoria", "X697770-4", " ", undefined, "R", "112", undefined, "K6 V"),
         "Sharmun": new World("Sharmun", "X86787A–5", undefined, undefined, "R"),
         "Taldor": new World("Taldor", "C866413-8"),
@@ -373,8 +373,8 @@ function generateWorld(name, outputAsObject = false) {
         "Grizel": new World("Grizel", "C768400-6", undefined, undefined, "A"),
         "Vendetierre": new World("Vendetierre", "C759685-8")
     }; // :)
-    if ((name == "Victoria" && roll() == 12) || worlds[name])
-        w = worlds[name];
+    if ((name == "Victoria" && roll() == 12) || WORLDS[name])
+        w = WORLDS[name];
     else
         w = new World(name);
 
