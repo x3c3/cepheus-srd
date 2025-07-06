@@ -28,8 +28,7 @@ This tool will generate a Cepheus Engine subsector according to the rules found 
     </center>
 </div>
 
-<!-- <pre id="output" style="border: 1px solid"></pre> -->
-<textarea id="output" rows="12" style="min-width: 100%; max-width: 100%"></textarea>
+<textarea id="output" rows="12" style="font-family: var(--mono-font); font-size: var(--code-font-size); min-width: 100%; max-width: 100%"></textarea>
 <div>
     <span id="sectorPopulation"></span>
     <button id="mapButton" style="float: right" onclick="generateMap()">Generate Map</button>
