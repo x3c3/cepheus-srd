@@ -40,7 +40,7 @@ function* worldGenerator() {
     for (const name of names)
         yield generateWorld(name, true);
     while (true)
-        yield generateWorld("WorldName", true); // when out of names, just use WorldName
+        yield generateWorld("(Unnamed)", true); // when out of names, return "(Unnamed)" - this is how unnamed worlds are noted on TravellerMap
 }
 
 // Generates a Cepheus Engine UWP per the SRD rules
