@@ -39,8 +39,24 @@ function* worldGenerator() {
     }
     for (const name of names)
         yield generateWorld(name, true);
-    while (true)
-        yield generateWorld("(Unnamed)", true); // when out of names, return "(Unnamed)" - this is how unnamed worlds are noted on TravellerMap
+    try {
+        let usedNames = [];
+        const markov = new Markov(); // using https://github.com/TobiasNickel/js-markov
+        markov.addStates(names);
+        markov.train();
+        while (true) {
+            let newName = markov.generateRandom(13);
+            if (!usedNames.includes(newName)) {
+                yield generateWorld(newName, true);
+                usedNames.push(newName);
+            }
+        }
+    } catch (error) {
+        console.warn("Warning! Couldn't use Markov generator, worlds will be named (Unnamed).");
+        console.error(error);
+        while (true)
+            yield generateWorld("(Unnamed)", true); // if the Markov generator fails, return "(Unnamed)"
+    }
 }
 
 // Generates a Cepheus Engine UWP per the SRD rules

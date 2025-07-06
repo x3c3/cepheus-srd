@@ -25,3 +25,8 @@ Any title of a product published by Samardan Press is designated as Product Iden
 **Please Note:** This Product is derived from the Traveller System Reference Document and other Open Gaming Content made available by the Open Gaming License, and does not contain closed content from products published by either Mongoose Publishing or Far Future Enterprises. This Product is not affiliated with either Mongoose Publishing or Far Future Enterprises, and it makes no claim to or challenge to any trademarks held by either entity. The use of the Traveller System Reference Document does not convey the endorsement of this Product by either Mongoose Publishing or Far Future Enterprises as a product of either of their product lines.
 
 Cepheus Engine System Reference Document, Copyright © 2016 Samardan Press; Author Jason "Flynn" Kemp
+
+## Third-Party Licenses
+
+- [mdBook](https://rust-lang.github.io/mdBook/) is licensed under the [Mozilla Public License 2.0](https://www.mozilla.org/MPL/2.0/)
+- [js-markov](https://www.npmjs.com/package/js-markov/v/2.0.3) Copyright (c) 2019 Edwin Pratt and is licensed under the [MIT license](https://opensource.org/license/MIT)
