@@ -43,6 +43,7 @@
 # Tools
 
 - [Sector Generator](tools/sector-generator.md)
+- [Space Encounter Generator](tools/space-encounter-generator.md)
 
 * * *
 
