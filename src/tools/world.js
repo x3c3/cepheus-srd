@@ -292,7 +292,7 @@ function generateTradeCodes(uwp) {
         tradeCodes.push("De");
     if (ATMOSPHERE >= 10 && HYDROGRAPHICS >= 1)
         tradeCodes.push("Fl");
-    if ((ATMOSPHERE == 5 || ATMOSPHERE == 6 || ATMOSPHERE == 8) && HYDROGRAPHICS >= 4 && HYDROGRAPHICS <= 9 && POPULATION >= 4 && POPULATION <= 8)
+    if ([5, 6, 8].includes(ATMOSPHERE) && HYDROGRAPHICS >= 4 && HYDROGRAPHICS <= 9 && POPULATION >= 4 && POPULATION <= 8)
         tradeCodes.push("Ga");
     if (POPULATION >= 9)
         tradeCodes.push("Hi");
@@ -300,7 +300,7 @@ function generateTradeCodes(uwp) {
         tradeCodes.push("Ht");
     if (ATMOSPHERE <= 1 && HYDROGRAPHICS >= 1)
         tradeCodes.push("Ic");
-    if ((ATMOSPHERE <= 2 || ATMOSPHERE == 4 || ATMOSPHERE == 7 || ATMOSPHERE == 9) && POPULATION >= 9)
+    if ([0, 1, 2, 4, 7, 9].includes(ATMOSPHERE) && POPULATION >= 9)
         tradeCodes.push("In");
     if (POPULATION >= 1 && POPULATION <= 3)
         tradeCodes.push("Lo");
@@ -312,7 +312,7 @@ function generateTradeCodes(uwp) {
         tradeCodes.push("Ni");
     if (ATMOSPHERE >= 2 && ATMOSPHERE <= 5 && HYDROGRAPHICS <= 3)
         tradeCodes.push("Po");
-    if ((ATMOSPHERE == 6 || ATMOSPHERE == 8) && POPULATION >= 6 && POPULATION <= 8)
+    if ([6, 8].includes(ATMOSPHERE) && POPULATION >= 6 && POPULATION <= 8)
         tradeCodes.push("Ri");
     if (HYDROGRAPHICS == 10)
         tradeCodes.push("Wa");
