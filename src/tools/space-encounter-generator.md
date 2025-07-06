@@ -32,7 +32,7 @@ This tool will generate a Cepheus Engine Starship Encounter according to the rul
     </center>
 </div>
 
-<div id="output" style="display:flex; justify-content: center; font-size: 2em; padding-top: 1.5em"></div>
+<blockquote id="output" style="display:flex; justify-content: center; font-size: 2em"></blockquote>
 
 <script src="space-encounter.js"></script>
 <script>
